@@ -1,6 +1,6 @@
 === Shopp (nl) ===
 Contributors: pronamic, remcotolsma
-Tags: shopp, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce, woothemes
+Tags: shopp, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-shopp-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
 Tested up to: 3.4.1
@@ -24,8 +24,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 == Changelog ==
 
 = 0.1 =
-*	Added translation for WooCommerce v1.2
+*	Added translation for WooCommerce v1.2.3, improved a few translations
 *	Added translation for WooCommerce v1.2.2
+*	Added translation for WooCommerce v1.2
 *	Initial release
 
 
