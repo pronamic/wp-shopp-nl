@@ -24,9 +24,9 @@ WordPress installation and then activate the Plugin from Plugins page.
 == Changelog ==
 
 = 0.1 =
-*	Added translation for WooCommerce v1.2.3, improved a few translations
-*	Added translation for WooCommerce v1.2.2
-*	Added translation for WooCommerce v1.2
+*	Added translation for Shopp v1.2.3, improved a few translations
+*	Added translation for Shopp v1.2.2
+*	Added translation for Shopp v1.2
 *	Initial release
 
 
