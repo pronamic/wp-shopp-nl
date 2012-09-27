@@ -10,6 +10,11 @@ Requires at least: 3.0
 Author: Pronamic
 Author URI: http://pronamic.eu/
 License: GPL
+
+Text Domain: shopp_nl
+Domain Path: /languages/
+
+GitHub URI: https://github.com/pronamic/wp-pronamic-ideal
 */
 
 class ShoppNL {
