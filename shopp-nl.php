@@ -4,7 +4,7 @@ Plugin Name: Shopp (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/shopp-nl/
 Description: Extends the Shopp plugin and add-ons with the Dutch language: <strong>Shopp</strong> 1.2.3
 
-Version: 0.1.1
+Version: 0.1.2
 Requires at least: 3.0
 
 Author: Pronamic
