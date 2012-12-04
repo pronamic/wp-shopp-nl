@@ -14,7 +14,7 @@ License: GPL
 Text Domain: shopp_nl
 Domain Path: /languages/
 
-GitHub URI: https://github.com/pronamic/wp-pronamic-ideal
+GitHub URI: https://github.com/pronamic/wp-shopp-nl
 */
 
 class ShoppNL {
