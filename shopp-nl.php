@@ -2,9 +2,9 @@
 /*
 Plugin Name: Shopp (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/shopp-nl/
-Description: Extends the Shopp plugin and add-ons with the Dutch language: <strong>Shopp</strong> 1.2.3
+Description: Extends the Shopp plugin and add-ons with the Dutch language: <strong>Shopp</strong> 1.2.5
 
-Version: 0.1.2
+Version: 0.1.3
 Requires at least: 3.0
 
 Author: Pronamic
@@ -30,7 +30,7 @@ class ShoppNL {
 	 *
 	 * @var boolean
 	 */
-	private static $isDutch;
+	private static $is_dutch;
 
 	////////////////////////////////////////////////////////////
 
@@ -52,10 +52,10 @@ class ShoppNL {
 	public static function load_mo_file( $mo_file, $domain ) {
 		if( self::$language == null ) {
 			self::$language = get_option( 'WPLANG', WPLANG );
-			self::$isDutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
+			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
 
 			if( defined( 'ICL_LANGUAGE_CODE' ) ) {
-				self::$isDutch = ICL_LANGUAGE_CODE == 'nl';
+				self::$is_dutch = ICL_LANGUAGE_CODE == 'nl';
 			}
 		}
 
