@@ -2,177 +2,194 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shopp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 13:50+0100\n"
-"PO-Revision-Date: 2012-07-26 13:50+0100\n"
+"POT-Creation-Date: 2012-12-04 09:51+0100\n"
+"PO-Revision-Date: 2012-12-04 09:51+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;"
+"_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;"
+"esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
 "X-Poedit-Basepath: ../\n"
-"X-Poedit-Language: Dutch\n"
-"X-Poedit-Country: NETHERLANDS\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: Shopp.php:236
-msgid "The Cart session handlers could not be initialized because the session was started by the active theme or an active plugin before Shopp could establish its session handlers. The cart will not function."
+#: Shopp.php:240
+msgid ""
+"The Cart session handlers could not be initialized because the session was "
+"started by the active theme or an active plugin before Shopp could establish "
+"its session handlers. The cart will not function."
 msgstr ""
 
-#: Shopp.php:402
+#: Shopp.php:413
 #, fuzzy, php-format
 msgid "Your %s is required."
 msgstr "Verplichte velden zijn gemarkeerd als %s"
 
-#: Shopp.php:403
+#: Shopp.php:414
 msgid "The e-mail address you provided does not appear to be a valid address."
 msgstr ""
 
-#: Shopp.php:404
+#: Shopp.php:415
 #, php-format
-msgid "The %s you entered is too short. It must be at least %d characters long."
+msgid ""
+"The %s you entered is too short. It must be at least %d characters long."
 msgstr ""
 
-#: Shopp.php:405
-msgid "The passwords you entered do not match. They must match in order to confirm you are correctly entering the password you want to use."
+#: Shopp.php:416
+msgid ""
+"The passwords you entered do not match. They must match in order to confirm "
+"you are correctly entering the password you want to use."
 msgstr ""
 
-#: Shopp.php:406
+#: Shopp.php:417
 #, php-format
 msgid "%s must be checked before you can proceed."
 msgstr ""
 
-#: Shopp.php:412
+#: Shopp.php:423
 msgid "You did not enter a login."
 msgstr ""
 
-#: Shopp.php:413
+#: Shopp.php:424
 #, fuzzy
 msgid "You did not enter a password to login with."
 msgstr "Bovenliggende fase:"
 
-#: Shopp.php:418
-#: templates/email-shipped.php:39
-#: templates/sidecart.php:16
+#: Shopp.php:429 templates/email-shipped.php:39 templates/sidecart.php:16
+#: core/flow/Admin.php:700
 #, fuzzy
 msgid "Items"
 msgstr "Interviews"
 
-#: Shopp.php:419
-#: templates/account-orders.php:28
-#: templates/cart.php:76
-#: templates/sidecart.php:17
+#: Shopp.php:430 templates/account-orders.php:28 templates/cart.php:76
+#: templates/sidecart.php:17 templates/receipt.php:80 templates/summary.php:82
+#: core/flow/Admin.php:700 core/flow/Service.php:312
+#: core/ui/orders/order.php:112
 #, fuzzy
 msgid "Total"
 msgstr "Portaal"
 
-#: Shopp.php:425
+#: Shopp.php:436 core/functions.php:35
 msgid "January"
 msgstr ""
 
-#: Shopp.php:426
+#: Shopp.php:437 core/functions.php:35
 msgid "February"
 msgstr ""
 
-#: Shopp.php:427
+#: Shopp.php:438 core/functions.php:36
 #, fuzzy
 msgid "March"
 msgstr "Zoeken"
 
-#: Shopp.php:428
+#: Shopp.php:439 core/functions.php:36
 #, fuzzy
 msgid "April"
 msgstr "Artikelen"
 
-#: Shopp.php:429
+#: Shopp.php:440 core/functions.php:37 core/functions.php:43
 msgid "May"
 msgstr ""
 
-#: Shopp.php:430
+#: Shopp.php:441 core/functions.php:37
 #, fuzzy
 msgid "June"
 msgstr "Wedstrijd"
 
-#: Shopp.php:431
+#: Shopp.php:442 core/functions.php:38
 msgid "July"
 msgstr ""
 
-#: Shopp.php:432
+#: Shopp.php:443 core/functions.php:38
 #, fuzzy
 msgid "August"
 msgstr "Auteur"
 
-#: Shopp.php:433
+#: Shopp.php:444 core/functions.php:39
 #, fuzzy
 msgid "September"
 msgstr "Onthoud mij"
 
-#: Shopp.php:434
+#: Shopp.php:445 core/functions.php:39
 msgid "October"
 msgstr ""
 
-#: Shopp.php:435
+#: Shopp.php:446 core/functions.php:40
 #, fuzzy
 msgid "November"
 msgstr "Onthoud mij"
 
-#: Shopp.php:436
+#: Shopp.php:447 core/functions.php:40
 #, fuzzy
 msgid "December"
 msgstr "Onthoud mij"
 
-#: Shopp.php:439
+#: Shopp.php:450 core/functions.php:30
 #, fuzzy
 msgid "Sun"
 msgstr "Straat"
 
-#: Shopp.php:440
+#: Shopp.php:451 core/functions.php:27
 #, fuzzy
 msgid "Mon"
 msgstr "Maand:"
 
-#: Shopp.php:441
+#: Shopp.php:452 core/functions.php:27
 msgid "Tue"
 msgstr ""
 
-#: Shopp.php:442
+#: Shopp.php:453 core/functions.php:28
 #, fuzzy
 msgid "Wed"
 msgstr "Gerelateerd"
 
-#: Shopp.php:443
+#: Shopp.php:454 core/functions.php:28
 msgid "Thu"
 msgstr ""
 
-#: Shopp.php:444
+#: Shopp.php:455 core/functions.php:29
 msgid "Fri"
 msgstr ""
 
-#: Shopp.php:445
+#: Shopp.php:456 core/functions.php:29
 #, fuzzy
 msgid "Sat"
 msgstr "Status"
 
-#: Shopp.php:722
+#: Shopp.php:745
 #, php-format
-msgid "There is a new version of %1$s available. %2$s View version %5$s details %4$s or %3$s purchase a %1$s key %4$s to get access to automatic updates and official support services."
+msgid ""
+"There is a new version of %1$s available. %2$s View version %5$s details "
+"%4$s or %3$s purchase a %1$s key %4$s to get access to automatic updates and "
+"official support services."
 msgstr ""
 
-#: Shopp.php:726
+#: Shopp.php:749
 #, php-format
-msgid "There is a new version of %1$s available. %2$s View version %5$s details %4$s or %3$s upgrade automatically %4$s."
+msgid ""
+"There is a new version of %1$s available. %2$s View version %5$s details "
+"%4$s or %3$s upgrade automatically %4$s."
 msgstr ""
 
-#: Shopp.php:735
+#: Shopp.php:758
 #, php-format
-msgid "Please activate a valid %1$s access key for automatic updates and official support services. %2$s Find your %1$s access key %4$s or %3$s purchase a new key at the Shopp Store. %4$s"
+msgid ""
+"Please activate a valid %1$s access key for automatic updates and official "
+"support services. %2$s Find your %1$s access key %4$s or %3$s purchase a new "
+"key at the Shopp Store. %4$s"
 msgstr ""
 
-#: Shopp.php:748
+#: Shopp.php:771
 #, php-format
-msgid "There is a new version of the %1$s add-on available. %2$s View version %5$s details %4$s or %3$s upgrade automatically %4$s."
+msgid ""
+"There is a new version of the %1$s add-on available. %2$s View version %5$s "
+"details %4$s or %3$s upgrade automatically %4$s."
 msgstr ""
 
 #: templates/thanks.php:13
@@ -180,11 +197,15 @@ msgid "Thank you for your order!"
 msgstr ""
 
 #: templates/thanks.php:18
-msgid "Your order has been received but the payment has not yet completed processing."
+msgid ""
+"Your order has been received but the payment has not yet completed "
+"processing."
 msgstr ""
 
 #: templates/thanks.php:25
-msgid "The download links on your order receipt will not work until the payment is received."
+msgid ""
+"The download links on your order receipt will not work until the payment is "
+"received."
 msgstr ""
 
 #: templates/thanks.php:29
@@ -192,7 +213,9 @@ msgid "Your items will not ship out until the payment is received."
 msgstr ""
 
 #: templates/thanks.php:37
-msgid "An email was sent with account login information to the email address provided for your order."
+msgid ""
+"An email was sent with account login information to the email address "
+"provided for your order."
 msgstr ""
 
 #: templates/thanks.php:37
@@ -201,14 +224,20 @@ msgid "Login to your account"
 msgstr "Uitloggen van dit account"
 
 #: templates/thanks.php:37
-msgid "to access your orders, change your password and manage your checkout information."
+msgid ""
+"to access your orders, change your password and manage your checkout "
+"information."
 msgstr ""
 
 #: templates/thanks.php:42
-msgid "Your order is still in progress and has not yet been received from the payment processor. You will receive an email notification when your payment has been verified and the order has been completed."
+msgid ""
+"Your order is still in progress and has not yet been received from the "
+"payment processor. You will receive an email notification when your payment "
+"has been verified and the order has been completed."
 msgstr ""
 
-#: templates/confirm.php:17
+#: templates/confirm.php:17 core/flow/Storefront.php:1057
+#: api/theme/checkout.php:470
 #, fuzzy
 msgid "Confirm Order"
 msgstr "Beoordeling"
@@ -233,30 +262,35 @@ msgstr "Zeilschip"
 msgid "No products were found."
 msgstr "Geen projecten gevonden"
 
-#: templates/account-orders.php:13
-#: templates/account-orders.php:47
-#: templates/account-profile.php:22
-#: templates/account-profile.php:111
+#: templates/account-orders.php:13 templates/account-orders.php:47
+#: templates/account-profile.php:22 templates/account-profile.php:111
+#: templates/account-downloads.php:15 templates/account-downloads.php:39
 msgid "Return to Account Management"
 msgstr ""
 
-#: templates/account-orders.php:25
+#: templates/account-orders.php:25 core/flow/Warehouse.php:572
+#: core/flow/Warehouse.php:587 core/flow/Admin.php:700
+#: core/flow/Service.php:311
 #, fuzzy
 msgid "Date"
 msgstr "datum"
 
-#: templates/account-orders.php:26
-#: templates/email-order.php:10
+#: templates/account-orders.php:26 templates/email-order.php:10
+#: templates/account-downloads.php:21 core/flow/Admin.php:605
+#: core/flow/Admin.php:606 core/flow/Setup.php:338 core/flow/Service.php:307
+#: core/flow/Ajax.php:86 core/ui/orders/order.php:4
+#: core/ui/orders/order.php:15
 #, fuzzy
 msgid "Order"
 msgstr "Beoordeling"
 
-#: templates/account-orders.php:27
+#: templates/account-orders.php:27 core/flow/Promote.php:216
+#: core/flow/Admin.php:700
 #, fuzzy
 msgid "Status"
 msgstr "Status"
 
-#: templates/account-orders.php:37
+#: templates/account-orders.php:37 core/ui/orders/account.php:6
 #, fuzzy
 msgid "View Order"
 msgstr "Beoordeling"
@@ -276,35 +310,36 @@ msgstr "Update classificatie"
 msgid "Your order is"
 msgstr "Plaats reactie"
 
-#: templates/cart.php:16
-#: templates/cart.php:85
-#: templates/cart.php:93
+#: templates/cart.php:16 templates/cart.php:85 templates/cart.php:93
+#: templates/summary.php:98
 #, fuzzy
 msgid "Continue Shopping"
 msgstr "Lees verder &rarr;"
 
-#: templates/cart.php:17
-#: templates/cart.php:86
-#: templates/sidecart.php:22
+#: templates/cart.php:17 templates/cart.php:86 templates/sidecart.php:22
+#: core/model/Cart.php:226
 msgid "Proceed to Checkout"
 msgstr ""
 
-#: templates/cart.php:23
+#: templates/cart.php:23 templates/summary.php:17
 #, fuzzy
 msgid "Cart Items"
 msgstr "Portaal"
 
-#: templates/cart.php:24
-#: templates/email-shipped.php:40
+#: templates/cart.php:24 templates/email-shipped.php:40
+#: templates/receipt.php:38 templates/summary.php:18
+#: core/ui/orders/order.php:38
 msgid "Quantity"
 msgstr ""
 
-#: templates/cart.php:25
+#: templates/cart.php:25 templates/receipt.php:39 templates/summary.php:19
+#: core/ui/orders/order.php:39
 #, fuzzy
 msgid "Item Price"
 msgstr "Artikelen"
 
-#: templates/cart.php:26
+#: templates/cart.php:26 templates/receipt.php:40 templates/summary.php:20
+#: core/ui/orders/order.php:40
 #, fuzzy
 msgid "Item Total"
 msgstr "Update fase"
@@ -313,12 +348,15 @@ msgstr "Update fase"
 msgid "Estimate shipping &amp; taxes for:"
 msgstr ""
 
-#: templates/cart.php:56
+#: templates/cart.php:56 templates/receipt.php:58 templates/summary.php:62
+#: core/ui/orders/order.php:82
 #, fuzzy
 msgid "Subtotal"
 msgstr "Portaal"
 
-#: templates/cart.php:61
+#: templates/cart.php:61 templates/receipt.php:63 templates/summary.php:67
+#: core/flow/Promote.php:214 core/ui/orders/order.php:87
+#: core/ui/promotions/ui.php:64
 #, fuzzy
 msgid "Discount"
 msgstr "Regio's"
@@ -328,12 +366,12 @@ msgstr "Regio's"
 msgid "Estimated Shipping"
 msgstr "Juridische navigatie"
 
-#: templates/cart.php:72
+#: templates/cart.php:72 templates/receipt.php:75 core/ui/orders/order.php:107
 #, fuzzy
 msgid "Tax"
 msgstr "Tax IDs"
 
-#: templates/cart.php:92
+#: templates/cart.php:92 templates/summary.php:97
 #, fuzzy
 msgid "There are currently no items in your shopping cart."
 msgstr "Er zijn geen berichten in deze categorie."
@@ -343,7 +381,8 @@ msgstr "Er zijn geen berichten in deze categorie."
 msgid "Order Shipment Notification"
 msgstr "Geen secties"
 
-#: templates/email-shipped.php:18
+#: templates/email-shipped.php:18 templates/receipt.php:21
+#: templates/checkout.php:90
 #, fuzzy
 msgid "Ship to"
 msgstr "Zeilschepen in "
@@ -362,7 +401,7 @@ msgstr "Vaarprogramma’s"
 msgid "Carrier:"
 msgstr ""
 
-#: templates/email-shipped.php:30
+#: templates/email-shipped.php:30 templates/receipt.php:4
 #, fuzzy
 msgid "Order Date:"
 msgstr "Beoordeling"
@@ -376,41 +415,48 @@ msgstr ""
 msgid "Your account has been updated."
 msgstr "Haven details"
 
-#: templates/account-profile.php:26
+#: templates/account-profile.php:26 core/ui/widgets/account.php:32
 #, fuzzy
 msgid "Your Account"
 msgstr "Reactie"
 
-#: templates/account-profile.php:27
+#: templates/account-profile.php:27 templates/checkout.php:30
+#: core/ui/customers/ui.php:81
 #, fuzzy
 msgid "First Name"
 msgstr "Voornaam"
 
-#: templates/account-profile.php:27
+#: templates/account-profile.php:27 templates/checkout.php:30
 #, fuzzy
 msgid "First"
 msgstr "Voornaam"
 
-#: templates/account-profile.php:28
+#: templates/account-profile.php:28 templates/checkout.php:31
+#: core/ui/customers/ui.php:85
 #, fuzzy
 msgid "Last Name"
 msgstr "Nieuwe fase naam"
 
-#: templates/account-profile.php:28
+#: templates/account-profile.php:28 templates/checkout.php:31
 #, fuzzy
 msgid "Last"
 msgstr "Achternaam"
 
-#: templates/account-profile.php:31
+#: templates/account-profile.php:31 core/ui/customers/ui.php:90
+#: core/ui/help/customers.php:4 core/ui/help/orders.php:7
 msgid "Company"
 msgstr ""
 
-#: templates/account-profile.php:34
+#: templates/account-profile.php:34 templates/checkout.php:37
+#: core/ui/customers/ui.php:99
 msgid "Phone"
 msgstr ""
 
-#: templates/account-profile.php:37
-#: templates/account-profile.php:38
+#: templates/account-profile.php:37 templates/account-profile.php:38
+#: templates/checkout.php:22 templates/checkout.php:38
+#: templates/checkout.php:39 core/flow/Account.php:283
+#: core/ui/customers/ui.php:95 core/ui/help/customers.php:3
+#: core/ui/help/orders.php:3
 #, fuzzy
 msgid "Email"
 msgstr "E-mailadres"
@@ -424,121 +470,133 @@ msgstr ""
 msgid "Change Your Password"
 msgstr "Nieuw wachtwoord"
 
-#: templates/account-profile.php:51
+#: templates/account-profile.php:51 core/ui/customers/ui.php:59
 #, fuzzy
 msgid "New Password"
 msgstr "Wachtwoord"
 
-#: templates/account-profile.php:52
+#: templates/account-profile.php:52 templates/checkout.php:46
 #, fuzzy
 msgid "Confirm Password"
 msgstr "Nieuw wachtwoord"
 
-#: templates/account-profile.php:55
+#: templates/account-profile.php:55 templates/checkout.php:55
+#: core/ui/customers/ui.php:161 core/ui/orders/ui.php:228
 #, fuzzy
 msgid "Billing Address"
 msgstr "Adres"
 
-#: templates/account-profile.php:57
+#: templates/account-profile.php:57 templates/checkout.php:61
 #, fuzzy
 msgid "Billing street address"
 msgstr "Adres"
 
-#: templates/account-profile.php:58
-#: templates/account-profile.php:85
+#: templates/account-profile.php:58 templates/account-profile.php:85
+#: templates/checkout.php:62 templates/checkout.php:95
+#: core/ui/customers/ui.php:130 core/ui/customers/ui.php:168
 #, fuzzy
 msgid "Street Address"
 msgstr "Adres"
 
-#: templates/account-profile.php:61
+#: templates/account-profile.php:61 templates/checkout.php:65
 #, fuzzy
 msgid "Billing address line 2"
 msgstr "Adres"
 
-#: templates/account-profile.php:62
-#: templates/account-profile.php:89
+#: templates/account-profile.php:62 templates/account-profile.php:89
+#: templates/checkout.php:66 templates/checkout.php:99
 #, fuzzy
 msgid "Address Line 2"
 msgstr "Adres"
 
-#: templates/account-profile.php:65
+#: templates/account-profile.php:65 templates/checkout.php:69
 #, fuzzy
 msgid "City billing address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:66
-#: templates/account-profile.php:93
+#: templates/account-profile.php:66 templates/account-profile.php:93
+#: templates/checkout.php:70 templates/checkout.php:103
+#: core/ui/customers/ui.php:135 core/ui/customers/ui.php:173
+#: core/ui/help/customers.php:7 core/ui/help/orders.php:9
 msgid "City"
 msgstr "Plaats"
 
-#: templates/account-profile.php:69
+#: templates/account-profile.php:69 templates/checkout.php:73
 #, fuzzy
 msgid "State/Provice/Region billing address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:70
-#: templates/account-profile.php:97
+#: templates/account-profile.php:70 templates/account-profile.php:97
+#: templates/checkout.php:74 templates/checkout.php:107
+#: core/ui/customers/ui.php:142 core/ui/customers/ui.php:180
 #, fuzzy
 msgid "State / Province"
 msgstr "Artikelen"
 
-#: templates/account-profile.php:73
+#: templates/account-profile.php:73 templates/checkout.php:77
 #, fuzzy
 msgid "Postal/Zip Code billing address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:74
-#: templates/account-profile.php:101
+#: templates/account-profile.php:74 templates/account-profile.php:101
+#: templates/checkout.php:78 templates/checkout.php:111
 #, fuzzy
 msgid "Postal / Zip Code"
 msgstr "Plaats reactie"
 
-#: templates/account-profile.php:77
+#: templates/account-profile.php:77 templates/checkout.php:81
 #, fuzzy
 msgid "Country billing address"
 msgstr "Adres"
 
-#: templates/account-profile.php:78
-#: templates/account-profile.php:105
+#: templates/account-profile.php:78 templates/account-profile.php:105
+#: templates/checkout.php:82 templates/checkout.php:115
+#: core/ui/customers/ui.php:154 core/ui/customers/ui.php:192
+#: core/ui/help/customers.php:10 core/ui/help/orders.php:12
 msgid "Country"
 msgstr "Land"
 
-#: templates/account-profile.php:82
+#: templates/account-profile.php:82 templates/checkout.php:88
+#: core/ui/customers/ui.php:199 core/ui/orders/ui.php:241
 #, fuzzy
 msgid "Shipping Address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:84
+#: templates/account-profile.php:84 templates/checkout.php:94
 #, fuzzy
 msgid "Shipping street address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:88
+#: templates/account-profile.php:88 templates/checkout.php:98
 #, fuzzy
 msgid "Shipping address line 2"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:92
+#: templates/account-profile.php:92 templates/checkout.php:102
 #, fuzzy
 msgid "City shipping address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:96
+#: templates/account-profile.php:96 templates/checkout.php:106
 #, fuzzy
 msgid "State/Provice/Region shipping address"
 msgstr "Schepen in"
 
-#: templates/account-profile.php:100
+#: templates/account-profile.php:100 templates/checkout.php:110
 #, fuzzy
 msgid "Postal/Zip Code shipping address"
 msgstr "Adres"
 
-#: templates/account-profile.php:104
+#: templates/account-profile.php:104 templates/checkout.php:114
 #, fuzzy
 msgid "Country shipping address"
 msgstr "Adres"
 
-#: templates/account-profile.php:109
+#: templates/account-profile.php:109 core/ui/customers/ui.php:16
+#: core/ui/memberships/ui.php:9 core/ui/categories/category.php:36
+#: core/ui/categories/category.php:102 core/ui/categories/ui.php:23
+#: core/ui/products/ui.php:54 core/ui/products/editor.php:40
+#: core/ui/promotions/ui.php:37 api/theme/customer.php:523
 #, fuzzy
 msgid "Save"
 msgstr "Zeilschip"
@@ -547,7 +605,7 @@ msgstr "Zeilschip"
 msgid "Errors"
 msgstr ""
 
-#: templates/sidecart.php:20
+#: templates/sidecart.php:20 core/model/Cart.php:224
 #, fuzzy
 msgid "Edit shopping cart"
 msgstr "Classificatie bewerken"
@@ -561,13 +619,16 @@ msgstr ""
 msgid "Account Login"
 msgstr "Publicatie naam"
 
-#: templates/login.php:19
+#: templates/login.php:19 templates/login-recover.php:19
+#: templates/checkout.php:22 core/flow/Account.php:282
+#: core/ui/widgets/account.php:32 core/ui/help/customers.php:5
+#: api/theme/customer.php:616
 #, fuzzy
 msgid "Login"
 msgstr "Inloggen"
 
-#: templates/login.php:21
-#: templates/login.php:22
+#: templates/login.php:21 templates/login.php:22 templates/checkout.php:23
+#: templates/checkout.php:43 templates/checkout.php:44
 msgid "Password"
 msgstr "Wachtwoord"
 
@@ -599,33 +660,36 @@ msgstr ""
 msgid "Shipping:"
 msgstr "Schepen in"
 
-#: templates/receipt.php:37
+#: templates/receipt.php:37 core/ui/orders/order.php:37
 #, fuzzy
 msgid "Items Ordered"
 msgstr "Beoordeling"
 
-#: templates/receipt.php:69
-#: templates/summary.php:73
+#: templates/receipt.php:69 templates/summary.php:73 core/flow/Admin.php:113
+#: core/ui/orders/order.php:101 core/ui/categories/category.php:114
 #, fuzzy
 msgid "Shipping"
 msgstr "Schepen in"
 
-#: templates/receipt.php:96
+#: templates/receipt.php:96 core/ui/orders/order.php:119
 #, fuzzy
 msgid "There were no items found for this purchase."
 msgstr "Er zijn geen berichten in deze categorie."
 
-#: templates/account-downloads.php:13
-#: templates/account-downloads.php:32
+#: templates/account-downloads.php:13 templates/account-downloads.php:32
+#: core/flow/Members.php:286 core/flow/Storefront.php:915
+#: core/ui/orders/ui.php:312 core/ui/orders/ui.php:319
 msgid "Downloads"
 msgstr ""
 
-#: templates/account-downloads.php:20
+#: templates/account-downloads.php:20 core/model/Product.php:114
+#: core/flow/Categorize.php:493 core/ui/behaviors/tinymce/dialog.php:35
 #, fuzzy
 msgid "Product"
 msgstr "Project"
 
-#: templates/account-downloads.php:22
+#: templates/account-downloads.php:22 core/ui/orders/ui.php:69
+#: core/ui/categories/category.php:110
 #, fuzzy
 msgid "Amount"
 msgstr "Land"
@@ -648,17 +712,19 @@ msgstr "Nieuw wachtwoord"
 msgid "You save"
 msgstr "Land"
 
-#: templates/product.php:32
+#: templates/product.php:32 gateways/GoogleCheckout/GoogleCheckout.php:411
+#: api/theme/cart.php:296
 #, fuzzy
 msgid "Free Shipping!"
 msgstr "Schepen in"
 
-#: templates/product.php:38
+#: templates/product.php:38 core/flow/Storefront.php:1837
 #, fuzzy
 msgid "Select an option"
 msgstr "Rubrieken"
 
-#: templates/product.php:43
+#: templates/product.php:43 core/flow/Storefront.php:1841
+#: core/flow/Storefront.php:1844
 #, fuzzy
 msgid "Select an add-on"
 msgstr "Verwijder bericht"
@@ -677,7 +743,7 @@ msgstr ""
 msgid "Select a shipping method:"
 msgstr "Schepen in"
 
-#: templates/summary.php:78
+#: templates/summary.php:78 core/flow/Admin.php:114
 #, fuzzy
 msgid "Taxes"
 msgstr "Tax IDs"
@@ -705,8 +771,13 @@ msgstr "Aanvullende informatie"
 msgid "Bill to"
 msgstr ""
 
-#: templates/checkout.php:58
-#: templates/checkout.php:91
+#: templates/checkout.php:58 templates/checkout.php:91
+#: core/flow/Categorize.php:284 core/flow/Warehouse.php:567
+#: core/flow/Warehouse.php:577 core/flow/Warehouse.php:581
+#: core/flow/Promote.php:213 core/flow/Members.php:252
+#: core/flow/Account.php:281 core/flow/Admin.php:281 core/flow/Admin.php:700
+#: core/flow/Setup.php:709 core/flow/Setup.php:1010 core/flow/Setup.php:1137
+#: core/flow/Service.php:308 core/ui/settings/images.php:16
 msgid "Name"
 msgstr "Naam"
 
@@ -785,16 +856,16 @@ msgstr ""
 msgid "Yes, I would like to receive e-mail updates and special offers!"
 msgstr ""
 
-#: templates/checkout.php:159
+#: templates/checkout.php:159 api/theme/checkout.php:1094
 #, fuzzy
 msgid "Submit Order"
 msgstr "Beoordeling"
 
-#: core/legacy.php:311
+#: core/legacy.php:311 core/flow/Install.php:41
 msgid "Shopp Activation Error"
 msgstr ""
 
-#: core/legacy.php:312
+#: core/legacy.php:312 core/flow/Install.php:42
 msgid "Sorry! Shopp cannot be activated for this WordPress install."
 msgstr ""
 
@@ -808,7 +879,8 @@ msgid "Shopp requires PHP 5.0+."
 msgstr ""
 
 #: core/legacy.php:315
-msgid "Shopp will not work with PHP 5.1.3 because of a critical bug in that version."
+msgid ""
+"Shopp will not work with PHP 5.1.3 because of a critical bug in that version."
 msgstr ""
 
 #: core/legacy.php:316
@@ -821,53 +893,62 @@ msgid "Shopp requires WordPress 3.1+."
 msgstr ""
 
 #: core/legacy.php:318
-msgid "Your server does not have cURL support available! Shopp requires the cURL library for server-to-server communication."
+msgid ""
+"Your server does not have cURL support available! Shopp requires the cURL "
+"library for server-to-server communication."
 msgstr ""
 
 #: core/legacy.php:319
-msgid "Your server does not have GD support! Shopp requires the GD image library with JPEG support for generating gallery and thumbnail images."
+msgid ""
+"Your server does not have GD support! Shopp requires the GD image library "
+"with JPEG support for generating gallery and thumbnail images."
 msgstr ""
 
 #: core/legacy.php:320
-msgid "Your server does not have JPEG support for the GD library! Shopp requires JPEG support in the GD image library to generate JPEG images."
+msgid ""
+"Your server does not have JPEG support for the GD library! Shopp requires "
+"JPEG support in the GD image library to generate JPEG images."
 msgstr ""
 
 #: core/legacy.php:321
 #, php-format
-msgid "Try contacting your web hosting provider or server administrator to upgrade your server. For more information about the requirements for running Shopp, see the %sShopp Documentation%s"
+msgid ""
+"Try contacting your web hosting provider or server administrator to upgrade "
+"your server. For more information about the requirements for running Shopp, "
+"see the %sShopp Documentation%s"
 msgstr ""
 
-#: core/legacy.php:322
+#: core/legacy.php:322 core/flow/Install.php:47 core/flow/Install.php:1695
 msgid "Return to Plugins page"
 msgstr ""
 
-#: core/functions.php:31
+#: core/functions.php:31 core/ui/orders/events.php:132
 #, fuzzy
 msgid "Monday"
 msgstr "Secundaire widget gebied"
 
-#: core/functions.php:31
+#: core/functions.php:31 core/ui/orders/events.php:133
 msgid "Tuesday"
 msgstr ""
 
-#: core/functions.php:32
+#: core/functions.php:32 core/ui/orders/events.php:134
 msgid "Wednesday"
 msgstr ""
 
-#: core/functions.php:32
+#: core/functions.php:32 core/ui/orders/events.php:135
 msgid "Thursday"
 msgstr ""
 
-#: core/functions.php:33
+#: core/functions.php:33 core/ui/orders/events.php:136
 msgid "Friday"
 msgstr ""
 
-#: core/functions.php:33
+#: core/functions.php:33 core/ui/orders/events.php:137
 #, fuzzy
 msgid "Saturday"
 msgstr "Gerelateerd"
 
-#: core/functions.php:34
+#: core/functions.php:34 core/ui/orders/events.php:131
 #, fuzzy
 msgid "Sunday"
 msgstr "Straat"
@@ -926,10 +1007,12 @@ msgid "bytes"
 msgstr "Titel"
 
 #: core/functions.php:1527
-msgid "Could not open the email template because the file does not exist or is not readable."
+msgid ""
+"Could not open the email template because the file does not exist or is not "
+"readable."
 msgstr ""
 
-#: core/DB.php:1053
+#: core/DB.php:1053 core/flow/Members.php:275
 #, fuzzy
 msgid "Posts"
 msgstr "Classificaties"
@@ -939,61 +1022,61 @@ msgstr "Classificaties"
 msgid "Post"
 msgstr "Classificaties"
 
-#: core/model/Address.php:149
+#: core/model/Address.php:150 core/model/Purchase.php:485
 #, fuzzy
 msgid "Billing Street Address"
 msgstr "Adres"
 
-#: core/model/Address.php:150
+#: core/model/Address.php:151 core/model/Purchase.php:486
 #, fuzzy
 msgid "Billing Street Address 2"
 msgstr "Adres"
 
-#: core/model/Address.php:151
+#: core/model/Address.php:152 core/model/Purchase.php:487
 #, fuzzy
 msgid "Billing City"
 msgstr "Details"
 
-#: core/model/Address.php:152
+#: core/model/Address.php:153 core/model/Purchase.php:488
 msgid "Billing State/Province"
 msgstr ""
 
-#: core/model/Address.php:153
+#: core/model/Address.php:154 core/model/Purchase.php:489
 #, fuzzy
 msgid "Billing Country"
 msgstr "Land"
 
-#: core/model/Address.php:154
+#: core/model/Address.php:155 core/model/Purchase.php:490
 #, fuzzy
 msgid "Billing Postal Code"
 msgstr "Details"
 
-#: core/model/Address.php:203
+#: core/model/Address.php:204 core/model/Purchase.php:492
 #, fuzzy
 msgid "Shipping Street Address"
 msgstr "Schepen in"
 
-#: core/model/Address.php:204
+#: core/model/Address.php:205 core/model/Purchase.php:493
 #, fuzzy
 msgid "Shipping Street Address 2"
 msgstr "Schepen in"
 
-#: core/model/Address.php:205
+#: core/model/Address.php:206 core/model/Purchase.php:494
 #, fuzzy
 msgid "Shipping City"
 msgstr "Schepen in"
 
-#: core/model/Address.php:206
+#: core/model/Address.php:207 core/model/Purchase.php:495
 #, fuzzy
 msgid "Shipping State/Province"
 msgstr "Schip details"
 
-#: core/model/Address.php:207
+#: core/model/Address.php:208 core/model/Purchase.php:496
 #, fuzzy
 msgid "Shipping Country"
 msgstr "Schepen in"
 
-#: core/model/Address.php:208
+#: core/model/Address.php:209 core/model/Purchase.php:497
 #, fuzzy
 msgid "Shipping Postal Code"
 msgstr "Schepen in"
@@ -1007,7 +1090,7 @@ msgstr ""
 msgid "Connection broken. Download attempt failed."
 msgstr ""
 
-#: core/model/Asset.php:907
+#: core/model/Asset.php:907 core/flow/Warehouse.php:259
 msgid "All"
 msgstr "Alles"
 
@@ -1021,11 +1104,11 @@ msgstr "Filter:"
 msgid "Crop"
 msgstr "Reactie"
 
-#: core/model/Asset.php:910
+#: core/model/Asset.php:910 core/ui/settings/images.php:22
 msgid "Width"
 msgstr "Breedte"
 
-#: core/model/Asset.php:911
+#: core/model/Asset.php:911 core/ui/settings/images.php:23
 msgid "Height"
 msgstr ""
 
@@ -1049,312 +1132,321 @@ msgstr ""
 msgid "Lowest quality, smallest file size"
 msgstr ""
 
-#: core/model/Collection.php:315
-#: core/model/Collection.php:324
+#: core/model/Collection.php:332 core/model/Collection.php:341
 #, fuzzy
 msgid "from "
 msgstr "Formulier"
 
-#: core/model/Collection.php:493
+#: core/model/Collection.php:510
 #, fuzzy
 msgid "Catalog Groups"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:494
+#: core/model/Collection.php:511
 #, fuzzy
 msgid "Catalog Group"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:495
+#: core/model/Collection.php:512
 #, fuzzy
 msgid "Search Catalog Group"
 msgstr "Tegenstanders zoeken"
 
-#: core/model/Collection.php:496
-#: core/model/Collection.php:724
-#: core/model/Collection.php:1292
+#: core/model/Collection.php:513 core/model/Collection.php:766
+#: core/model/Collection.php:1348 core/ui/products/ui.php:126
 #, fuzzy
 msgid "Popular"
 msgstr "relevantie"
 
-#: core/model/Collection.php:497
-#: core/model/Collection.php:725
-#: core/model/Collection.php:1293
+#: core/model/Collection.php:514 core/model/Collection.php:767
+#: core/model/Collection.php:1349 core/ui/products/ui.php:125
 #, fuzzy
 msgid "Show All"
 msgstr "Haven"
 
-#: core/model/Collection.php:498
+#: core/model/Collection.php:515
 #, fuzzy
 msgid "Parent Catalog Group"
 msgstr "Bovenliggende regio"
 
-#: core/model/Collection.php:499
+#: core/model/Collection.php:516
 #, fuzzy
 msgid "Parent Catalog Group:"
 msgstr "Bovenliggende regio"
 
-#: core/model/Collection.php:500
+#: core/model/Collection.php:517
 #, fuzzy
 msgid "Edit Catalog Group"
 msgstr "Tegenstander bewerken"
 
-#: core/model/Collection.php:501
+#: core/model/Collection.php:518
 #, fuzzy
 msgid "Update Catalog Group"
 msgstr "Update accessoire"
 
-#: core/model/Collection.php:502
+#: core/model/Collection.php:519
 msgid "New Catalog Group"
 msgstr ""
 
-#: core/model/Collection.php:503
+#: core/model/Collection.php:520
 #, fuzzy
 msgid "New Catalog Group Name"
 msgstr "Nieuwe evenement categorie naam"
 
-#: core/model/Collection.php:504
+#: core/model/Collection.php:521
 msgid "Separate catalog groups with commas"
 msgstr ""
 
-#: core/model/Collection.php:505
+#: core/model/Collection.php:522
 msgid "Add or remove catalog groups"
 msgstr ""
 
-#: core/model/Collection.php:506
+#: core/model/Collection.php:523
 msgid "Choose from the most used catalog groups"
 msgstr ""
 
-#: core/model/Collection.php:721
+#: core/model/Collection.php:763
 #, fuzzy
 msgid "Catalog Categories"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:722
+#: core/model/Collection.php:764 core/flow/Categorize.php:314
+#: core/flow/Warehouse.php:568 core/ui/behaviors/tinymce/dialog.php:31
 #, fuzzy
 msgid "Category"
 msgstr "Categorie:"
 
-#: core/model/Collection.php:723
+#: core/model/Collection.php:765 core/ui/categories/categories.php:15
 #, fuzzy
 msgid "Search Categories"
 msgstr "Zoek evenement categorieën"
 
-#: core/model/Collection.php:726
+#: core/model/Collection.php:768
 #, fuzzy
 msgid "Parent Category"
 msgstr "Bovenliggende evenement categorie:"
 
-#: core/model/Collection.php:727
+#: core/model/Collection.php:769
 #, fuzzy
 msgid "Parent Category:"
 msgstr "Bovenliggende evenement categorie:"
 
-#: core/model/Collection.php:728
+#: core/model/Collection.php:770
 #, fuzzy
 msgid "Edit Category"
 msgstr "Evenement categorie bewerken"
 
-#: core/model/Collection.php:729
+#: core/model/Collection.php:771
 #, fuzzy
 msgid "Update Category"
 msgstr "Update project categorie"
 
-#: core/model/Collection.php:730
+#: core/model/Collection.php:772 core/flow/Categorize.php:357
+#: core/ui/categories/categories.php:3 core/ui/categories/ui.php:8
+#: core/ui/products/ui.php:127
 #, fuzzy
 msgid "New Category"
 msgstr "Categorie:"
 
-#: core/model/Collection.php:731
+#: core/model/Collection.php:773
 #, fuzzy
 msgid "New Category Name"
 msgstr "Nieuwe evenement categorie naam"
 
-#: core/model/Collection.php:732
+#: core/model/Collection.php:774 core/flow/Members.php:277
+#: core/flow/Members.php:283 core/flow/Admin.php:100
+#: core/ui/categories/categories.php:3
 #, fuzzy
 msgid "Categories"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:765
+#: core/model/Collection.php:811
 #, fuzzy
 msgid "Price Filter"
 msgstr "Filter:"
 
-#: core/model/Collection.php:895
+#: core/model/Collection.php:945
 #, fuzzy, php-format
 msgid "Under %s"
 msgstr "Beoordeling"
 
-#: core/model/Collection.php:896
+#: core/model/Collection.php:946
 #, php-format
 msgid "%s and up"
 msgstr ""
 
-#: core/model/Collection.php:959
-#: core/model/Collection.php:1002
-#: core/model/Collection.php:1255
+#: core/model/Collection.php:1015 core/model/Collection.php:1058
+#: core/model/Collection.php:1311
 #, fuzzy
 msgid "Under "
 msgstr "Beoordeling"
 
-#: core/model/Collection.php:965
-#: core/model/Collection.php:1003
-#: core/model/Collection.php:1256
+#: core/model/Collection.php:1021 core/model/Collection.php:1059
+#: core/model/Collection.php:1312
 msgid "and up"
 msgstr ""
 
-#: core/model/Collection.php:1226
+#: core/model/Collection.php:1282 core/flow/Setup.php:1052
+#: core/ui/settings/pages.php:16 core/ui/categories/category.php:145
+#: core/ui/widgets/categories.php:38 core/ui/widgets/search.php:40
+#: core/ui/widgets/section.php:40 core/ui/widgets/account.php:58
+#: core/ui/widgets/cart.php:42 core/ui/widgets/tagcloud.php:40
+#: core/ui/widgets/product.php:41 core/ui/widgets/shoppers.php:57
+#: core/ui/widgets/facetedmenu.php:45
 msgid "Title"
 msgstr "Titel"
 
-#: core/model/Collection.php:1227
+#: core/model/Collection.php:1283
 #, fuzzy
 msgid "Recommended"
 msgstr "Voltooid"
 
-#: core/model/Collection.php:1228
+#: core/model/Collection.php:1284 core/flow/Warehouse.php:264
+#: core/ui/widgets/product.php:61
 msgid "Bestselling"
 msgstr ""
 
-#: core/model/Collection.php:1229
+#: core/model/Collection.php:1285
 msgid "Price High to Low"
 msgstr ""
 
-#: core/model/Collection.php:1230
+#: core/model/Collection.php:1286
 msgid "Price Low to High"
 msgstr ""
 
-#: core/model/Collection.php:1231
+#: core/model/Collection.php:1287
 msgid "Newest to Oldest"
 msgstr ""
 
-#: core/model/Collection.php:1232
+#: core/model/Collection.php:1288
 msgid "Oldest to Newest"
 msgstr ""
 
-#: core/model/Collection.php:1233
+#: core/model/Collection.php:1289 core/ui/widgets/product.php:66
 #, fuzzy
 msgid "Random"
 msgstr "Agenda"
 
-#: core/model/Collection.php:1289
+#: core/model/Collection.php:1345
 #, fuzzy
 msgid "Catalog Tags"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:1290
+#: core/model/Collection.php:1346
 #, fuzzy
 msgid "Tag"
 msgstr "Pagina's: %s"
 
-#: core/model/Collection.php:1291
+#: core/model/Collection.php:1347
 #, fuzzy
 msgid "Search Tag"
 msgstr "Zoeken"
 
-#: core/model/Collection.php:1294
+#: core/model/Collection.php:1350
 #, fuzzy
 msgid "Edit Tag"
 msgstr "Project type bewerken"
 
-#: core/model/Collection.php:1295
+#: core/model/Collection.php:1351
 #, fuzzy
 msgid "Update Tag"
 msgstr "Update fase"
 
-#: core/model/Collection.php:1296
+#: core/model/Collection.php:1352
 #, fuzzy
 msgid "New Tag"
 msgstr "Nieuwe teaser"
 
-#: core/model/Collection.php:1297
+#: core/model/Collection.php:1353
 #, fuzzy
 msgid "New Tag Name"
 msgstr "Nieuw magazine naam"
 
-#: core/model/Collection.php:1298
+#: core/model/Collection.php:1354
 msgid "Separate tags with commas"
 msgstr ""
 
-#: core/model/Collection.php:1299
+#: core/model/Collection.php:1355
 #, php-format
 msgid "Type a tag name and press tab %s to add it."
 msgstr ""
 
-#: core/model/Collection.php:1299
+#: core/model/Collection.php:1355 core/ui/products/ui.php:143
 msgid "tab key"
 msgstr ""
 
-#: core/model/Collection.php:1300
+#: core/model/Collection.php:1356
 #, fuzzy
 msgid "Type to search, or wait for popular tags&hellip;"
 msgstr "Zoek resultaten voor:"
 
-#: core/model/Collection.php:1301
+#: core/model/Collection.php:1357 core/flow/Members.php:278
+#: core/flow/Members.php:284
 #, fuzzy
 msgid "Tags"
 msgstr "Pagina's: %s"
 
-#: core/model/Collection.php:1349
+#: core/model/Collection.php:1406
 #, fuzzy
 msgid "Catalog Products"
 msgstr "Categorieën"
 
-#: core/model/Collection.php:1361
+#: core/model/Collection.php:1418
 #, fuzzy
 msgid "New Products"
 msgstr "Nieuw project"
 
-#: core/model/Collection.php:1374
+#: core/model/Collection.php:1431
 #, fuzzy
 msgid "Featured Products"
 msgstr "Projecten zoeken"
 
-#: core/model/Collection.php:1386
+#: core/model/Collection.php:1443 core/flow/Warehouse.php:262
+#: core/ui/products/products.php:123
 #, fuzzy
 msgid "On Sale"
 msgstr "Zeilschip"
 
-#: core/model/Collection.php:1399
+#: core/model/Collection.php:1456
 msgid "Bestsellers"
 msgstr ""
 
-#: core/model/Collection.php:1497
+#: core/model/Collection.php:1557
 #, fuzzy
 msgid "(no search terms)"
 msgstr "Zoek evenementen"
 
-#: core/model/Collection.php:1498
+#: core/model/Collection.php:1558
 #, fuzzy, php-format
 msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
-#: core/model/Collection.php:1540
+#: core/model/Collection.php:1601
 #, fuzzy, php-format
 msgid "Products tagged \"%s\""
 msgstr "Publicatie naam"
 
-#: core/model/Collection.php:1603
+#: core/model/Collection.php:1678
 #, fuzzy
 msgid "Products related to"
 msgstr "Project categorie"
 
-#: core/model/Collection.php:1630
+#: core/model/Collection.php:1706
 #, fuzzy
 msgid "Customers also bought&hellip;"
 msgstr "Lees meer &hellip;"
 
-#: core/model/Collection.php:1657
+#: core/model/Collection.php:1733
 #, php-format
 msgid "Customers that bought \"%s\" also bought&hellip;"
 msgstr ""
 
-#: core/model/Collection.php:1690
+#: core/model/Collection.php:1766
 #, fuzzy
 msgid "Random Products"
 msgstr "Project"
 
-#: core/model/Collection.php:1715
+#: core/model/Collection.php:1791
 #, fuzzy
 msgid "Recently Viewed"
 msgstr "Recent nieuws"
@@ -1363,13 +1455,13 @@ msgstr "Recent nieuws"
 msgid "Service provider markets"
 msgstr ""
 
-#: core/model/Shipping.php:717
-#: core/model/Purchase.php:498
+#: core/model/Shipping.php:717 core/model/Purchase.php:498
+#: core/flow/Setup.php:615
 #, fuzzy
 msgid "Shipping Method"
 msgstr "Schepen in"
 
-#: core/model/Shipping.php:750
+#: core/model/Shipping.php:750 core/model/Gateway.php:574
 #, fuzzy
 msgid "Option Name"
 msgstr "Nieuwe rubriek naam"
@@ -1379,14 +1471,20 @@ msgid "Estimated Delivery"
 msgstr ""
 
 #: core/model/Shipping.php:756
-msgid "Enable this setting to offer it only when all real-time online rates fail."
+msgid ""
+"Enable this setting to offer it only when all real-time online rates fail."
 msgstr ""
 
 #: core/model/Shipping.php:756
 msgid "Real-time rates fallback"
 msgstr ""
 
-#: core/model/Shipping.php:771
+#: core/model/Shipping.php:771 core/model/Gateway.php:586
+#: core/flow/Service.php:47 core/ui/settings/pages.php:18
+#: core/ui/settings/images.php:18 core/ui/settings/taxrates.php:93
+#: core/ui/orders/ui.php:35 core/ui/orders/ui.php:366
+#: core/ui/categories/category.php:36 core/ui/categories/category.php:103
+#: core/ui/products/editor.php:40
 #, fuzzy
 msgid "Cancel"
 msgstr "relevantie"
@@ -1396,24 +1494,30 @@ msgstr "relevantie"
 msgid "Add Destination Rate"
 msgstr "Oefenwedstrijd toevoegen"
 
-#: core/model/Shipping.php:774
+#: core/model/Shipping.php:774 core/model/Gateway.php:587
+#: core/ui/customers/ui.php:12 core/ui/settings/setup.php:89
+#: core/ui/settings/taxes.php:31 core/ui/settings/pages.php:24
+#: core/ui/settings/shipping.php:122 core/ui/settings/images.php:43
+#: core/ui/settings/system.php:88 core/ui/settings/preferences.php:136
+#: core/ui/settings/taxrates.php:96 core/ui/settings/presentation.php:95
+#: core/ui/memberships/ui.php:5
 #, fuzzy
 msgid "Save Changes"
 msgstr "Zeilschip"
 
-#: core/model/Shipping.php:823
-#: core/model/Shipping.php:974
+#: core/model/Shipping.php:823 core/model/Shipping.php:974
+#: core/flow/Service.php:309
 #, fuzzy
 msgid "Destination"
 msgstr "Projectgegevens"
 
-#: core/model/Shipping.php:824
-#: core/model/Shipping.php:975
+#: core/model/Shipping.php:824 core/model/Shipping.php:975
+#: core/ui/customers/ui.php:146 core/ui/customers/ui.php:184
 #, fuzzy
 msgid "Postal Code"
 msgstr "Plaats reactie"
 
-#: core/model/Shipping.php:826
+#: core/model/Shipping.php:826 core/flow/Setup.php:750
 #, fuzzy
 msgid "Rate"
 msgstr "datum"
@@ -1432,7 +1536,7 @@ msgstr "Gerelateerd"
 msgid "Worldwide"
 msgstr ""
 
-#: core/model/Shipping.php:1124
+#: core/model/Shipping.php:1124 core/flow/Setup.php:681
 msgid "Anywhere"
 msgstr ""
 
@@ -2029,8 +2133,7 @@ msgstr ""
 msgid "Lithuania"
 msgstr ""
 
-#: core/model/Lookup.php:204
-#: core/model/Lookup.php:384
+#: core/model/Lookup.php:204 core/model/Lookup.php:384
 msgid "Luxembourg"
 msgstr ""
 
@@ -2687,8 +2790,7 @@ msgstr ""
 msgid "Liège"
 msgstr ""
 
-#: core/model/Lookup.php:383
-#: core/model/Lookup.php:428
+#: core/model/Lookup.php:383 core/model/Lookup.php:428
 msgid "Limburg"
 msgstr ""
 
@@ -2862,7 +2964,7 @@ msgstr ""
 msgid "New Zealand Post"
 msgstr "Nieuwe vacature"
 
-#: core/model/Lookup.php:748
+#: core/model/Lookup.php:748 core/flow/Install.php:347
 msgid "Pending"
 msgstr ""
 
@@ -2871,14 +2973,13 @@ msgstr ""
 msgid "Charged"
 msgstr "Pagina's: %s"
 
-#: core/model/Lookup.php:750
-#: core/model/Lookup.php:764
+#: core/model/Lookup.php:750 core/model/Lookup.php:764
 #, fuzzy
 msgid "Refunded"
 msgstr "Nieuwe vacature"
 
-#: core/model/Lookup.php:751
-#: core/model/Lookup.php:765
+#: core/model/Lookup.php:751 core/model/Lookup.php:765
+#: core/ui/orders/order.php:24
 msgid "Void"
 msgstr ""
 
@@ -2901,13 +3002,13 @@ msgstr ""
 msgid "Authorized"
 msgstr "Auteur"
 
-#: core/model/Lookup.php:762
+#: core/model/Lookup.php:762 core/ui/orders/order.php:26
 #, fuzzy
 msgid "Paid"
 msgstr "relevantie"
 
-#: core/model/Lookup.php:763
-#: core/model/Price.php:199
+#: core/model/Lookup.php:763 core/model/Price.php:199
+#: core/ui/orders/order.php:20
 #, fuzzy
 msgid "Shipped"
 msgstr "Schepen in"
@@ -2949,7 +3050,9 @@ msgid "For help with this, contact Shopp %scustomer service%s."
 msgstr ""
 
 #: core/model/Lookup.php:879
-msgid "For help with this, contact your web hosting provider or server administrator."
+msgid ""
+"For help with this, contact your web hosting provider or server "
+"administrator."
 msgstr ""
 
 #: core/model/Lookup.php:880
@@ -3002,7 +3105,9 @@ msgid "The file upload was stopped by a server extension."
 msgstr ""
 
 #: core/model/Lookup.php:903
-msgid "The file specified is not a valid upload and is out of bounds. Nice try though!"
+msgid ""
+"The file specified is not a valid upload and is out of bounds. Nice try "
+"though!"
 msgstr ""
 
 #: core/model/Lookup.php:904
@@ -3014,167 +3119,200 @@ msgid "The uploaded file is empty."
 msgstr ""
 
 #: core/model/Lookup.php:906
-msgid "The size of the uploaded file does not match the size reported by the client. Something fishy going on?"
+msgid ""
+"The size of the uploaded file does not match the size reported by the "
+"client. Something fishy going on?"
 msgstr ""
 
-#: core/model/Lookup.php:910
+#: core/model/Lookup.php:909
 msgid "Could not connect to the shopplugin.net server."
 msgstr ""
 
-#: core/model/Lookup.php:911
+#: core/model/Lookup.php:912
 msgid "No response was sent back by the shopplugin.net server."
 msgstr ""
 
-#: core/model/Lookup.php:912
-msgid "The connection to the shopplugin.net server failed due to an unknown error."
+#: core/model/Lookup.php:913
+msgid ""
+"The connection to the shopplugin.net server failed due to an unknown error."
 msgstr ""
 
-#: core/model/Lookup.php:913
-#: core/model/Lookup.php:930
-#: core/model/Lookup.php:946
+#: core/model/Lookup.php:914 core/model/Lookup.php:932
+#: core/model/Lookup.php:949
 msgid "The server couldn't understand the request."
 msgstr ""
 
-#: core/model/Lookup.php:914
-#: core/model/Lookup.php:931
-#: core/model/Lookup.php:947
+#: core/model/Lookup.php:915 core/model/Lookup.php:933
+#: core/model/Lookup.php:950
 msgid "The server requires login authentication and denied access."
 msgstr ""
 
-#: core/model/Lookup.php:915
-#: core/model/Lookup.php:932
-#: core/model/Lookup.php:948
+#: core/model/Lookup.php:916 core/model/Lookup.php:934
+#: core/model/Lookup.php:951
 msgid "The server refused the connection."
 msgstr ""
 
-#: core/model/Lookup.php:916
+#: core/model/Lookup.php:917
 msgid "The requested resource does not exist on the shopplugin.net server."
 msgstr ""
 
-#: core/model/Lookup.php:917
-msgid "The shopplugin.net server experienced an error and could not handle the request."
-msgstr ""
-
 #: core/model/Lookup.php:918
-msgid "The shopplugin.net server does not support the method of the request."
+msgid ""
+"The shopplugin.net server experienced an error and could not handle the "
+"request."
 msgstr ""
 
 #: core/model/Lookup.php:919
-msgid "The shopplugin.net server is acting as a gateway and received an invalid response from the upstream server."
+msgid "The shopplugin.net server does not support the method of the request."
 msgstr ""
 
 #: core/model/Lookup.php:920
-msgid "The shopplugin.net server is temporarily unavailable due to a high volume of traffic."
+msgid ""
+"The shopplugin.net server is acting as a gateway and received an invalid "
+"response from the upstream server."
 msgstr ""
 
 #: core/model/Lookup.php:921
-msgid "The connected shopplugin.net server is acting as a gateway and received a connection timeout from the upstream server."
+msgid ""
+"The shopplugin.net server is temporarily unavailable due to a high volume of "
+"traffic."
 msgstr ""
 
 #: core/model/Lookup.php:922
-msgid "The shopplugin.net server doesn't support the connection protocol version used in the request."
+msgid ""
+"The connected shopplugin.net server is acting as a gateway and received a "
+"connection timeout from the upstream server."
+msgstr ""
+
+#: core/model/Lookup.php:923
+msgid ""
+"The shopplugin.net server doesn't support the connection protocol version "
+"used in the request."
 msgstr ""
 
 #: core/model/Lookup.php:926
-msgid "No payment system has been setup for the storefront."
-msgstr ""
-
-#: core/model/Lookup.php:927
 msgid "Could not connect to the payment server."
 msgstr ""
 
 #: core/model/Lookup.php:928
+msgid "No payment system has been setup for the storefront."
+msgstr ""
+
+#: core/model/Lookup.php:930
 msgid "No response was sent back by the payment server."
 msgstr ""
 
-#: core/model/Lookup.php:929
+#: core/model/Lookup.php:931
 msgid "The connection to the payment server failed due to an unknown error."
 msgstr ""
 
-#: core/model/Lookup.php:933
+#: core/model/Lookup.php:935
 msgid "The requested resource does not exist on the payment server."
 msgstr ""
 
-#: core/model/Lookup.php:934
-msgid "The payment server experienced an error and could not handle the request."
-msgstr ""
-
-#: core/model/Lookup.php:935
-msgid "The payment server does not support the method of the request."
-msgstr ""
-
 #: core/model/Lookup.php:936
-msgid "The connected payment server is acting as a gateway and received an invalid response from the upstream server."
+msgid ""
+"The payment server experienced an error and could not handle the request."
 msgstr ""
 
 #: core/model/Lookup.php:937
-msgid "The payment server is temporarily unavailable due to a high volume of traffic."
+msgid "The payment server does not support the method of the request."
 msgstr ""
 
 #: core/model/Lookup.php:938
-msgid "The connected payment server is acting as a gateway and received a connection timeout from the upstream server."
+msgid ""
+"The connected payment server is acting as a gateway and received an invalid "
+"response from the upstream server."
 msgstr ""
 
 #: core/model/Lookup.php:939
-msgid "The payment server doesn't support the connection protocol version used in the request."
+msgid ""
+"The payment server is temporarily unavailable due to a high volume of "
+"traffic."
 msgstr ""
 
-#: core/model/Lookup.php:943
-msgid "Could not connect to the shipping rates server."
+#: core/model/Lookup.php:940
+msgid ""
+"The connected payment server is acting as a gateway and received a "
+"connection timeout from the upstream server."
+msgstr ""
+
+#: core/model/Lookup.php:941
+msgid ""
+"The payment server doesn't support the connection protocol version used in "
+"the request."
 msgstr ""
 
 #: core/model/Lookup.php:944
+msgid "Could not connect to the shipping rates server."
+msgstr ""
+
+#: core/model/Lookup.php:947
 msgid "No response was sent back by the shipping rates server."
 msgstr ""
 
-#: core/model/Lookup.php:945
-msgid "The connection to the shipping rates server failed due to an unknown error."
-msgstr ""
-
-#: core/model/Lookup.php:949
-msgid "The requested resource does not exist on the shipping rates server."
-msgstr ""
-
-#: core/model/Lookup.php:950
-msgid "The shipping rates server experienced an error and could not handle the request."
-msgstr ""
-
-#: core/model/Lookup.php:951
-msgid "The shipping rates server does not support the method of the request."
+#: core/model/Lookup.php:948
+msgid ""
+"The connection to the shipping rates server failed due to an unknown error."
 msgstr ""
 
 #: core/model/Lookup.php:952
-msgid "The connected shipping rates server is acting as a gateway and received an invalid response from the upstream server."
+msgid "The requested resource does not exist on the shipping rates server."
 msgstr ""
 
 #: core/model/Lookup.php:953
-msgid "The shipping rates server is temporarily unavailable due to a high volume of traffic."
+msgid ""
+"The shipping rates server experienced an error and could not handle the "
+"request."
 msgstr ""
 
 #: core/model/Lookup.php:954
-msgid "The connected shipping rates server is acting as a gateway and received a connection timeout from the upstream server."
+msgid "The shipping rates server does not support the method of the request."
 msgstr ""
 
 #: core/model/Lookup.php:955
-msgid "The shipping rates server doesn't support the connection protocol version used in the request."
+msgid ""
+"The connected shipping rates server is acting as a gateway and received an "
+"invalid response from the upstream server."
 msgstr ""
 
-#: core/model/Product.php:112
+#: core/model/Lookup.php:956
+msgid ""
+"The shipping rates server is temporarily unavailable due to a high volume of "
+"traffic."
+msgstr ""
+
+#: core/model/Lookup.php:957
+msgid ""
+"The connected shipping rates server is acting as a gateway and received a "
+"connection timeout from the upstream server."
+msgstr ""
+
+#: core/model/Lookup.php:958
+msgid ""
+"The shipping rates server doesn't support the connection protocol version "
+"used in the request."
+msgstr ""
+
+#: core/model/Product.php:113 core/flow/Categorize.php:286
+#: core/flow/Members.php:254 core/flow/Members.php:282 core/flow/Admin.php:99
+#: core/flow/Admin.php:284 core/ui/products/products.php:4
 #, fuzzy
 msgid "Products"
 msgstr "Project"
 
-#: core/model/Product.php:114
+#: core/model/Product.php:115
 #, fuzzy
 msgid "Edit Product"
 msgstr "Project bewerken"
 
-#: core/model/Product.php:115
+#: core/model/Product.php:116 core/flow/Warehouse.php:645
+#: core/flow/Admin.php:446 core/ui/products/ui.php:9
 #, fuzzy
 msgid "New Product"
 msgstr "Nieuw project"
 
-#: core/model/Product.php:1064
+#: core/model/Product.php:1067
 msgid "copy"
 msgstr ""
 
@@ -3199,7 +3337,9 @@ msgid "New Order - %s"
 msgstr "Beoordeling"
 
 #: core/model/Purchase.php:449
-msgid "A purchase notification could not be sent because the template for it does not exist."
+msgid ""
+"A purchase notification could not be sent because the template for it does "
+"not exist."
 msgstr ""
 
 #: core/model/Purchase.php:474
@@ -3212,26 +3352,26 @@ msgstr "Beoordeling"
 msgid "Customer's IP Address"
 msgstr "Adres"
 
-#: core/model/Purchase.php:476
+#: core/model/Purchase.php:476 core/model/Customer.php:361
 #, fuzzy
 msgid "Customer's First Name"
 msgstr "Bouwschade"
 
-#: core/model/Purchase.php:477
+#: core/model/Purchase.php:477 core/model/Customer.php:362
 #, fuzzy
 msgid "Customer's Last Name"
 msgstr "Bouwschade"
 
-#: core/model/Purchase.php:478
+#: core/model/Purchase.php:478 core/model/Customer.php:363
 #, fuzzy
 msgid "Customer's Email Address"
 msgstr "Adres"
 
-#: core/model/Purchase.php:479
+#: core/model/Purchase.php:479 core/model/Customer.php:364
 msgid "Customer's Phone Number"
 msgstr ""
 
-#: core/model/Purchase.php:480
+#: core/model/Purchase.php:480 core/model/Customer.php:365
 #, fuzzy
 msgid "Customer's Company"
 msgstr "Inloggen"
@@ -3241,7 +3381,7 @@ msgstr "Inloggen"
 msgid "Credit Card Number"
 msgstr "Aantal slaapplaatsen"
 
-#: core/model/Purchase.php:482
+#: core/model/Purchase.php:482 core/ui/help/orders.php:6
 #, fuzzy
 msgid "Credit Card Type"
 msgstr "Types"
@@ -3264,7 +3404,7 @@ msgstr "Schepen in"
 msgid "Promotions Applied"
 msgstr ""
 
-#: core/model/Purchase.php:500
+#: core/model/Purchase.php:500 shipping/core/PercentageAmount.php:58
 msgid "Order Subtotal"
 msgstr ""
 
@@ -3292,7 +3432,7 @@ msgstr "Beoordeling"
 msgid "Transaction Fees"
 msgstr "Locatie: %s"
 
-#: core/model/Purchase.php:506
+#: core/model/Purchase.php:506 core/ui/help/orders.php:4
 msgid "Transaction ID"
 msgstr ""
 
@@ -3326,7 +3466,7 @@ msgstr "Beoordeling"
 msgid "Order Last Updated"
 msgstr "Einddatum:"
 
-#: core/model/Purchase.php:832
+#: core/model/Purchase.php:838
 msgid "QuickBooks account name for transactions"
 msgstr ""
 
@@ -3335,7 +3475,9 @@ msgstr ""
 msgid "Virtual"
 msgstr "Portaal"
 
-#: core/model/Price.php:201
+#: core/model/Price.php:201 core/ui/customers/customers.php:105
+#: core/ui/orders/orders.php:140 api/theme/purchase.php:243
+#: api/theme/purchase.php:264 api/theme/purchase.php:313
 msgid "Download"
 msgstr ""
 
@@ -3349,7 +3491,7 @@ msgstr "Locatie:"
 msgid "Subscription"
 msgstr "Projectgegevens"
 
-#: core/model/Price.php:204
+#: core/model/Price.php:204 core/flow/Promote.php:184 core/flow/Setup.php:1194
 #, fuzzy
 msgid "Disabled"
 msgstr "Zeilschip"
@@ -3392,51 +3534,51 @@ msgstr "Maand:"
 msgid "year"
 msgstr "Zoeken"
 
-#: core/model/Purchased.php:116
+#: core/model/Purchased.php:119
 msgid "Line Item ID"
 msgstr ""
 
-#: core/model/Purchased.php:117
+#: core/model/Purchased.php:120
 #, fuzzy
 msgid "Product Name"
 msgstr "Publicatie naam"
 
-#: core/model/Purchased.php:118
+#: core/model/Purchased.php:121
 #, fuzzy
 msgid "Product Variation Name"
 msgstr "Publicatie naam"
 
-#: core/model/Purchased.php:119
+#: core/model/Purchased.php:122
 #, fuzzy
 msgid "Product Description"
 msgstr "Projectgegevens"
 
-#: core/model/Purchased.php:120
+#: core/model/Purchased.php:123
 #, fuzzy
 msgid "Product SKU"
 msgstr "Project"
 
-#: core/model/Purchased.php:121
+#: core/model/Purchased.php:124
 #, fuzzy
 msgid "Product Quantity Purchased"
 msgstr "Gebruikersnaam kan niet worden gewijzigd."
 
-#: core/model/Purchased.php:122
+#: core/model/Purchased.php:125
 #, fuzzy
 msgid "Product Unit Price"
 msgstr "Artikelen"
 
-#: core/model/Purchased.php:123
+#: core/model/Purchased.php:126
 #, fuzzy
 msgid "Product Total Price"
 msgstr "Publicatie naam"
 
-#: core/model/Purchased.php:124
+#: core/model/Purchased.php:127
 #, fuzzy
 msgid "Product Data"
 msgstr "Publicatie naam"
 
-#: core/model/Purchased.php:125
+#: core/model/Purchased.php:128 core/ui/settings/preferences.php:106
 #, fuzzy
 msgid "Product Downloads"
 msgstr "Project"
@@ -3448,10 +3590,14 @@ msgstr ""
 
 #: core/model/Modules.php:197
 #, php-format
-msgid "%s could not be loaded because it requires version %s (or higher) of Shopp."
+msgid ""
+"%s could not be loaded because it requires version %s (or higher) of Shopp."
 msgstr ""
 
-#: core/model/Modules.php:408
+#: core/model/Modules.php:408 core/flow/Admin.php:1065
+#: core/flow/Admin.php:1131 core/ui/customers/customers.php:93
+#: core/ui/settings/setup.php:57 core/ui/settings/shipping.php:29
+#: core/ui/orders/orders.php:125
 #, fuzzy
 msgid "Select All"
 msgstr "wijzig / verwijder"
@@ -3463,63 +3609,70 @@ msgstr "Land"
 
 #: core/model/Cart.php:112
 #, php-format
-msgid "The shopping cart cannot be changed because it has already been submitted for processing. Please correct problems in %1$scheckout%3$s or %2$sstart a new order%3$s."
+msgid ""
+"The shopping cart cannot be changed because it has already been submitted "
+"for processing. Please correct problems in %1$scheckout%3$s or %2$sstart a "
+"new order%3$s."
 msgstr ""
 
-#: core/model/Cart.php:341
-msgid "A subscription must be purchased separately. Complete your current transaction and try again."
+#: core/model/Cart.php:342
+msgid ""
+"A subscription must be purchased separately. Complete your current "
+"transaction and try again."
 msgstr ""
 
-#: core/model/Cart.php:390
-msgid "Not enough of the product is available in stock to fulfill your request."
+#: core/model/Cart.php:391 core/model/Item.php:309
+msgid ""
+"Not enough of the product is available in stock to fulfill your request."
 msgstr ""
 
-#: core/model/Cart.php:395
+#: core/model/Cart.php:397 core/model/Item.php:252
 msgid "The product could not be added to the cart because it is not in stock."
 msgstr ""
 
-#: core/model/Cart.php:912
+#: core/model/Cart.php:913
 msgid "No additional codes can be applied."
 msgstr ""
 
-#: core/model/Cart.php:995
+#: core/model/Cart.php:996
 #, fuzzy, php-format
 msgid "%s is not a valid code."
 msgstr "Bovenliggende fase:"
 
-#: core/model/Cart.php:1072
+#: core/model/Cart.php:1073
 #, php-format
 msgid "%s has already been applied."
 msgstr ""
 
-#: core/model/Item.php:245
-msgid "The product could not be added to the cart because it could not be found."
+#: core/model/Item.php:246
+msgid ""
+"The product could not be added to the cart because it could not be found."
 msgstr ""
 
-#: core/model/Item.php:506
+#: core/model/Item.php:509
 msgid "Subscription rebilled unlimited times."
 msgstr ""
 
-#: core/model/Item.php:507
+#: core/model/Item.php:510
 #, php-format
 msgid "Subscription rebilled once."
 msgid_plural "Subscription rebilled %s times."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model/Item.php:525
+#: core/model/Item.php:528
 #, fuzzy
 msgctxt "Item trial period label"
 msgid "Trial Period"
 msgstr "Vaarprogramma’s"
 
-#: core/model/Item.php:540
+#: core/model/Item.php:543
 #, fuzzy
 msgctxt "Subscription terms label"
 msgid "Subscription"
 msgstr "Projectgegevens"
 
-#: core/model/Promotion.php:283
+#: core/model/Promotion.php:284
 #, php-format
 msgid "%s copy"
 msgstr ""
@@ -3530,111 +3683,97 @@ msgid "Shopp Notification"
 msgstr "Geen secties"
 
 #: core/model/Error.php:561
-msgid "This is an automated notification message generated by the Shopp installation at "
+msgid ""
+"This is an automated notification message generated by the Shopp "
+"installation at "
 msgstr ""
 
 #: core/model/Gateway.php:108
 msgid "Credit Card"
 msgstr ""
 
-#: core/model/Gateway.php:664
-#: core/model/Gateway.php:676
+#: core/model/Gateway.php:664 core/model/Gateway.php:676
+#: core/flow/Order.php:732
 #, fuzzy
 msgid "Free Order"
 msgstr "Beoordeling"
 
-#: core/model/Customer.php:156
-#: core/model/Customer.php:245
+#: core/model/Customer.php:156 core/model/Customer.php:249
 #, php-format
 msgid "Order number %s could not be found in your order history."
 msgstr ""
 
-#: core/model/Customer.php:173
-#: core/model/Customer.php:186
+#: core/model/Customer.php:173 core/model/Customer.php:188
 #, php-format
 msgid "[%s] New Customer Registration"
 msgstr ""
 
-#: core/model/Customer.php:175
-#: core/model/Customer.php:188
+#: core/model/Customer.php:175 core/model/Customer.php:190
 #, php-format
 msgid "New customer registration on your \"%s\" store:"
 msgstr ""
 
-#: core/model/Customer.php:176
-#: core/model/Customer.php:189
+#: core/model/Customer.php:176 core/model/Customer.php:191
 #, fuzzy, php-format
 msgid "E-mail: %s"
 msgstr "E-mailadres"
 
-#: core/model/Customer.php:190
-#: core/flow/Storefront.php:1533
+#: core/model/Customer.php:192 core/flow/Storefront.php:1552
 #, fuzzy, php-format
 msgid "Password: %s"
 msgstr "Wachtwoord"
 
-#: core/model/Customer.php:266
-msgid "This login name is invalid because it uses illegal characters. Please enter a valid login name."
+#: core/model/Customer.php:270
+msgid ""
+"This login name is invalid because it uses illegal characters. Please enter "
+"a valid login name."
 msgstr ""
 
-#: core/model/Customer.php:270
+#: core/model/Customer.php:274
 msgid "The login name is already registered. Please choose another login name."
 msgstr ""
 
-#: core/model/Customer.php:323
+#: core/model/Customer.php:327 core/flow/Order.php:1117
 msgid "The passwords you entered do not match. Please re-enter your passwords."
 msgstr ""
 
-#: core/model/Customer.php:362
+#: core/model/Customer.php:366
 msgid "Customer's Marketing Preference"
 msgstr ""
 
-#: core/model/Customer.php:364
+#: core/model/Customer.php:368
 #, fuzzy
 msgid "Customer Created Date"
 msgstr "Bouwschade"
 
-#: core/model/Customer.php:365
+#: core/model/Customer.php:369
 msgid "Customer Last Updated Date"
 msgstr ""
 
-#: core/flow/Categorize.php:141
-#: core/flow/Warehouse.php:189
+#: core/flow/Categorize.php:141 core/flow/Warehouse.php:189
 #, php-format
 msgid "%s has been saved."
 msgstr ""
 
-#: core/flow/Categorize.php:190
-#: core/flow/Categorize.php:330
-#: core/flow/Categorize.php:385
-#: core/flow/Categorize.php:508
-#: core/flow/Warehouse.php:430
-#: core/flow/Warehouse.php:602
-#: core/flow/Warehouse.php:684
-#: core/flow/Promote.php:93
-#: core/flow/Promote.php:244
-#: core/flow/Members.php:306
-#: core/flow/Account.php:315
-#: core/flow/Setup.php:186
-#: core/flow/Setup.php:274
-#: core/flow/Setup.php:335
-#: core/flow/Setup.php:411
-#: core/flow/Setup.php:688
-#: core/flow/Setup.php:729
-#: core/flow/Setup.php:899
-#: core/flow/Setup.php:993
-#: core/flow/Setup.php:1031
-#: core/flow/Setup.php:1117
+#: core/flow/Categorize.php:190 core/flow/Categorize.php:330
+#: core/flow/Categorize.php:385 core/flow/Categorize.php:508
+#: core/flow/Warehouse.php:455 core/flow/Warehouse.php:627
+#: core/flow/Warehouse.php:709 core/flow/Promote.php:93
+#: core/flow/Promote.php:244 core/flow/Members.php:306
+#: core/flow/Account.php:315 core/flow/Setup.php:186 core/flow/Setup.php:279
+#: core/flow/Setup.php:354 core/flow/Setup.php:430 core/flow/Setup.php:717
+#: core/flow/Setup.php:758 core/flow/Setup.php:929 core/flow/Setup.php:1023
+#: core/flow/Setup.php:1061 core/flow/Setup.php:1147 core/flow/Service.php:223
+#: core/flow/Service.php:345
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: core/flow/Categorize.php:285
-#: core/flow/Admin.php:283
-#: core/flow/Setup.php:1023
+#: core/flow/Categorize.php:285 core/flow/Admin.php:283
+#: core/flow/Setup.php:1053 core/ui/settings/pages.php:22
 msgid "Slug"
 msgstr ""
 
-#: core/flow/Categorize.php:287
+#: core/flow/Categorize.php:287 core/ui/settings/presentation.php:12
 msgid "Templates"
 msgstr ""
 
@@ -3643,20 +3782,20 @@ msgstr ""
 msgid "Menus"
 msgstr "Bijeenkomsten"
 
-#: core/flow/Categorize.php:346
+#: core/flow/Categorize.php:346 core/ui/categories/ui.php:83
 msgid "Price ranges disabled"
 msgstr ""
 
-#: core/flow/Categorize.php:347
+#: core/flow/Categorize.php:347 core/ui/categories/ui.php:84
 msgid "Build price ranges automatically"
 msgstr ""
 
-#: core/flow/Categorize.php:348
+#: core/flow/Categorize.php:348 core/ui/categories/ui.php:85
 msgid "Use custom price ranges"
 msgstr ""
 
-#: core/flow/Categorize.php:355
-#: core/flow/Warehouse.php:618
+#: core/flow/Categorize.php:355 core/flow/Warehouse.php:643
+#: core/ui/categories/ui.php:6 core/ui/products/ui.php:7
 #, fuzzy
 msgid "Continue Editing"
 msgstr "Lees verder &rarr;"
@@ -3666,14 +3805,14 @@ msgstr "Lees verder &rarr;"
 msgid "Categories Manager"
 msgstr "Categorieën"
 
-#: core/flow/Categorize.php:358
-#: core/flow/Warehouse.php:621
+#: core/flow/Categorize.php:358 core/flow/Warehouse.php:646
+#: core/ui/categories/ui.php:9 core/ui/products/ui.php:10
 #, fuzzy
 msgid "Edit Next"
 msgstr "Beoordeling"
 
-#: core/flow/Categorize.php:359
-#: core/flow/Warehouse.php:622
+#: core/flow/Categorize.php:359 core/flow/Warehouse.php:647
+#: core/ui/categories/ui.php:10 core/ui/products/ui.php:11
 #, fuzzy
 msgid "Edit Previous"
 msgstr "Premium"
@@ -3683,7 +3822,8 @@ msgstr "Premium"
 msgid "category saved."
 msgstr "Beoordeling"
 
-#: core/flow/Warehouse.php:260
+#: core/flow/Warehouse.php:260 core/ui/products/ui.php:23
+#: core/ui/products/products.php:162
 msgid "Published"
 msgstr ""
 
@@ -3692,144 +3832,146 @@ msgstr ""
 msgid "Drafts"
 msgstr "datum"
 
-#: core/flow/Warehouse.php:263
-#: core/flow/Warehouse.php:546
-#: core/flow/Warehouse.php:561
+#: core/flow/Warehouse.php:263 core/flow/Warehouse.php:571
+#: core/flow/Warehouse.php:586
 #, fuzzy
 msgid "Featured"
 msgstr "Gerelateerd"
 
-#: core/flow/Warehouse.php:265
-#: core/flow/Warehouse.php:545
-#: core/flow/Warehouse.php:550
-#: core/flow/Warehouse.php:560
+#: core/flow/Warehouse.php:265 core/flow/Warehouse.php:570
+#: core/flow/Warehouse.php:575 core/flow/Warehouse.php:585
+#: core/ui/categories/category.php:123 core/ui/products/inventory.php:4
 #, fuzzy
 msgid "Inventory"
 msgstr "Land"
 
-#: core/flow/Warehouse.php:266
+#: core/flow/Warehouse.php:266 core/ui/products/products.php:102
 #, fuzzy
 msgid "Trash"
 msgstr "Pagina's: %s"
 
-#: core/flow/Warehouse.php:464
+#: core/flow/Warehouse.php:489
 #, fuzzy
 msgid "View all categories"
 msgstr "Bekijk alle oefenstof"
 
-#: core/flow/Warehouse.php:465
+#: core/flow/Warehouse.php:490 core/ui/behaviors/tinymce/dialog.php:32
 #, fuzzy
 msgid "Uncategorized"
 msgstr "Categorieën"
 
-#: core/flow/Warehouse.php:477
+#: core/flow/Warehouse.php:502
 #, fuzzy
 msgid "View all products"
 msgstr "Bekijk project"
 
-#: core/flow/Warehouse.php:478
+#: core/flow/Warehouse.php:503
 msgid "In stock"
 msgstr ""
 
-#: core/flow/Warehouse.php:479
+#: core/flow/Warehouse.php:504
 msgid "Low stock"
 msgstr ""
 
-#: core/flow/Warehouse.php:480
+#: core/flow/Warehouse.php:505
 msgid "Out-of-stock"
 msgstr ""
 
-#: core/flow/Warehouse.php:481
+#: core/flow/Warehouse.php:506
 #, fuzzy
 msgid "Not stocked"
 msgstr "Niet gevonden"
 
-#: core/flow/Warehouse.php:501
+#: core/flow/Warehouse.php:526 core/ui/products/ui.php:23
 msgid "Publish"
 msgstr ""
 
-#: core/flow/Warehouse.php:502
+#: core/flow/Warehouse.php:527
 msgid "Unpublish"
 msgstr ""
 
-#: core/flow/Warehouse.php:503
+#: core/flow/Warehouse.php:528
 #, fuzzy
 msgid "Feature"
 msgstr "Gerelateerd"
 
-#: core/flow/Warehouse.php:504
+#: core/flow/Warehouse.php:529
 #, fuzzy
 msgid "De-feature"
 msgstr "Gerelateerd"
 
-#: core/flow/Warehouse.php:505
+#: core/flow/Warehouse.php:530
 msgid "Move to trash"
 msgstr ""
 
-#: core/flow/Warehouse.php:510
+#: core/flow/Warehouse.php:535 core/ui/products/products.php:95
 #, fuzzy
 msgid "Restore"
 msgstr "Gerelateerd"
 
-#: core/flow/Warehouse.php:511
+#: core/flow/Warehouse.php:536
 #, fuzzy
 msgid "Delete permanently"
 msgstr "Verwijder bericht"
 
-#: core/flow/Warehouse.php:544
-#: core/flow/Warehouse.php:559
+#: core/flow/Warehouse.php:569 core/flow/Warehouse.php:584
+#: core/ui/categories/category.php:109
 #, fuzzy
 msgid "Price"
 msgstr "Artikelen"
 
-#: core/flow/Warehouse.php:551
+#: core/flow/Warehouse.php:576 core/ui/orders/order.php:55
+#: core/ui/categories/category.php:126
 msgid "SKU"
 msgstr ""
 
-#: core/flow/Warehouse.php:557
+#: core/flow/Warehouse.php:582
 #, fuzzy
 msgid "Sold"
 msgstr "relevantie"
 
-#: core/flow/Warehouse.php:558
-#: core/flow/Admin.php:608
-#: core/flow/Admin.php:609
+#: core/flow/Warehouse.php:583 core/flow/Admin.php:608 core/flow/Admin.php:609
 #, fuzzy
 msgid "Sales"
 msgstr "Zeilschip"
 
-#: core/flow/Warehouse.php:619
+#: core/flow/Warehouse.php:644 core/ui/products/ui.php:8
 #, fuzzy
 msgid "Products Manager"
 msgstr "Publicatie naam"
 
-#: core/flow/Warehouse.php:936
-#: core/flow/Warehouse.php:996
-msgid "The file could not be saved because the upload was not found on the server."
+#: core/flow/Warehouse.php:961 core/flow/Warehouse.php:1021
+msgid ""
+"The file could not be saved because the upload was not found on the server."
 msgstr ""
 
-#: core/flow/Warehouse.php:939
-msgid "The file could not be saved because the web server does not have permission to read the upload."
+#: core/flow/Warehouse.php:964
+msgid ""
+"The file could not be saved because the web server does not have permission "
+"to read the upload."
 msgstr ""
 
-#: core/flow/Warehouse.php:942
-#: core/flow/Warehouse.php:1002
+#: core/flow/Warehouse.php:967 core/flow/Warehouse.php:1027
 msgid "The file could not be saved because the uploaded file is empty."
 msgstr ""
 
-#: core/flow/Warehouse.php:993
-msgid "The file could not be saved because the server cannot tell whether to attach the asset to a product or a category."
+#: core/flow/Warehouse.php:1018
+msgid ""
+"The file could not be saved because the server cannot tell whether to attach "
+"the asset to a product or a category."
 msgstr ""
 
-#: core/flow/Warehouse.php:999
-msgid "The file could not be saved because the web server does not have permission to read the upload from the server's temporary directory."
+#: core/flow/Warehouse.php:1024
+msgid ""
+"The file could not be saved because the web server does not have permission "
+"to read the upload from the server's temporary directory."
 msgstr ""
 
-#: core/flow/Warehouse.php:1016
+#: core/flow/Warehouse.php:1041
 msgid "The image already exists, but a new filename could not be generated."
 msgstr ""
 
-#: core/flow/Warehouse.php:1025
+#: core/flow/Warehouse.php:1050
 msgid "The image reference was not saved to the database."
 msgstr ""
 
@@ -3843,7 +3985,11 @@ msgstr "Alle secties"
 msgid "Not Active"
 msgstr "Categorieën"
 
-#: core/flow/Promote.php:183
+#: core/flow/Promote.php:183 core/ui/settings/taxes.php:15
+#: core/ui/settings/taxes.php:20 core/ui/settings/taxes.php:25
+#: core/ui/settings/shipping.php:15 core/ui/settings/shipping.php:20
+#: core/ui/settings/preferences.php:44 core/ui/settings/preferences.php:83
+#: core/ui/promotions/ui.php:8
 msgid "Enabled"
 msgstr ""
 
@@ -3861,9 +4007,8 @@ msgstr "Bovenliggende accomodatie"
 msgid "Cart Item Promotions"
 msgstr ""
 
-#: core/flow/Promote.php:215
-#: core/flow/Members.php:253
-#: core/flow/Setup.php:681
+#: core/flow/Promote.php:215 core/flow/Members.php:253 core/flow/Setup.php:710
+#: core/ui/categories/category.php:108
 #, fuzzy
 msgid "Type"
 msgstr "Types"
@@ -3883,8 +4028,7 @@ msgstr "Adres"
 msgid "Shopp"
 msgstr "Haven"
 
-#: core/flow/Members.php:276
-#: core/flow/Admin.php:115
+#: core/flow/Members.php:276 core/flow/Admin.php:115
 #, fuzzy
 msgid "Pages"
 msgstr "Pagina's: %s"
@@ -3893,13 +4037,13 @@ msgstr "Pagina's: %s"
 msgid "Media"
 msgstr ""
 
-#: core/flow/Members.php:281
+#: core/flow/Members.php:281 core/ui/memberships/memberships.php:3
 #, fuzzy
 msgid "Memberships"
 msgstr "schepen"
 
-#: core/flow/Members.php:285
-#: core/flow/Admin.php:109
+#: core/flow/Members.php:285 core/flow/Admin.php:109
+#: core/ui/promotions/promotions.php:4
 #, fuzzy
 msgid "Promotions"
 msgstr "Accomodaties"
@@ -3915,12 +4059,16 @@ msgstr ""
 
 #: core/flow/Account.php:117
 #, php-format
-msgid "Could not update customer login to \"%s\" because that user is already assigned to another customer."
+msgid ""
+"Could not update customer login to \"%s\" because that user is already "
+"assigned to another customer."
 msgstr ""
 
 #: core/flow/Account.php:119
 #, php-format
-msgid "Could not update customer login to \"%s\" because the user does not exist in WordPress."
+msgid ""
+"Could not update customer login to \"%s\" because the user does not exist in "
+"WordPress."
 msgstr ""
 
 #: core/flow/Account.php:146
@@ -3932,93 +4080,83 @@ msgstr "Einddatum:"
 msgid "Show New Customers"
 msgstr ""
 
-#: core/flow/Account.php:233
-#: core/flow/Admin.php:505
+#: core/flow/Account.php:233 core/flow/Admin.php:505 core/flow/Service.php:259
+#: core/ui/orders/events.php:145
 #, fuzzy
 msgid "Today"
 msgstr "Portaal"
 
-#: core/flow/Account.php:234
-#: core/flow/Admin.php:506
+#: core/flow/Account.php:234 core/flow/Admin.php:506 core/flow/Service.php:260
 #, fuzzy
 msgid "This Week"
 msgstr "Week"
 
-#: core/flow/Account.php:235
-#: core/flow/Admin.php:507
+#: core/flow/Account.php:235 core/flow/Admin.php:507 core/flow/Service.php:261
 #, fuzzy
 msgid "This Month"
 msgstr "Maand:"
 
-#: core/flow/Account.php:236
-#: core/flow/Admin.php:508
+#: core/flow/Account.php:236 core/flow/Admin.php:508 core/flow/Service.php:262
 msgid "This Quarter"
 msgstr ""
 
-#: core/flow/Account.php:237
-#: core/flow/Admin.php:509
+#: core/flow/Account.php:237 core/flow/Admin.php:509 core/flow/Service.php:263
 msgid "This Year"
 msgstr ""
 
-#: core/flow/Account.php:238
-#: core/flow/Admin.php:510
+#: core/flow/Account.php:238 core/flow/Admin.php:510 core/flow/Service.php:264
+#: core/ui/orders/events.php:143
 msgid "Yesterday"
 msgstr ""
 
-#: core/flow/Account.php:239
-#: core/flow/Admin.php:511
+#: core/flow/Account.php:239 core/flow/Admin.php:511 core/flow/Service.php:265
 #, fuzzy
 msgid "Last Week"
 msgstr "Einddatum:"
 
-#: core/flow/Account.php:240
-#: core/flow/Admin.php:512
+#: core/flow/Account.php:240 core/flow/Admin.php:512 core/flow/Service.php:266
 msgid "Last 30 Days"
 msgstr ""
 
-#: core/flow/Account.php:241
-#: core/flow/Admin.php:513
+#: core/flow/Account.php:241 core/flow/Admin.php:513 core/flow/Service.php:267
 #, fuzzy
 msgid "Last 3 Months"
 msgstr "Update evenement categorie"
 
-#: core/flow/Account.php:242
-#: core/flow/Admin.php:514
+#: core/flow/Account.php:242 core/flow/Admin.php:514 core/flow/Service.php:268
 #, fuzzy
 msgid "Last Month"
 msgstr "Update evenement categorie"
 
-#: core/flow/Account.php:243
-#: core/flow/Admin.php:515
+#: core/flow/Account.php:243 core/flow/Admin.php:515 core/flow/Service.php:269
 #, fuzzy
 msgid "Last Quarter"
 msgstr "Einddatum:"
 
-#: core/flow/Account.php:244
-#: core/flow/Admin.php:516
+#: core/flow/Account.php:244 core/flow/Admin.php:516 core/flow/Service.php:270
 #, fuzzy
 msgid "Last Year"
 msgstr "Einddatum:"
 
-#: core/flow/Account.php:245
+#: core/flow/Account.php:245 core/flow/Service.php:271
 #, fuzzy
 msgid "Last Export"
 msgstr "Update evenement categorie"
 
-#: core/flow/Account.php:246
+#: core/flow/Account.php:246 core/flow/Service.php:272
 #, fuzzy
 msgid "Custom Dates"
 msgstr "Bouwschade"
 
-#: core/flow/Account.php:250
+#: core/flow/Account.php:250 core/flow/Service.php:276
 msgid "Tab-separated.txt"
 msgstr ""
 
-#: core/flow/Account.php:251
+#: core/flow/Account.php:251 core/flow/Service.php:277
 msgid "Comma-separated.csv"
 msgstr ""
 
-#: core/flow/Account.php:252
+#: core/flow/Account.php:252 core/flow/Service.php:278
 msgid "Microsoft&reg; Excel.xls"
 msgstr ""
 
@@ -4027,13 +4165,13 @@ msgstr ""
 msgid "Location"
 msgstr "Sociale navigatie"
 
-#: core/flow/Account.php:285
-#: core/flow/Admin.php:97
+#: core/flow/Account.php:285 core/flow/Admin.php:97 core/ui/customers/ui.php:6
+#: core/ui/orders/orders.php:3 core/ui/orders/orders.php:21
 #, fuzzy
 msgid "Orders"
 msgstr "Beoordeling"
 
-#: core/flow/Account.php:286
+#: core/flow/Account.php:286 core/ui/customers/ui.php:7
 #, fuzzy
 msgid "Joined"
 msgstr "Nieuws"
@@ -4042,189 +4180,191 @@ msgstr "Nieuws"
 msgid "The requested customer record does not exist."
 msgstr ""
 
-#: core/flow/Storefront.php:479
+#: core/flow/Storefront.php:477
 #, fuzzy
 msgid "Feed"
 msgstr "Beoordeling"
 
-#: core/flow/Storefront.php:915
+#: core/flow/Storefront.php:913
 #, fuzzy
 msgid "Logout"
 msgstr "Uitloggen"
 
-#: core/flow/Storefront.php:916
+#: core/flow/Storefront.php:914
 #, fuzzy
 msgid "Your Orders"
 msgstr "Plaats reactie"
 
-#: core/flow/Storefront.php:918
+#: core/flow/Storefront.php:916
 msgid "My Account"
 msgstr ""
 
-#: core/flow/Storefront.php:921
+#: core/flow/Storefront.php:919
 #, fuzzy
 msgid "Login to your Account"
 msgstr "Uitloggen van dit account"
 
-#: core/flow/Storefront.php:924
+#: core/flow/Storefront.php:922
 msgid "Dashboard"
 msgstr ""
 
-#: core/flow/Storefront.php:1055
+#: core/flow/Storefront.php:1053
 #, fuzzy
 msgid "Shop"
 msgstr "Haven"
 
-#: core/flow/Storefront.php:1055
-msgid "The page title and base slug for products, categories &amp; collections."
+#: core/flow/Storefront.php:1053
+msgid ""
+"The page title and base slug for products, categories &amp; collections."
 msgstr ""
 
-#: core/flow/Storefront.php:1056
+#: core/flow/Storefront.php:1054
 #, fuzzy
 msgid "Account"
 msgstr "Publicatie naam"
 
-#: core/flow/Storefront.php:1056
+#: core/flow/Storefront.php:1054
 msgid "Used to display customer account dashboard &amp; profile pages."
 msgstr ""
 
-#: core/flow/Storefront.php:1057
+#: core/flow/Storefront.php:1055
 #, fuzzy
 msgid "Cart"
 msgstr "Status"
 
-#: core/flow/Storefront.php:1057
+#: core/flow/Storefront.php:1055
 msgid "Displays the shopping cart."
 msgstr ""
 
-#: core/flow/Storefront.php:1058
+#: core/flow/Storefront.php:1056
 msgid "Checkout"
 msgstr ""
 
-#: core/flow/Storefront.php:1058
+#: core/flow/Storefront.php:1056
 msgid "Displays the checkout form."
 msgstr ""
 
-#: core/flow/Storefront.php:1059
+#: core/flow/Storefront.php:1057
 msgid "Used to display an order summary to confirm changes in order price."
 msgstr ""
 
-#: core/flow/Storefront.php:1060
+#: core/flow/Storefront.php:1058
 msgid "Thank You!"
 msgstr ""
 
-#: core/flow/Storefront.php:1060
+#: core/flow/Storefront.php:1058
 msgid "The final page of the ordering process."
 msgstr ""
 
-#: core/flow/Storefront.php:1388
+#: core/flow/Storefront.php:1401
 #, fuzzy
 msgid "Order Lookup"
 msgstr "Beoordeling"
 
-#: core/flow/Storefront.php:1434
+#: core/flow/Storefront.php:1453
 msgid "Enter an email address or login name"
 msgstr ""
 
-#: core/flow/Storefront.php:1435
+#: core/flow/Storefront.php:1454
 #, fuzzy
 msgid "Enter an email address"
 msgstr "Adres"
 
-#: core/flow/Storefront.php:1441
+#: core/flow/Storefront.php:1460
 msgid "There is no user registered with that email address."
 msgstr ""
 
-#: core/flow/Storefront.php:1446
+#: core/flow/Storefront.php:1465
 msgid "There is no user registered with that login name."
 msgstr ""
 
-#: core/flow/Storefront.php:1458
+#: core/flow/Storefront.php:1477
 #, php-format
 msgid "[%s] Password Recovery Request"
 msgstr ""
 
-#: core/flow/Storefront.php:1465
-msgid "A request has been made to reset the password for the following site and account:"
+#: core/flow/Storefront.php:1484
+msgid ""
+"A request has been made to reset the password for the following site and "
+"account:"
 msgstr ""
 
-#: core/flow/Storefront.php:1470
+#: core/flow/Storefront.php:1489
 #, fuzzy, php-format
 msgid "Email: %s"
 msgstr "E-mailadres"
 
-#: core/flow/Storefront.php:1472
-#: core/flow/Storefront.php:1532
+#: core/flow/Storefront.php:1491 core/flow/Storefront.php:1551
 #, fuzzy, php-format
 msgid "Login name: %s"
 msgstr "Inloggen pagina"
 
-#: core/flow/Storefront.php:1474
+#: core/flow/Storefront.php:1493
 #, fuzzy, php-format
 msgid "Login: %s"
 msgstr "Inloggen"
 
-#: core/flow/Storefront.php:1477
-msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+#: core/flow/Storefront.php:1496
+msgid ""
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen."
 msgstr ""
 
-#: core/flow/Storefront.php:1483
-#: core/flow/Storefront.php:1540
+#: core/flow/Storefront.php:1502 core/flow/Storefront.php:1559
 msgid "The e-mail could not be sent."
 msgstr ""
 
-#: core/flow/Storefront.php:1486
-msgid "Check your email address for instructions on resetting the password for your account."
+#: core/flow/Storefront.php:1505
+msgid ""
+"Check your email address for instructions on resetting the password for your "
+"account."
 msgstr ""
 
-#: core/flow/Storefront.php:1499
-#: core/flow/Storefront.php:1503
+#: core/flow/Storefront.php:1518 core/flow/Storefront.php:1522
 msgid "Invalid key"
 msgstr ""
 
-#: core/flow/Storefront.php:1521
+#: core/flow/Storefront.php:1540
 #, fuzzy, php-format
 msgid "[%s] New Password"
 msgstr "Wachtwoord"
 
-#: core/flow/Storefront.php:1528
+#: core/flow/Storefront.php:1547
 #, fuzzy, php-format
 msgid "Your new password for %s:"
 msgstr "Plaats reactie"
 
-#: core/flow/Storefront.php:1536
+#: core/flow/Storefront.php:1555
 msgid "Click here to login:"
 msgstr ""
 
-#: core/flow/Storefront.php:1542
+#: core/flow/Storefront.php:1561
 #, fuzzy
 msgid "Check your email address for your new password."
 msgstr "Uw e-mail adres wordt niet gepubliceerd."
 
-#: core/flow/Storefront.php:1702
+#: core/flow/Storefront.php:1721
 msgid "We're Sorry!"
 msgstr ""
 
-#: core/flow/Storefront.php:1717
+#: core/flow/Storefront.php:1736
 msgid "The store is currently down for maintenance.  We'll be back soon!"
 msgstr ""
 
-#: core/flow/Storefront.php:1832
+#: core/flow/Storefront.php:1851 api/theme/product.php:336
 msgid "Buy Now"
 msgstr ""
 
-#: core/flow/Admin.php:98
+#: core/flow/Admin.php:98 core/ui/customers/customers.php:6
 msgid "Customers"
 msgstr ""
 
-#: core/flow/Admin.php:111
-#: core/flow/Admin.php:154
+#: core/flow/Admin.php:111 core/flow/Admin.php:154
 #, fuzzy
 msgid "Setup"
 msgstr "Nieuwe fase naam"
 
-#: core/flow/Admin.php:112
-#: core/flow/Setup.php:982
+#: core/flow/Admin.php:112 core/flow/Setup.php:1012
 #, fuzzy
 msgid "Payments"
 msgstr "Artikelen"
@@ -4252,8 +4392,7 @@ msgstr "Status"
 msgid "Catalog"
 msgstr ""
 
-#: core/flow/Admin.php:282
-#: core/flow/Setup.php:1024
+#: core/flow/Admin.php:282 core/flow/Setup.php:1054
 #, fuzzy
 msgid "Description"
 msgstr "Projectgegevens"
@@ -4273,7 +4412,9 @@ msgstr "Recente projecten"
 msgid "Low Inventory Monitor"
 msgstr "Geen secties"
 
-#: core/flow/Admin.php:600
+#: core/flow/Admin.php:600 core/ui/customers/customers.php:32
+#: core/ui/orders/orders.php:43 core/ui/products/inventory.php:26
+#: core/ui/products/products.php:33 core/ui/promotions/promotions.php:36
 #, fuzzy
 msgid "Filter"
 msgstr "Filter:"
@@ -4282,8 +4423,7 @@ msgstr "Filter:"
 msgid "Lifetime"
 msgstr ""
 
-#: core/flow/Admin.php:611
-#: core/flow/Admin.php:612
+#: core/flow/Admin.php:611 core/flow/Admin.php:612
 #, fuzzy
 msgid "Average Order"
 msgstr "Agenda"
@@ -4297,8 +4437,7 @@ msgstr ""
 msgid "Lifetime Bestsellers"
 msgstr ""
 
-#: core/flow/Admin.php:629
-#: core/flow/Admin.php:638
+#: core/flow/Admin.php:629 core/flow/Admin.php:638
 #, fuzzy
 msgid "None"
 msgstr "Nieuws"
@@ -4308,7 +4447,7 @@ msgstr "Nieuws"
 msgid "No orders, yet."
 msgstr "Geen teasers gevonden"
 
-#: core/flow/Admin.php:733
+#: core/flow/Admin.php:733 core/ui/categories/category.php:147
 msgid "OK"
 msgstr ""
 
@@ -4345,8 +4484,7 @@ msgstr "Categorieën"
 msgid "Catalog Collections"
 msgstr "Reactie"
 
-#: core/flow/Admin.php:1070
-#: core/flow/Admin.php:1136
+#: core/flow/Admin.php:1070 core/flow/Admin.php:1136
 #, fuzzy
 msgid "Add to Menu"
 msgstr "Nieuwe toevoegen"
@@ -4359,14 +4497,14 @@ msgstr ""
 msgid "Are you sure you want to remove this tax rate?"
 msgstr ""
 
-#: core/flow/Setup.php:54
-#: core/flow/Setup.php:105
+#: core/flow/Setup.php:54 core/flow/Setup.php:105
 #, fuzzy
 msgid "Rates"
 msgstr "datum"
 
-#: core/flow/Setup.php:55
-#: core/flow/Setup.php:106
+#: core/flow/Setup.php:55 core/flow/Setup.php:106 core/ui/customers/ui.php:38
+#: core/ui/memberships/ui.php:23 core/ui/categories/ui.php:42
+#: core/ui/products/ui.php:198
 #, fuzzy
 msgid "Settings"
 msgstr "Bijeenkomsten"
@@ -4395,7 +4533,10 @@ msgstr ""
 
 #: core/flow/Setup.php:122
 #, php-format
-msgid "Activate your Shopp access key for automatic updates and official support services. If you don't have a Shopp key, feel free to support the project by %s purchasing a key from the Shopp Store %s."
+msgid ""
+"Activate your Shopp access key for automatic updates and official support "
+"services. If you don't have a Shopp key, feel free to support the project by "
+"%s purchasing a key from the Shopp Store %s."
 msgstr ""
 
 #: core/flow/Setup.php:123
@@ -4428,8 +4569,7 @@ msgstr ""
 msgid "An unknown activation error occurred."
 msgstr "Er is een onbekende fout opgetreden."
 
-#: core/flow/Setup.php:130
-#: core/flow/Setup.php:135
+#: core/flow/Setup.php:130 core/flow/Setup.php:135
 msgid "The key provided is not valid."
 msgstr ""
 
@@ -4437,8 +4577,7 @@ msgstr ""
 msgid "This site is not valid to activate the key."
 msgstr ""
 
-#: core/flow/Setup.php:132
-#: core/flow/Setup.php:137
+#: core/flow/Setup.php:132 core/flow/Setup.php:137
 msgid "The key provided could not be validated by shopplugin.net."
 msgstr ""
 
@@ -4455,14 +4594,12 @@ msgstr "Er is een onbekende fout opgetreden."
 msgid "The site is not valid to be able to deactivate the key."
 msgstr ""
 
-#: core/flow/Setup.php:141
-#: core/flow/Setup.php:219
+#: core/flow/Setup.php:141 core/flow/Setup.php:219
 #, fuzzy
 msgid "Activate Key"
 msgstr "Accessoire"
 
-#: core/flow/Setup.php:142
-#: core/flow/Setup.php:222
+#: core/flow/Setup.php:142 core/flow/Setup.php:222
 msgid "De-activate Key"
 msgstr ""
 
@@ -4471,336 +4608,341 @@ msgstr ""
 msgid "Connecting"
 msgstr "Contact"
 
-#: core/flow/Setup.php:258
+#: core/flow/Setup.php:263
 msgid "Shopp settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:281
+#: core/flow/Setup.php:288
 msgid "Shopp presentation settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:287
+#: core/flow/Setup.php:294
 msgid "Shopp theme templates can't be used because they don't exist."
 msgstr ""
 
-#: core/flow/Setup.php:314
+#: core/flow/Setup.php:333
 msgid "Grid"
 msgstr ""
 
-#: core/flow/Setup.php:314
+#: core/flow/Setup.php:333
 #, fuzzy
 msgid "List"
 msgstr "Achternaam"
 
-#: core/flow/Setup.php:317
+#: core/flow/Setup.php:336
 #, fuzzy
 msgid "Custom"
 msgstr "Inloggen"
 
-#: core/flow/Setup.php:320
+#: core/flow/Setup.php:339
 #, fuzzy
 msgid "Reverse Order"
 msgstr "Beoordeling"
 
-#: core/flow/Setup.php:321
+#: core/flow/Setup.php:340
 #, fuzzy
 msgid "Shuffle"
 msgstr "Zoek leeftijden"
 
-#: core/flow/Setup.php:323
+#: core/flow/Setup.php:342
 msgid "Custom arrangement"
 msgstr ""
 
-#: core/flow/Setup.php:324
+#: core/flow/Setup.php:343
 #, fuzzy
 msgid "Upload date"
 msgstr "Update classificatie"
 
-#: core/flow/Setup.php:355
+#: core/flow/Setup.php:374
 msgid "Shopp checkout settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:361
+#: core/flow/Setup.php:380
 msgid "30 minutes"
 msgstr ""
 
-#: core/flow/Setup.php:362
+#: core/flow/Setup.php:381
 #, fuzzy
 msgid "1 hour"
 msgstr "Land"
 
-#: core/flow/Setup.php:363
+#: core/flow/Setup.php:382
 msgid "2 hours"
 msgstr ""
 
-#: core/flow/Setup.php:364
+#: core/flow/Setup.php:383
 msgid "3 hours"
 msgstr ""
 
-#: core/flow/Setup.php:365
+#: core/flow/Setup.php:384
 msgid "6 hours"
 msgstr ""
 
-#: core/flow/Setup.php:366
+#: core/flow/Setup.php:385
 msgid "12 hours"
 msgstr ""
 
-#: core/flow/Setup.php:367
+#: core/flow/Setup.php:386
 msgid "1 day"
 msgstr ""
 
-#: core/flow/Setup.php:368
+#: core/flow/Setup.php:387
 #, fuzzy
 msgid "2 days"
 msgstr "3 feestdagen"
 
-#: core/flow/Setup.php:369
+#: core/flow/Setup.php:388
 #, fuzzy
 msgid "3 days"
 msgstr "3 feestdagen"
 
-#: core/flow/Setup.php:370
+#: core/flow/Setup.php:389
 #, fuzzy
 msgid "1 week"
 msgstr "Midweek"
 
-#: core/flow/Setup.php:371
+#: core/flow/Setup.php:390
 #, fuzzy
 msgid "1 month"
 msgstr "Alle maanden"
 
-#: core/flow/Setup.php:372
+#: core/flow/Setup.php:391
 #, fuzzy
 msgid "3 months"
 msgstr "Alle maanden"
 
-#: core/flow/Setup.php:373
+#: core/flow/Setup.php:392
 #, fuzzy
 msgid "6 months"
 msgstr "Alle maanden"
 
-#: core/flow/Setup.php:374
+#: core/flow/Setup.php:393
 #, fuzzy
 msgid "1 year"
 msgstr "1 Reactie"
 
-#: core/flow/Setup.php:378
+#: core/flow/Setup.php:397
 msgid "Map the label to an order state:"
 msgstr ""
 
-#: core/flow/Setup.php:385
+#: core/flow/Setup.php:404 core/flow/Install.php:358
 msgid "Not as described or expected"
 msgstr ""
 
-#: core/flow/Setup.php:386
+#: core/flow/Setup.php:405 core/flow/Install.php:359
 msgid "Wrong size"
 msgstr ""
 
-#: core/flow/Setup.php:387
+#: core/flow/Setup.php:406 core/flow/Install.php:360
 msgid "Found better prices elsewhere"
 msgstr ""
 
-#: core/flow/Setup.php:388
+#: core/flow/Setup.php:407 core/flow/Install.php:361
 #, fuzzy
 msgid "Product is missing parts"
 msgstr "Uitloggen van dit account."
 
-#: core/flow/Setup.php:389
+#: core/flow/Setup.php:408
 msgid "Product is defective or damaaged"
 msgstr ""
 
-#: core/flow/Setup.php:390
+#: core/flow/Setup.php:409 core/flow/Install.php:363
 msgid "Took too long to deliver"
 msgstr ""
 
-#: core/flow/Setup.php:391
+#: core/flow/Setup.php:410 core/flow/Install.php:364
 #, fuzzy
 msgid "Item out of stock"
 msgstr "Gerelateerd"
 
-#: core/flow/Setup.php:392
+#: core/flow/Setup.php:411 core/flow/Install.php:365
 #, fuzzy
 msgid "Customer request to cancel"
 msgstr "Bouwschade"
 
-#: core/flow/Setup.php:393
+#: core/flow/Setup.php:412 core/flow/Install.php:366
 msgid "Item discontinued"
 msgstr ""
 
-#: core/flow/Setup.php:394
+#: core/flow/Setup.php:413 core/flow/Install.php:367
 msgid "Other reason"
 msgstr ""
 
-#: core/flow/Setup.php:427
-#: core/flow/Setup.php:505
-#: core/flow/Setup.php:565
+#: core/flow/Setup.php:449 core/flow/Setup.php:534 core/flow/Setup.php:594
 #, fuzzy
 msgid "Shipping settings saved."
 msgstr "Schepen in"
 
-#: core/flow/Setup.php:487
+#: core/flow/Setup.php:516
 #, fuzzy
 msgid "Shipping method setting removed."
 msgstr "Schepen in"
 
-#: core/flow/Setup.php:516
+#: core/flow/Setup.php:545
 msgid "Shipping settings saved but there were errors: "
 msgstr ""
 
-#: core/flow/Setup.php:682
+#: core/flow/Setup.php:711
 #, fuzzy
 msgid "Destinations"
 msgstr "Projectgegevens"
 
-#: core/flow/Setup.php:698
+#: core/flow/Setup.php:727
 msgid "Tax settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:722
+#: core/flow/Setup.php:751 core/ui/settings/taxrates.php:75
 #, fuzzy
 msgid "Local Rates"
 msgstr "Tax IDs"
 
-#: core/flow/Setup.php:723
+#: core/flow/Setup.php:752
 #, fuzzy
 msgid "Conditional"
 msgstr "Reactie"
 
-#: core/flow/Setup.php:780
+#: core/flow/Setup.php:810
 #, fuzzy
 msgid "All Markets"
 msgstr "Alle bouwfasen"
 
-#: core/flow/Setup.php:843
-msgid "The uploaded file is not properly formatted as an XML, CSV or tab-delimmited file."
+#: core/flow/Setup.php:873
+msgid ""
+"The uploaded file is not properly formatted as an XML, CSV or tab-delimmited "
+"file."
 msgstr ""
 
-#: core/flow/Setup.php:892
-msgid "No useable tax rates could be found. The uploaded file may not be properly formatted."
+#: core/flow/Setup.php:922
+msgid ""
+"No useable tax rates could be found. The uploaded file may not be properly "
+"formatted."
 msgstr ""
 
-#: core/flow/Setup.php:949
+#: core/flow/Setup.php:979
 msgid "Shopp payments settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:981
+#: core/flow/Setup.php:1011
 #, fuzzy
 msgid "Processor"
 msgstr "Artikelen"
 
-#: core/flow/Setup.php:983
+#: core/flow/Setup.php:1013
 msgid "SSL"
 msgstr ""
 
-#: core/flow/Setup.php:984
+#: core/flow/Setup.php:1014
 #, fuzzy
 msgid "Captures"
 msgstr "Categorieën"
 
-#: core/flow/Setup.php:985
+#: core/flow/Setup.php:1015
 #, fuzzy
 msgid "Recurring"
 msgstr "Regio"
 
-#: core/flow/Setup.php:986
+#: core/flow/Setup.php:1016
 #, fuzzy
 msgid "Refunds"
 msgstr "Gerelateerd"
 
-#: core/flow/Setup.php:1092
+#: core/flow/Setup.php:1122 core/ui/customers/customers.php:22
+#: core/ui/settings/payments.php:101 core/ui/settings/images.php:122
+#: core/ui/settings/shiprates.php:106 core/ui/settings/preferences.php:12
+#: core/ui/settings/preferences.php:29 core/ui/settings/taxrates.php:220
+#: core/ui/orders/orders.php:29 core/ui/memberships/memberships.php:19
+#: core/ui/memberships/memberships.php:54 core/ui/categories/categories.php:20
+#: core/ui/categories/categories.php:63 core/ui/promotions/promotions.php:22
+#: core/ui/promotions/promotions.php:72
 #, fuzzy
 msgid "Delete"
 msgstr "Verwijder bericht"
 
-#: core/flow/Setup.php:1108
+#: core/flow/Setup.php:1138
 msgid "Dimensions"
 msgstr ""
 
-#: core/flow/Setup.php:1109
+#: core/flow/Setup.php:1139 core/ui/settings/images.php:31
 #, fuzzy
 msgid "Fit"
 msgstr "Filter:"
 
-#: core/flow/Setup.php:1110
+#: core/flow/Setup.php:1140 core/ui/settings/images.php:38
 msgid "Quality"
 msgstr ""
 
-#: core/flow/Setup.php:1111
+#: core/flow/Setup.php:1141
 msgid "Sharpness"
 msgstr ""
 
-#: core/flow/Setup.php:1139
+#: core/flow/Setup.php:1169
 msgid "Shopp system settings saved."
 msgstr ""
 
-#: core/flow/Setup.php:1144
+#: core/flow/Setup.php:1174
 msgid "All cached images have been cleared."
 msgstr ""
 
-#: core/flow/Setup.php:1156
-#: core/flow/Setup.php:1166
+#: core/flow/Setup.php:1186 core/flow/Setup.php:1196
 #, fuzzy
 msgid "Transaction Errors"
 msgstr "Bouwfout"
 
-#: core/flow/Setup.php:1157
-#: core/flow/Setup.php:1167
+#: core/flow/Setup.php:1187 core/flow/Setup.php:1197
 #, fuzzy
 msgid "Login Errors"
 msgstr "Uitloggen &raquo;"
 
-#: core/flow/Setup.php:1158
-#: core/flow/Setup.php:1168
+#: core/flow/Setup.php:1188 core/flow/Setup.php:1198
 msgid "Add-on Errors"
 msgstr ""
 
-#: core/flow/Setup.php:1159
-#: core/flow/Setup.php:1169
+#: core/flow/Setup.php:1189 core/flow/Setup.php:1199
 #, fuzzy
 msgid "Communication Errors"
 msgstr "Accomodaties"
 
-#: core/flow/Setup.php:1160
-#: core/flow/Setup.php:1170
+#: core/flow/Setup.php:1190 core/flow/Setup.php:1200
 #, fuzzy
 msgid "Inventory Warnings"
 msgstr "Rubriek"
 
-#: core/flow/Setup.php:1165
+#: core/flow/Setup.php:1195
 #, fuzzy
 msgid "General Shopp Errors"
 msgstr "Rubriek"
 
-#: core/flow/Setup.php:1171
+#: core/flow/Setup.php:1201
 msgid "Admin Errors"
 msgstr ""
 
-#: core/flow/Setup.php:1172
+#: core/flow/Setup.php:1202
 msgid "Database Errors"
 msgstr ""
 
-#: core/flow/Setup.php:1173
+#: core/flow/Setup.php:1203
 msgid "PHP Errors"
 msgstr ""
 
-#: core/flow/Setup.php:1174
+#: core/flow/Setup.php:1204
 #, fuzzy
 msgid "All Errors"
 msgstr "Alle regio's"
 
-#: core/flow/Setup.php:1175
+#: core/flow/Setup.php:1205
 msgid "Debugging Messages"
 msgstr ""
 
-#: core/flow/Setup.php:1178
+#: core/flow/Setup.php:1208
 msgid "Load on Shopp-pages only"
 msgstr ""
 
-#: core/flow/Setup.php:1178
+#: core/flow/Setup.php:1208
 msgid "Load on entire site"
 msgstr ""
 
-#: core/flow/Service.php:42
+#: core/flow/Service.php:42 core/ui/orders/ui.php:169
+#: core/ui/orders/ui.php:173 core/ui/orders/ui.php:187
 #, fuzzy
 msgid "Cancel Order"
 msgstr "Beoordeling"
@@ -4810,26 +4952,26 @@ msgstr "Beoordeling"
 msgid "Mark Refunded"
 msgstr "Meest gelezen"
 
-#: core/flow/Service.php:44
+#: core/flow/Service.php:44 core/ui/orders/ui.php:162
 #, fuzzy
 msgid "Process Refund"
 msgstr "Geen projecten gevonden"
 
-#: core/flow/Service.php:45
+#: core/flow/Service.php:45 core/ui/orders/ui.php:172
 #, fuzzy
 msgid "Do Not Cancel"
 msgstr "relevantie"
 
-#: core/flow/Service.php:46
+#: core/flow/Service.php:46 core/ui/orders/ui.php:158
 #, fuzzy
 msgid "Refund Order"
 msgstr "Recente projecten"
 
-#: core/flow/Service.php:48
+#: core/flow/Service.php:48 core/ui/orders/ui.php:159
 msgid "Reason for refund"
 msgstr ""
 
-#: core/flow/Service.php:49
+#: core/flow/Service.php:49 core/ui/orders/ui.php:170
 msgid "Reason for cancellation"
 msgstr ""
 
@@ -4838,7 +4980,8 @@ msgstr ""
 msgid "Mark Cancelled"
 msgstr "Voltooid"
 
-#: core/flow/Service.php:51
+#: core/flow/Service.php:51 core/ui/orders/ui.php:160
+#: core/ui/orders/ui.php:171
 #, fuzzy
 msgid "Send to gateway"
 msgstr "Speeldatum"
@@ -4913,7 +5056,9 @@ msgstr ""
 
 #: core/flow/Resources.php:169
 #, php-format
-msgid "\"%s\" is no longer available for download because the download limit has been reached."
+msgid ""
+"\"%s\" is no longer available for download because the download limit has "
+"been reached."
 msgstr ""
 
 #: core/flow/Resources.php:176
@@ -4923,316 +5068,355 @@ msgstr ""
 
 #: core/flow/Resources.php:184
 #, php-format
-msgid "\"%s\" cannot be downloaded because your computer could not be verified as the system the file was purchased from."
+msgid ""
+"\"%s\" cannot be downloaded because your computer could not be verified as "
+"the system the file was purchased from."
 msgstr ""
 
 #: core/flow/Install.php:43
-msgid "Shopp cannot be installed because the database privileges do not allow Shopp to create new tables."
+msgid ""
+"Shopp cannot be installed because the database privileges do not allow Shopp "
+"to create new tables."
 msgstr ""
 
 #: core/flow/Install.php:44
 #, php-format
-msgid "Could not install the Shopp database tables because the table definitions file is missing. (%s)"
+msgid ""
+"Could not install the Shopp database tables because the table definitions "
+"file is missing. (%s)"
 msgstr ""
 
 #: core/flow/Install.php:45
 #, php-format
-msgid "Could not upgrade the Shopp database tables because the table definitions file is missing. (%s)"
+msgid ""
+"Could not upgrade the Shopp database tables because the table definitions "
+"file is missing. (%s)"
 msgstr ""
 
-#: core/flow/Install.php:46
-#: core/flow/Install.php:51
+#: core/flow/Install.php:46 core/flow/Install.php:51
 #, php-format
-msgid "Try contacting your web hosting provider or server administrator for help. For more information about this error, see the %sShopp Documentation%s"
+msgid ""
+"Try contacting your web hosting provider or server administrator for help. "
+"For more information about this error, see the %sShopp Documentation%s"
 msgstr ""
 
-#: core/flow/Install.php:52
-#: core/flow/Install.php:53
+#: core/flow/Install.php:52 core/flow/Install.php:53
 #, php-format
 msgid "For more information about this error, see the %sShopp Documentation%s"
 msgstr ""
 
-#: core/flow/Install.php:256
+#: core/flow/Install.php:259
 #, fuzzy
 msgid "Merchant"
 msgstr "Zoeken"
 
-#: core/flow/Install.php:257
+#: core/flow/Install.php:260
 #, fuzzy
 msgid "Customer Service Rep"
 msgstr "Bouwschade"
 
-#: core/flow/Install.php:344
+#: core/flow/Install.php:347
 msgid "Completed"
 msgstr "Voltooid"
 
-#: core/flow/Install.php:359
+#: core/flow/Install.php:362
 msgid "Product is defective or damaged"
 msgstr ""
 
-#: core/flow/Install.php:1007
+#: core/flow/Install.php:1010
 msgid "You do not have sufficient permissions to update plugins for this blog."
 msgstr ""
 
-#: core/flow/Install.php:1011
+#: core/flow/Install.php:1014
 msgid "Upgrade Shopp"
 msgstr ""
 
-#: core/flow/Install.php:1025
-#: core/flow/Install.php:1040
-#: core/flow/Install.php:1054
+#: core/flow/Install.php:1028 core/flow/Install.php:1043
+#: core/flow/Install.php:1057
 msgid "Upgrade Shopp Add-on"
 msgstr ""
 
-#: core/flow/Install.php:1118
+#: core/flow/Install.php:1121
 msgid "Invalid URL Provided"
 msgstr ""
 
-#: core/flow/Install.php:1124
-#: core/flow/Install.php:1128
+#: core/flow/Install.php:1127 core/flow/Install.php:1131
 msgid "Could not create Temporary file"
 msgstr ""
 
-#: core/flow/Install.php:1209
+#: core/flow/Install.php:1212
 msgid "Shopp is at the latest version."
 msgstr ""
 
-#: core/flow/Install.php:1210
+#: core/flow/Install.php:1213
 msgid "Shopp upgrade package not available."
 msgstr ""
 
-#: core/flow/Install.php:1211
-#: core/flow/Install.php:1308
+#: core/flow/Install.php:1214 core/flow/Install.php:1311
 #, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>."
 msgstr ""
 
-#: core/flow/Install.php:1212
-#: core/flow/Install.php:1309
+#: core/flow/Install.php:1215 core/flow/Install.php:1312
 msgid "Unpacking the update."
 msgstr ""
 
-#: core/flow/Install.php:1213
+#: core/flow/Install.php:1216
 msgid "Deactivating Shopp."
 msgstr ""
 
-#: core/flow/Install.php:1214
+#: core/flow/Install.php:1217
 msgid "Removing the old version of Shopp."
 msgstr ""
 
-#: core/flow/Install.php:1215
+#: core/flow/Install.php:1218
 msgid "Could not remove the old Shopp."
 msgstr ""
 
-#: core/flow/Install.php:1216
+#: core/flow/Install.php:1219
 msgid "Shopp upgrade Failed."
 msgstr ""
 
-#: core/flow/Install.php:1217
+#: core/flow/Install.php:1220
 msgid "Shopp upgraded successfully."
 msgstr ""
 
-#: core/flow/Install.php:1279
+#: core/flow/Install.php:1282
 msgid "Finishing Shopp upgrade..."
 msgstr ""
 
-#: core/flow/Install.php:1306
+#: core/flow/Install.php:1309
 msgid "The add-on is at the latest version."
 msgstr ""
 
-#: core/flow/Install.php:1307
+#: core/flow/Install.php:1310
 #, fuzzy
 msgid "Upgrade package not available."
 msgstr "Broodkruimel niet beschikbaar"
 
-#: core/flow/Install.php:1310
+#: core/flow/Install.php:1313
 msgid "Deactivating the add-on."
 msgstr ""
 
-#: core/flow/Install.php:1311
+#: core/flow/Install.php:1314
 msgid "Removing the old version of the add-on."
 msgstr ""
 
-#: core/flow/Install.php:1312
+#: core/flow/Install.php:1315
 msgid "Could not remove the old add-on."
 msgstr ""
 
-#: core/flow/Install.php:1313
+#: core/flow/Install.php:1316
 msgid "Add-on upgrade Failed."
 msgstr ""
 
-#: core/flow/Install.php:1314
+#: core/flow/Install.php:1317
 msgid "Add-on upgraded successfully."
 msgstr ""
 
-#: core/flow/Install.php:1315
+#: core/flow/Install.php:1318
 msgid "Add-on included successfully."
 msgstr ""
 
-#: core/flow/Install.php:1352
+#: core/flow/Install.php:1355
 #, php-format
 msgid "Updating addon %1$d of %2$d..."
 msgstr ""
 
-#: core/flow/Order.php:285
-msgid "The payment method you selected is no longer available. Please choose another."
+#: core/flow/Order.php:284
+msgid ""
+"The payment method you selected is no longer available. Please choose "
+"another."
 msgstr ""
 
-#: core/flow/Order.php:528
+#: core/flow/Order.php:527
 msgid "The order amount changed and requires that you select a payment method."
 msgstr ""
 
-#: core/flow/Order.php:821
-msgid "The order could not be created because of a technical problem on the server. Please try again, or contact the website adminstrator."
+#: core/flow/Order.php:820
+msgid ""
+"The order could not be created because of a technical problem on the server. "
+"Please try again, or contact the website adminstrator."
 msgstr ""
 
-#: core/flow/Order.php:1045
+#: core/flow/Order.php:1044
 msgid "You must provide your first name."
 msgstr ""
 
-#: core/flow/Order.php:1048
+#: core/flow/Order.php:1047
 msgid "You must provide your last name."
 msgstr ""
 
-#: core/flow/Order.php:1058
+#: core/flow/Order.php:1057
 msgid "You must provide a valid e-mail address."
 msgstr ""
 
-#: core/flow/Order.php:1061
+#: core/flow/Order.php:1060
 msgid "You must agree to the terms of sale."
 msgstr ""
 
-#: core/flow/Order.php:1069
-msgid "The login name you provided is not available.  Try logging in if you have previously created an account."
+#: core/flow/Order.php:1068
+msgid ""
+"The login name you provided is not available.  Try logging in if you have "
+"previously created an account."
 msgstr ""
 
-#: core/flow/Order.php:1084
-msgid "A login is not available for creation with the information you provided. Please try a different email address or name, or try logging in if you previously created an account."
+#: core/flow/Order.php:1083
+msgid ""
+"A login is not available for creation with the information you provided. "
+"Please try a different email address or name, or try logging in if you "
+"previously created an account."
 msgstr ""
 
-#: core/flow/Order.php:1090
-msgid "The email address you entered is already in use. Try logging in if you previously created an account, or enter another email address to create your new account."
+#: core/flow/Order.php:1089
+msgid ""
+"The email address you entered is already in use. Try logging in if you "
+"previously created an account, or enter another email address to create your "
+"new account."
 msgstr ""
 
-#: core/flow/Order.php:1094
-msgid "The email address you entered is already in use. Try logging in if you previously created an account, or enter another email address to create a new account."
+#: core/flow/Order.php:1093
+msgid ""
+"The email address you entered is already in use. Try logging in if you "
+"previously created an account, or enter another email address to create a "
+"new account."
 msgstr ""
 
-#: core/flow/Order.php:1099
+#: core/flow/Order.php:1098
 #, fuzzy
 msgid "You must enter a login name for your account."
 msgstr "Je moet ingelogd zijn om je berichten te wijzigen."
 
-#: core/flow/Order.php:1106
+#: core/flow/Order.php:1105
 #, php-format
 msgid "The login name provided includes invalid characters: %s"
 msgstr ""
 
-#: core/flow/Order.php:1110
-msgid "The login name is already in use. Try logging in if you previously created that account, or enter another login name for your new account."
+#: core/flow/Order.php:1109
+msgid ""
+"The login name is already in use. Try logging in if you previously created "
+"that account, or enter another login name for your new account."
 msgstr ""
 
-#: core/flow/Order.php:1115
-msgid "You must provide a password for your account and confirm it to ensure correct spelling."
+#: core/flow/Order.php:1114
+msgid ""
+"You must provide a password for your account and confirm it to ensure "
+"correct spelling."
 msgstr ""
 
-#: core/flow/Order.php:1123
+#: core/flow/Order.php:1122
 msgid "You must enter a valid street address for your billing information."
 msgstr ""
 
-#: core/flow/Order.php:1126
+#: core/flow/Order.php:1125
 msgid "You must enter a valid postal code for your billing information."
 msgstr ""
 
-#: core/flow/Order.php:1129
+#: core/flow/Order.php:1128
 msgid "You must select a country for your billing information."
 msgstr ""
 
-#: core/flow/Order.php:1136
+#: core/flow/Order.php:1131
+msgid "You must select a local jursidiction for tax purposes."
+msgstr ""
+
+#: core/flow/Order.php:1138
 msgid "You did not provide a credit card number."
 msgstr ""
 
-#: core/flow/Order.php:1139
+#: core/flow/Order.php:1141
 msgid "You did not select a credit card type."
 msgstr ""
 
-#: core/flow/Order.php:1144
+#: core/flow/Order.php:1146
 msgid "The credit card number you provided is invalid."
 msgstr ""
 
-#: core/flow/Order.php:1147
+#: core/flow/Order.php:1149
 msgid "You did not enter the month the credit card expires."
 msgstr ""
 
-#: core/flow/Order.php:1150
+#: core/flow/Order.php:1152
 msgid "You did not enter the year the credit card expires."
 msgstr ""
 
-#: core/flow/Order.php:1154
+#: core/flow/Order.php:1156
 msgid "The credit card expiration date you provided has already expired."
 msgstr ""
 
-#: core/flow/Order.php:1157
+#: core/flow/Order.php:1159
 msgid "You did not enter the name on the credit card you provided."
 msgstr ""
 
-#: core/flow/Order.php:1160
-msgid "You did not enter a valid security ID for the card you provided. The security ID is a 3 or 4 digit number found on the back of the credit card."
+#: core/flow/Order.php:1162
+msgid ""
+"You did not enter a valid security ID for the card you provided. The "
+"security ID is a 3 or 4 digit number found on the back of the credit card."
 msgstr ""
 
-#: core/flow/Order.php:1190
+#: core/flow/Order.php:1191
 #, fuzzy
 msgid "There are no items in the cart."
 msgstr "Er zijn geen berichten in deze categorie"
 
-#: core/flow/Order.php:1197
+#: core/flow/Order.php:1198
 #, php-format
 msgid "%s does not have sufficient stock to process order."
 msgstr ""
 
-#: core/flow/Order.php:1214
+#: core/flow/Order.php:1215
 msgid "There is not enough customer information to process the order."
 msgstr ""
 
-#: core/flow/Order.php:1230
+#: core/flow/Order.php:1231
 #, php-format
-msgid "The order cannot be processed. No shipping is available to the address you provided. Please return to %scheckout%s and try again."
+msgid ""
+"The order cannot be processed. No shipping is available to the address you "
+"provided. Please return to %scheckout%s and try again."
 msgstr ""
 
-#: core/flow/Order.php:1234
+#: core/flow/Order.php:1235
 #, php-format
-msgid "The order cannot be processed. The shipping rate service did not provide rates because of a problem and no other shipping is available to the address you provided. Please return to %scheckout%s and try again or contact the store administrator."
+msgid ""
+"The order cannot be processed. The shipping rate service did not provide "
+"rates because of a problem and no other shipping is available to the address "
+"you provided. Please return to %scheckout%s and try again or contact the "
+"store administrator."
 msgstr ""
 
-#: core/flow/Order.php:1243
-msgid "The shipping address information is incomplete. The order cannot be processed."
+#: core/flow/Order.php:1244
+msgid ""
+"The shipping address information is incomplete. The order cannot be "
+"processed."
 msgstr ""
 
-#: core/flow/Order.php:1675
+#: core/flow/Order.php:1676
 #, php-format
 msgid "Purchase authed lock for order %s failed. Could not achieve a lock."
 msgstr ""
 
-#: core/flow/Ajax.php:495
+#: core/flow/Ajax.php:497
 msgid "No file import URL was provided."
 msgstr ""
 
-#: core/flow/Ajax.php:525
+#: core/flow/Ajax.php:527
 msgid "A temporary file could not be created for importing the file."
-msgstr ""
-
-#: core/flow/Ajax.php:526
-#, php-format
-msgid "A temporary file at %s could not be opened for importing."
 msgstr ""
 
 #: core/flow/Ajax.php:528
 #, php-format
+msgid "A temporary file at %s could not be opened for importing."
+msgstr ""
+
+#: core/flow/Ajax.php:530
+#, php-format
 msgid "The file at %s could not be opened for importing."
 msgstr ""
 
-#: core/flow/Ajax.php:531
-msgid "The connection timed out while trying to get information about the target file."
+#: core/flow/Ajax.php:533
+msgid ""
+"The connection timed out while trying to get information about the target "
+"file."
 msgstr ""
 
 #: core/flow/Login.php:101
@@ -5264,28 +5448,37 @@ msgstr ""
 msgid "Unknown login error: %s"
 msgstr ""
 
-#: core/ui/customers/customers.php:6
+#: core/ui/customers/customers.php:6 core/ui/settings/images.php:3
+#: core/ui/memberships/memberships.php:3 core/ui/products/products.php:4
 #, fuzzy
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
 
-#: core/ui/customers/customers.php:17
+#: core/ui/customers/customers.php:17 core/ui/memberships/memberships.php:14
 msgid "Search"
 msgstr "Zoeken"
 
-#: core/ui/customers/customers.php:29
+#: core/ui/customers/customers.php:29 core/ui/orders/ui.php:115
 msgid "to"
 msgstr ""
 
-#: core/ui/customers/customers.php:56
+#: core/ui/customers/customers.php:56 core/ui/orders/orders.php:72
 msgid "no contact name"
 msgstr ""
 
-#: core/ui/customers/customers.php:60
-#: core/ui/settings/pages.php:76
-#: core/ui/settings/pages.php:78
-#: core/ui/settings/payments.php:99
-#: core/ui/settings/payments.php:101
+#: core/ui/customers/customers.php:60 core/ui/settings/pages.php:76
+#: core/ui/settings/pages.php:78 core/ui/settings/payments.php:99
+#: core/ui/settings/payments.php:101 core/ui/settings/images.php:120
+#: core/ui/settings/images.php:122 core/ui/settings/shiprates.php:104
+#: core/ui/settings/shiprates.php:106 core/ui/settings/taxrates.php:218
+#: core/ui/settings/taxrates.php:220 core/ui/memberships/memberships.php:51
+#: core/ui/memberships/memberships.php:53 core/ui/categories/categories.php:60
+#: core/ui/categories/categories.php:62 core/ui/categories/category.php:34
+#: core/ui/categories/arrange.php:52 core/ui/categories/products.php:51
+#: core/ui/products/inventory.php:65 core/ui/products/ui.php:23
+#: core/ui/products/editor.php:38 core/ui/products/products.php:86
+#: core/ui/products/products.php:100 core/ui/promotions/promotions.php:68
+#: core/ui/promotions/promotions.php:70
 msgid "Edit"
 msgstr "Bewerken"
 
@@ -5294,12 +5487,12 @@ msgstr "Bewerken"
 msgid "No customers yet."
 msgstr "Evenement categorie"
 
-#: core/ui/customers/customers.php:89
+#: core/ui/customers/customers.php:89 core/ui/orders/orders.php:121
 #, fuzzy
 msgid "Export Options"
 msgstr "Acties"
 
-#: core/ui/customers/customers.php:94
+#: core/ui/customers/customers.php:94 core/ui/orders/orders.php:126
 msgid "Include column headings"
 msgstr ""
 
@@ -5350,7 +5543,7 @@ msgstr "(verplicht)"
 msgid "Profile"
 msgstr "Artikelen"
 
-#: core/ui/customers/ui.php:122
+#: core/ui/customers/ui.php:122 core/ui/orders/ui.php:290
 #, fuzzy
 msgid "Details"
 msgstr "Details"
@@ -5422,7 +5615,9 @@ msgid "Merchant Email"
 msgstr "Gebruikersnaam of e-mailadres:"
 
 #: core/ui/settings/setup.php:74
-msgid "Enter the email address for the owner of this shop to receive e-mail notifications."
+msgid ""
+"Enter the email address for the owner of this shop to receive e-mail "
+"notifications."
 msgstr ""
 
 #: core/ui/settings/setup.php:77
@@ -5454,7 +5649,9 @@ msgid "Calculate Taxes"
 msgstr "Bereken route"
 
 #: core/ui/settings/taxes.php:16
-msgid "Enables tax calculations.  Disable if you are exclusively selling non-taxable items."
+msgid ""
+"Enables tax calculations.  Disable if you are exclusively selling non-"
+"taxable items."
 msgstr ""
 
 #: core/ui/settings/taxes.php:19
@@ -5485,7 +5682,8 @@ msgid "not set"
 msgstr "Interview bekijken"
 
 #: core/ui/settings/pages.php:87
-msgid "No Shopp pages available! The sky is falling! Contact the Help Desk, stat!"
+msgid ""
+"No Shopp pages available! The sky is falling! Contact the Help Desk, stat!"
 msgstr ""
 
 #: core/ui/settings/payments.php:5
@@ -5523,7 +5721,9 @@ msgid "Calculate Shipping"
 msgstr "Schepen in"
 
 #: core/ui/settings/shipping.php:16
-msgid "Enables shipping cost calculations. Disable if you are exclusively selling intangible products."
+msgid ""
+"Enables shipping cost calculations. Disable if you are exclusively selling "
+"intangible products."
 msgstr ""
 
 #: core/ui/settings/shipping.php:19
@@ -5532,7 +5732,9 @@ msgid "Track Inventory"
 msgstr "Land"
 
 #: core/ui/settings/shipping.php:21
-msgid "Enables inventory tracking. Disable if you are exclusively selling intangible products or not keeping track of product stock."
+msgid ""
+"Enables inventory tracking. Disable if you are exclusively selling "
+"intangible products or not keeping track of product stock."
 msgstr ""
 
 #: core/ui/settings/shipping.php:24
@@ -5636,7 +5838,9 @@ msgid "Free Shipping Text"
 msgstr "Schepen in"
 
 #: core/ui/settings/shipping.php:113
-msgid "Text used to highlight no shipping costs (examples: Free shipping! or Shipping Included)"
+msgid ""
+"Text used to highlight no shipping costs (examples: Free shipping! or "
+"Shipping Included)"
 msgstr ""
 
 #: core/ui/settings/shipping.php:116
@@ -5644,7 +5848,8 @@ msgid "Out-of-stock Notice"
 msgstr ""
 
 #: core/ui/settings/shipping.php:118
-msgid "Text used to notify the customer the product is out-of-stock or on backorder."
+msgid ""
+"Text used to notify the customer the product is out-of-stock or on backorder."
 msgstr ""
 
 #: core/ui/settings/images.php:3
@@ -5657,12 +5862,14 @@ msgstr "Bijeenkomsten"
 msgid "Sharpen"
 msgstr "Artikelen"
 
-#: core/ui/settings/images.php:54
+#: core/ui/settings/images.php:54 core/ui/products/products.php:26
+#: core/ui/promotions/promotions.php:19
 #, fuzzy
 msgid "Bulk Actions&hellip;"
 msgstr "Reactie"
 
-#: core/ui/settings/images.php:57
+#: core/ui/settings/images.php:57 core/ui/products/products.php:29
+#: core/ui/promotions/promotions.php:24
 #, fuzzy
 msgid "Apply"
 msgstr "Artikelen"
@@ -5681,8 +5888,7 @@ msgstr "Status"
 msgid "Image Storage"
 msgstr "Acties"
 
-#: core/ui/settings/system.php:17
-#: core/ui/settings/system.php:25
+#: core/ui/settings/system.php:17 core/ui/settings/system.php:25
 #, fuzzy
 msgid "Settings&hellip;"
 msgstr "Bezig met laden&hellip;"
@@ -5729,7 +5935,9 @@ msgid "Enable Flash-based uploading"
 msgstr "Juridische navigatie"
 
 #: core/ui/settings/system.php:45
-msgid "Enable to use Adobe Flash uploads for accurate upload progress. Disable this setting if you are having problems uploading."
+msgid ""
+"Enable to use Adobe Flash uploads for accurate upload progress. Disable this "
+"setting if you are having problems uploading."
 msgstr ""
 
 #: core/ui/settings/system.php:48
@@ -5741,7 +5949,9 @@ msgid "Load behavioral scripts through WordPress"
 msgstr ""
 
 #: core/ui/settings/system.php:50
-msgid "Enable this setting when experiencing problems loading scripts with the Shopp Script Server"
+msgid ""
+"Enable this setting when experiencing problems loading scripts with the "
+"Shopp Script Server"
 msgstr ""
 
 #: core/ui/settings/system.php:51
@@ -5749,7 +5959,9 @@ msgid "Enable Shopp behavioral scripts site-wide"
 msgstr ""
 
 #: core/ui/settings/system.php:52
-msgid "Enable this to make Shopp behaviors available across all of your WordPress posts and pages."
+msgid ""
+"Enable this to make Shopp behaviors available across all of your WordPress "
+"posts and pages."
 msgstr ""
 
 #: core/ui/settings/system.php:57
@@ -5758,7 +5970,9 @@ msgid "Error Notifications"
 msgstr "Geen secties"
 
 #: core/ui/settings/system.php:63
-msgid "Send email notifications of the selected errors to the merchant's email address."
+msgid ""
+"Send email notifications of the selected errors to the merchant's email "
+"address."
 msgstr ""
 
 #: core/ui/settings/system.php:67
@@ -5803,8 +6017,8 @@ msgstr ""
 msgid "Store Preferences"
 msgstr ""
 
-#: core/ui/settings/preferences.php:18
-#: core/ui/settings/preferences.php:31
+#: core/ui/settings/preferences.php:18 core/ui/settings/preferences.php:31
+#: core/ui/products/ui.php:119
 #, fuzzy
 msgid "Add"
 msgstr "Adres"
@@ -5814,7 +6028,9 @@ msgid "Dashboard Widgets"
 msgstr ""
 
 #: core/ui/settings/preferences.php:45
-msgid "Check this to display store performance metrics and more on the WordPress Dashboard."
+msgid ""
+"Check this to display store performance metrics and more on the WordPress "
+"Dashboard."
 msgstr ""
 
 #: core/ui/settings/preferences.php:48
@@ -5823,7 +6039,9 @@ msgid "Order Status Labels"
 msgstr "Oefenstof zoeken"
 
 #: core/ui/settings/preferences.php:53
-msgid "Set custom order status labels. Map them to order states for automatic order handling. Remember to click <strong>Save Changes</strong> below!"
+msgid ""
+"Set custom order status labels. Map them to order states for automatic order "
+"handling. Remember to click <strong>Save Changes</strong> below!"
 msgstr ""
 
 #: core/ui/settings/preferences.php:56
@@ -5832,7 +6050,9 @@ msgid "Order Cancellation Reasons"
 msgstr "Rubrieken zoeken"
 
 #: core/ui/settings/preferences.php:60
-msgid "Set custom order cancellation reasons. Remember to click <strong>Save Changes</strong> below!"
+msgid ""
+"Set custom order cancellation reasons. Remember to click <strong>Save "
+"Changes</strong> below!"
 msgstr ""
 
 #: core/ui/settings/preferences.php:63
@@ -5864,7 +6084,9 @@ msgid "Shopping Cart"
 msgstr "Schepen in"
 
 #: core/ui/settings/preferences.php:84
-msgid "Uncheck this to disable the shopping cart and checkout. Useful for catalog-only sites."
+msgid ""
+"Uncheck this to disable the shopping cart and checkout. Useful for catalog-"
+"only sites."
 msgstr ""
 
 #: core/ui/settings/preferences.php:88
@@ -5990,12 +6212,12 @@ msgstr "Bouwschade"
 msgid "Tax Rate"
 msgstr "Tax IDs"
 
-#: core/ui/settings/taxrates.php:63
+#: core/ui/settings/taxrates.php:63 core/ui/promotions/ui.php:81
 #, fuzzy
 msgid "any"
 msgstr "Beoordeling"
 
-#: core/ui/settings/taxrates.php:63
+#: core/ui/settings/taxrates.php:63 core/ui/promotions/ui.php:81
 #, fuzzy
 msgid "all"
 msgstr "Alles"
@@ -6006,7 +6228,9 @@ msgid "Apply tax rate when %s of the following conditions match"
 msgstr ""
 
 #: core/ui/settings/taxrates.php:77
-msgid "No local regions have been setup for this location. Local regions can be specified by uploading a formatted local rates file."
+msgid ""
+"No local regions have been setup for this location. Local regions can be "
+"specified by uploading a formatted local rates file."
 msgstr ""
 
 #: core/ui/settings/taxrates.php:81
@@ -6035,17 +6259,14 @@ msgstr ""
 msgid "Presentation Settings"
 msgstr "Bovenliggende rubriek:"
 
-#: core/ui/settings/presentation.php:12
-msgid "Theme Templates"
-msgstr ""
-
 #: core/ui/settings/presentation.php:16
 #, fuzzy
-msgid "Use Custom Templates"
+msgid "Use custom Shopp content templates"
 msgstr "Content type"
 
 #: core/ui/settings/presentation.php:18
-msgid "To customize shopping templates for your current WordPress theme:"
+msgid ""
+"To customize the Shopp content templates for your current WordPress theme:"
 msgstr ""
 
 #: core/ui/settings/presentation.php:20
@@ -6053,7 +6274,8 @@ msgid "Create a directory in your active theme named <code>shopp</code>"
 msgstr ""
 
 #: core/ui/settings/presentation.php:21
-msgid "Give your web server access to write to the <code>shopp</code> directory"
+msgid ""
+"Give your web server access to write to the <code>shopp</code> directory"
 msgstr ""
 
 #: core/ui/settings/presentation.php:22
@@ -6061,15 +6283,19 @@ msgid "Refresh this page for more instructions"
 msgstr ""
 
 #: core/ui/settings/presentation.php:24
-msgid "More help setting up theme templates"
+msgid "More help setting up custom Shopp content templates"
 msgstr ""
 
 #: core/ui/settings/presentation.php:29
-msgid "The <code>shopp</code> directory exists in your current WordPress theme, but is not writable."
+msgid ""
+"The <code>shopp</code> directory exists in your current WordPress theme, but "
+"is not writable."
 msgstr ""
 
 #: core/ui/settings/presentation.php:30
-msgid "You need to give <code>write</code> permissions to the <code>shopp</code> directory to continue."
+msgid ""
+"You need to give <code>write</code> permissions to the <code>shopp</code> "
+"directory to continue."
 msgstr ""
 
 #: core/ui/settings/presentation.php:30
@@ -6085,19 +6311,24 @@ msgid "Some of the shopping templates for your current theme are missing."
 msgstr ""
 
 #: core/ui/settings/presentation.php:39
-msgid "Install Theme Templates"
-msgstr ""
+#, fuzzy
+msgid "Install Content Templates"
+msgstr "Content type"
 
 #: core/ui/settings/presentation.php:40
-msgid "Click this button to copy Shopp's builtin templates into your theme as a starting point for customization."
+msgid ""
+"Click this button to copy Shopp's builtin templates into your theme as a "
+"starting point for customization."
 msgstr ""
 
 #: core/ui/settings/presentation.php:44
-msgid "Enable theme templates"
+msgid "Enable theme content templates"
 msgstr ""
 
 #: core/ui/settings/presentation.php:45
-msgid "Check this to use the templates installed in your currently active WordPress theme."
+msgid ""
+"Check this to use the templates installed in your currently active WordPress "
+"theme."
 msgstr ""
 
 #: core/ui/settings/presentation.php:52
@@ -6187,7 +6418,9 @@ msgstr ""
 
 #: core/ui/orders/ui.php:78
 #, php-format
-msgid "Enable to process through the payment gateway (%s) and set the Shopp payment status. Disable to update only the Shopp payment status."
+msgid ""
+"Enable to process through the payment gateway (%s) and set the Shopp payment "
+"status. Disable to update only the Shopp payment status."
 msgstr ""
 
 #: core/ui/orders/ui.php:96
@@ -6199,12 +6432,12 @@ msgstr "Bovenliggende bouwfasen"
 msgid "Processed by"
 msgstr ""
 
-#: core/ui/orders/ui.php:162
+#: core/ui/orders/ui.php:161
 #, fuzzy
 msgid "Cancel Refund"
 msgstr "relevantie"
 
-#: core/ui/orders/ui.php:192
+#: core/ui/orders/ui.php:191
 #, fuzzy
 msgid "Refund"
 msgstr "Gerelateerd"
@@ -6218,65 +6451,65 @@ msgstr ""
 msgid "Charge Order"
 msgstr "Beoordeling"
 
-#: core/ui/orders/ui.php:207
+#: core/ui/orders/ui.php:208
 #, fuzzy
 msgid "Management"
 msgstr "Advertentie"
 
-#: core/ui/orders/ui.php:246
+#: core/ui/orders/ui.php:247
 #, fuzzy, php-format
 msgid "RE: %s: Order #%s"
 msgstr "Beoordeling"
 
-#: core/ui/orders/ui.php:268
+#: core/ui/orders/ui.php:269
 #, fuzzy
 msgid "Agreed to marketing"
 msgstr "Nieuwe toevoegen"
 
-#: core/ui/orders/ui.php:268
+#: core/ui/orders/ui.php:269
 #, fuzzy
 msgid "No marketing"
 msgstr "Route"
 
-#: core/ui/orders/ui.php:271
+#: core/ui/orders/ui.php:272
 msgid "Customer"
 msgstr ""
 
-#: core/ui/orders/ui.php:295
+#: core/ui/orders/ui.php:296
 #, fuzzy
 msgid "Order Balance"
 msgstr "Beoordeling"
 
-#: core/ui/orders/ui.php:304
+#: core/ui/orders/ui.php:305
 #, fuzzy
 msgid "Order History"
 msgstr "Beoordeling"
 
-#: core/ui/orders/ui.php:343
+#: core/ui/orders/ui.php:344
 msgid "Sent to the Customer:"
 msgstr ""
 
-#: core/ui/orders/ui.php:361
+#: core/ui/orders/ui.php:362
 #, fuzzy
 msgid "New Note"
 msgstr "Nieuws"
 
-#: core/ui/orders/ui.php:366
+#: core/ui/orders/ui.php:367
 #, fuzzy
 msgid "Save Note"
 msgstr "Formulier"
 
-#: core/ui/orders/ui.php:370
+#: core/ui/orders/ui.php:371
 #, fuzzy
 msgid "Send to customer"
 msgstr "Evenement categorie"
 
-#: core/ui/orders/ui.php:374
+#: core/ui/orders/ui.php:375
 #, fuzzy
 msgid "Add Note"
 msgstr "Nieuwe toevoegen"
 
-#: core/ui/orders/ui.php:378
+#: core/ui/orders/ui.php:379
 #, fuzzy
 msgid "Notes"
 msgstr "Nieuws"
@@ -6286,8 +6519,7 @@ msgstr "Nieuws"
 msgid "Transaction %s successful"
 msgstr ""
 
-#: core/ui/orders/events.php:179
-#: core/ui/orders/events.php:249
+#: core/ui/orders/events.php:179 core/ui/orders/events.php:249
 #, fuzzy, php-format
 msgid "Transaction: %s"
 msgstr "Locatie: %s"
@@ -6407,8 +6639,7 @@ msgstr ""
 msgid "Message Sent"
 msgstr "Nieuwe fase naam"
 
-#: core/ui/orders/events.php:507
-#: core/ui/orders/events.php:531
+#: core/ui/orders/events.php:507 core/ui/orders/events.php:531
 #, php-format
 msgid "by %s (%s)"
 msgstr ""
@@ -6433,7 +6664,7 @@ msgstr "Portaal"
 msgid "Average Sale"
 msgstr "Agenda"
 
-#: core/ui/orders/orders.php:33
+#: core/ui/orders/orders.php:33 core/ui/categories/ui.php:19
 #, fuzzy
 msgid "Update"
 msgstr "Update classificatie"
@@ -6472,8 +6703,7 @@ msgstr "Geen oefenstof gevonden"
 
 #: core/ui/memberships/memberships.php:89
 msgid ""
-"You are about to delete this membership!\\n"
-" 'Cancel' to stop, 'OK' to delete."
+"You are about to delete this membership!\\n 'Cancel' to stop, 'OK' to delete."
 msgstr ""
 
 #: core/ui/memberships/memberships.php:98
@@ -6546,25 +6776,25 @@ msgstr "Land"
 msgid "Deny All"
 msgstr ""
 
-#: core/ui/categories/categories.php:55
+#: core/ui/categories/categories.php:55 core/ui/categories/arrange.php:41
 #, fuzzy
 msgid "no category name"
 msgstr "Evenement categorie"
 
-#: core/ui/categories/categories.php:64
+#: core/ui/categories/categories.php:64 core/ui/categories/category.php:34
+#: core/ui/products/editor.php:38 core/ui/products/products.php:103
 #, fuzzy
 msgid "View"
 msgstr "Bekijk schip"
 
-#: core/ui/categories/categories.php:79
+#: core/ui/categories/categories.php:79 core/ui/categories/arrange.php:59
 #, fuzzy
 msgid "No categories found."
 msgstr "Categorieën"
 
 #: core/ui/categories/categories.php:102
 msgid ""
-"You are about to delete this category!\\n"
-" 'Cancel' to stop, 'OK' to delete."
+"You are about to delete this category!\\n 'Cancel' to stop, 'OK' to delete."
 msgstr ""
 
 #: core/ui/categories/categories.php:111
@@ -6576,7 +6806,7 @@ msgstr ""
 msgid "Category Editor"
 msgstr "Categorie:"
 
-#: core/ui/categories/category.php:31
+#: core/ui/categories/category.php:31 core/ui/products/editor.php:35
 #, fuzzy
 msgid "Permalink"
 msgstr "Permalink naar %s"
@@ -6598,8 +6828,7 @@ msgstr ""
 msgid "Detail Name"
 msgstr "Nieuwe fase naam"
 
-#: core/ui/categories/category.php:96
-#: core/ui/categories/category.php:105
+#: core/ui/categories/category.php:96 core/ui/categories/category.php:105
 #, fuzzy
 msgid "New Option"
 msgstr "Bekijk alle tegenstanders"
@@ -6620,9 +6849,8 @@ msgstr ""
 msgid "Build from preset options"
 msgstr ""
 
-#: core/ui/categories/category.php:101
-#: core/ui/categories/ui.php:71
-#: core/ui/categories/ui.php:73
+#: core/ui/categories/category.php:101 core/ui/categories/ui.php:71
+#: core/ui/categories/ui.php:73 core/ui/products/ui.php:278
 #, fuzzy
 msgid "Add New Image"
 msgstr "Nieuwe fase toevoegen"
@@ -6651,7 +6879,7 @@ msgstr "Zeilschip"
 msgid "Not Taxed"
 msgstr "Nieuws"
 
-#: core/ui/categories/category.php:115
+#: core/ui/categories/category.php:115 core/ui/promotions/ui.php:43
 #, fuzzy
 msgid "Free Shipping"
 msgstr "Schepen in"
@@ -6661,7 +6889,9 @@ msgid "Handling Fee"
 msgstr ""
 
 #: core/ui/categories/category.php:122
-msgid "Amount added to shipping costs for each unit ordered (for handling costs, etc)"
+msgid ""
+"Amount added to shipping costs for each unit ordered (for handling costs, "
+"etc)"
 msgstr ""
 
 #: core/ui/categories/category.php:124
@@ -6707,7 +6937,7 @@ msgstr ""
 msgid "An unknown error occurred. The upload could not be saved."
 msgstr ""
 
-#: core/ui/categories/category.php:140
+#: core/ui/categories/category.php:140 api/product.php:167
 msgid "Price & Delivery"
 msgstr ""
 
@@ -6747,22 +6977,24 @@ msgstr "Categorieën"
 msgid "Return to Manage Categories"
 msgstr "Ga terug naar %s"
 
-#: core/ui/categories/arrange.php:52
-#: core/ui/categories/products.php:50
+#: core/ui/categories/arrange.php:52 core/ui/categories/products.php:50
 msgid "Move to the top"
 msgstr ""
 
-#: core/ui/categories/arrange.php:52
-#: core/ui/categories/products.php:50
+#: core/ui/categories/arrange.php:52 core/ui/categories/products.php:50
 msgid "Move to the bottom"
 msgstr ""
 
 #: core/ui/categories/arrange.php:72
-msgid "The category order could not be updated because of a communication error with the server."
+msgid ""
+"The category order could not be updated because of a communication error "
+"with the server."
 msgstr ""
 
 #: core/ui/categories/arrange.php:73
-msgid "The child categories could not be loaded because of a communication error with the server."
+msgid ""
+"The child categories could not be loaded because of a communication error "
+"with the server."
 msgstr ""
 
 #: core/ui/categories/ui.php:7
@@ -6789,7 +7021,8 @@ msgid "Faceted Menus"
 msgstr ""
 
 #: core/ui/categories/ui.php:34
-msgid "Build drill-down filter menus based on the details template of this category"
+msgid ""
+"Build drill-down filter menus based on the details template of this category"
 msgstr ""
 
 #: core/ui/categories/ui.php:35
@@ -6798,7 +7031,8 @@ msgid "Variations"
 msgstr "Realisatie"
 
 #: core/ui/categories/ui.php:35
-msgid "Predefined selectable product options for products created in this category"
+msgid ""
+"Predefined selectable product options for products created in this category"
 msgstr ""
 
 #: core/ui/categories/ui.php:37
@@ -6806,8 +7040,10 @@ msgstr ""
 msgid "Arrange Products"
 msgstr "Nieuw project"
 
-#: core/ui/categories/ui.php:76
-msgid "Double-click images to edit their details. Save the product to confirm deleted images."
+#: core/ui/categories/ui.php:76 core/ui/products/ui.php:281
+msgid ""
+"Double-click images to edit their details. Save the product to confirm "
+"deleted images."
 msgstr ""
 
 #: core/ui/categories/ui.php:79
@@ -6816,7 +7052,9 @@ msgid "Category Images"
 msgstr "Categorieën"
 
 #: core/ui/categories/ui.php:89
-msgid "Setup template values that will be copied into new products that are created and assigned this category."
+msgid ""
+"Setup template values that will be copied into new products that are created "
+"and assigned this category."
 msgstr ""
 
 #: core/ui/categories/ui.php:94
@@ -6829,8 +7067,8 @@ msgstr "Publicatie naam"
 msgid "Add Detail"
 msgstr "Details"
 
-#: core/ui/categories/ui.php:112
-#: core/ui/categories/ui.php:163
+#: core/ui/categories/ui.php:112 core/ui/categories/ui.php:163
+#: core/ui/products/ui.php:316 core/ui/products/ui.php:344
 #, fuzzy
 msgid "Add Option"
 msgstr "Tegenstander toevoegen"
@@ -6847,13 +7085,14 @@ msgstr ""
 msgid "Configure how you want price range options in this category to appear."
 msgstr ""
 
-#: core/ui/categories/ui.php:149
+#: core/ui/categories/ui.php:149 core/ui/products/ui.php:301
 #, fuzzy
 msgid "Variation Option Menus"
 msgstr "Rubriek"
 
 #: core/ui/categories/ui.php:152
-msgid "Create a predefined set of variation options for products in this category."
+msgid ""
+"Create a predefined set of variation options for products in this category."
 msgstr ""
 
 #: core/ui/categories/ui.php:156
@@ -6874,14 +7113,14 @@ msgstr ""
 msgid "Return to %s"
 msgstr "Ga terug naar %s"
 
-#: core/ui/categories/products.php:43
-#: core/ui/products/inventory.php:57
+#: core/ui/categories/products.php:43 core/ui/products/inventory.php:57
+#: core/ui/products/products.php:71
 #, fuzzy
 msgid "no product name"
 msgstr "Publicatie naam"
 
-#: core/ui/categories/products.php:57
-#: core/ui/products/inventory.php:71
+#: core/ui/categories/products.php:57 core/ui/products/inventory.php:71
+#: core/ui/products/products.php:179
 #, fuzzy
 msgid "No products found."
 msgstr "Geen projecten gevonden"
@@ -6891,24 +7130,20 @@ msgstr "Geen projecten gevonden"
 msgid "Shopp Categories"
 msgstr "Categorieën"
 
-#: core/ui/widgets/categories.php:19
-#: core/ui/widgets/section.php:19
+#: core/ui/widgets/categories.php:19 core/ui/widgets/section.php:19
 msgid "A list or dropdown of store categories"
 msgstr ""
 
-#: core/ui/widgets/categories.php:42
-#: core/ui/widgets/section.php:44
+#: core/ui/widgets/categories.php:42 core/ui/widgets/section.php:44
 msgid "Show as dropdown"
 msgstr ""
 
-#: core/ui/widgets/categories.php:43
-#: core/ui/widgets/section.php:45
+#: core/ui/widgets/categories.php:43 core/ui/widgets/section.php:45
 #, fuzzy
 msgid "Show product counts"
 msgstr "Alle project types"
 
-#: core/ui/widgets/categories.php:44
-#: core/ui/widgets/section.php:46
+#: core/ui/widgets/categories.php:44 core/ui/widgets/section.php:46
 #, fuzzy
 msgid "Show hierarchy"
 msgstr "Zoeken"
@@ -7083,7 +7318,8 @@ msgstr ""
 msgid "No location"
 msgstr "Geen secties"
 
-#: core/ui/widgets/shoppers.php:52
+#: core/ui/widgets/shoppers.php:52 core/ui/help/customers.php:8
+#: core/ui/help/orders.php:10
 #, fuzzy
 msgid "State/Province"
 msgstr "Artikelen"
@@ -7128,7 +7364,7 @@ msgstr ""
 msgid "Product Filters"
 msgstr "Publicatie naam"
 
-#: core/ui/products/inventory.php:18
+#: core/ui/products/inventory.php:18 core/ui/products/products.php:18
 #, fuzzy
 msgid "Search Products"
 msgstr "Projecten zoeken"
@@ -7143,21 +7379,18 @@ msgstr ""
 msgid "Schedule"
 msgstr "Zoek leeftijden"
 
-#: core/ui/products/ui.php:32
-#: core/ui/promotions/ui.php:18
+#: core/ui/products/ui.php:32 core/ui/promotions/ui.php:18
 #: core/ui/promotions/ui.php:25
 #, fuzzy
 msgid "Month"
 msgstr "Maand:"
 
-#: core/ui/products/ui.php:32
-#: core/ui/promotions/ui.php:18
+#: core/ui/products/ui.php:32 core/ui/promotions/ui.php:18
 #: core/ui/promotions/ui.php:25
 msgid "Day"
 msgstr ""
 
-#: core/ui/products/ui.php:32
-#: core/ui/promotions/ui.php:18
+#: core/ui/products/ui.php:32 core/ui/promotions/ui.php:18
 #: core/ui/promotions/ui.php:25
 #, fuzzy
 msgid "Year"
@@ -7243,7 +7476,9 @@ msgid "Add Product Detail"
 msgstr "Project"
 
 #: core/ui/products/ui.php:233
-msgid "Build a list of detailed information such as dimensions or features of the product."
+msgid ""
+"Build a list of detailed information such as dimensions or features of the "
+"product."
 msgstr ""
 
 #: core/ui/products/ui.php:239
@@ -7337,8 +7572,7 @@ msgstr "Verwijder bericht"
 msgid "Delete Permanently"
 msgstr "Verwijder bericht"
 
-#: core/ui/products/products.php:101
-#: core/ui/promotions/promotions.php:71
+#: core/ui/products/products.php:101 core/ui/promotions/promotions.php:71
 #, fuzzy
 msgid "Duplicate"
 msgstr "Regio's"
@@ -7393,13 +7627,11 @@ msgstr "Nieuwe accomodatie"
 msgid "Search Promotions"
 msgstr "Accomodaties zoeken"
 
-#: core/ui/promotions/promotions.php:20
-#: core/ui/promotions/promotions.php:75
+#: core/ui/promotions/promotions.php:20 core/ui/promotions/promotions.php:75
 msgid "Enable"
 msgstr ""
 
-#: core/ui/promotions/promotions.php:21
-#: core/ui/promotions/promotions.php:77
+#: core/ui/promotions/promotions.php:21 core/ui/promotions/promotions.php:77
 #, fuzzy
 msgid "Disable"
 msgstr "Zeilschip"
@@ -7418,13 +7650,11 @@ msgstr "Bekijk alle berichten"
 msgid "no promotion name"
 msgstr ""
 
-#: core/ui/promotions/promotions.php:86
-#: core/ui/promotions/ui.php:58
+#: core/ui/promotions/promotions.php:86 core/ui/promotions/ui.php:58
 msgid "Buy"
 msgstr ""
 
-#: core/ui/promotions/promotions.php:86
-#: core/ui/promotions/ui.php:58
+#: core/ui/promotions/promotions.php:86 core/ui/promotions/ui.php:58
 #, fuzzy
 msgid "Get"
 msgstr "Dossiers"
@@ -7521,7 +7751,9 @@ msgid "Official Documentation"
 msgstr "Locatie:"
 
 #: core/ui/help/help.php:7
-msgid "The wiki is the best place to get started learning about the Shopp e-commerce platform."
+msgid ""
+"The wiki is the best place to get started learning about the Shopp e-"
+"commerce platform."
 msgstr ""
 
 #: core/ui/help/help.php:10
@@ -7530,7 +7762,12 @@ msgid "Support Forums"
 msgstr "Importeer informatie"
 
 #: core/ui/help/help.php:11
-msgid "You can also get help from fellow Shopp owners and developers by posting your questions and problems on the public support forums. To ensure you get quick responses, be sure to completely explain your problem by providing as much information about the problem you can (which may include quoting the code you are using or the exact text of error messages you are receiving)."
+msgid ""
+"You can also get help from fellow Shopp owners and developers by posting "
+"your questions and problems on the public support forums. To ensure you get "
+"quick responses, be sure to completely explain your problem by providing as "
+"much information about the problem you can (which may include quoting the "
+"code you are using or the exact text of error messages you are receiving)."
 msgstr ""
 
 #: core/ui/help/help.php:14
@@ -7538,20 +7775,21 @@ msgid "Premium Support"
 msgstr ""
 
 #: core/ui/help/help.php:15
-msgid "Should you need in-depth assistance setting up or customizing your Shopp install, you may want to purchase premium support credit that will allow you to chat live with the Shopp developer for personal support."
+msgid ""
+"Should you need in-depth assistance setting up or customizing your Shopp "
+"install, you may want to purchase premium support credit that will allow you "
+"to chat live with the Shopp developer for personal support."
 msgstr ""
 
 #: core/ui/help/customers.php:1
 msgid "Using Advanced Customer Search"
 msgstr ""
 
-#: core/ui/help/customers.php:6
-#: core/ui/help/orders.php:8
+#: core/ui/help/customers.php:6 core/ui/help/orders.php:8
 msgid "Address (lines 1 or 2)"
 msgstr ""
 
-#: core/ui/help/customers.php:9
-#: core/ui/help/orders.php:11
+#: core/ui/help/customers.php:9 core/ui/help/orders.php:11
 #, fuzzy
 msgid "Zip/Postal Codes"
 msgstr "Plaats reactie"
@@ -7573,7 +7811,8 @@ msgid "Welcome to Shopp"
 msgstr ""
 
 #: core/ui/help/welcome.php:4
-msgid "Congratulations on choosing Shopp and WordPress for your e-commerce solution!"
+msgid ""
+"Congratulations on choosing Shopp and WordPress for your e-commerce solution!"
 msgstr ""
 
 #: core/ui/help/welcome.php:7
@@ -7582,7 +7821,10 @@ msgstr ""
 
 #: core/ui/help/welcome.php:7
 #, php-format
-msgid "You have the PHP Extension Suhosin Installed. You might need to change some configuration to work with Shopp. For more information, see %s\"Suhosin PHP Extension Issues\"%s."
+msgid ""
+"You have the PHP Extension Suhosin Installed. You might need to change some "
+"configuration to work with Shopp. For more information, see %s\"Suhosin PHP "
+"Extension Issues\"%s."
 msgstr ""
 
 #: core/ui/help/welcome.php:10
@@ -7595,7 +7837,9 @@ msgstr ""
 
 #: core/ui/help/welcome.php:14
 #, php-format
-msgid "Click the %sHelp menu%s to access help articles about the screen you are using, directly from the %sofficial documentation%s."
+msgid ""
+"Click the %sHelp menu%s to access help articles about the screen you are "
+"using, directly from the %sofficial documentation%s."
 msgstr ""
 
 #: core/ui/help/welcome.php:16
@@ -7610,11 +7854,15 @@ msgstr ""
 
 #: core/ui/help/welcome.php:18
 #, php-format
-msgid "For guaranteed fast response from the Shopp Support Team, %spurchase a priority support credit%s."
+msgid ""
+"For guaranteed fast response from the Shopp Support Team, %spurchase a "
+"priority support credit%s."
 msgstr ""
 
 #: core/ui/help/welcome.php:19
-msgid "Find qualified Shopp professionals you can hire as consultant contractors for customization work."
+msgid ""
+"Find qualified Shopp professionals you can hire as consultant contractors "
+"for customization work."
 msgstr ""
 
 #: core/ui/help/welcome.php:22
@@ -7622,7 +7870,9 @@ msgid "Easy setup in just a few steps."
 msgstr ""
 
 #: core/ui/help/welcome.php:22
-msgid "Setup is simple and takes about 10-15 minutes.  Just jump through each of the settings screens to configure your store."
+msgid ""
+"Setup is simple and takes about 10-15 minutes.  Just jump through each of "
+"the settings screens to configure your store."
 msgstr ""
 
 #: core/ui/help/welcome.php:23
@@ -7631,7 +7881,9 @@ msgstr ""
 
 #: core/ui/help/welcome.php:23
 #, php-format
-msgid "Be sure to activate your key on the %sShopp%s &rarr; %sSettings%s screen so you can get trouble-free, automated updates."
+msgid ""
+"Be sure to activate your key on the %sShopp%s &rarr; %sSettings%s screen so "
+"you can get trouble-free, automated updates."
 msgstr ""
 
 #: core/ui/help/welcome.php:24
@@ -7640,7 +7892,9 @@ msgstr ""
 
 #: core/ui/help/welcome.php:24
 #, php-format
-msgid "Once you're up and running, drop by the Shopp website and %ssubmit your site%s to be included in the showcase of Shopp-powered websites."
+msgid ""
+"Once you're up and running, drop by the Shopp website and %ssubmit your site"
+"%s to be included in the showcase of Shopp-powered websites."
 msgstr ""
 
 #: core/ui/help/welcome.php:29
@@ -7658,7 +7912,8 @@ msgid "There is not sufficient stock on %s to process order."
 msgstr ""
 
 #: gateways/GoogleCheckout/GoogleCheckout.php:259
-msgid "You will receive an email with download instructions upon receipt of payment."
+msgid ""
+"You will receive an email with download instructions upon receipt of payment."
 msgstr ""
 
 #: gateways/GoogleCheckout/GoogleCheckout.php:300
@@ -7746,7 +8001,8 @@ msgid "Enter your Google Checkout merchant key."
 msgstr ""
 
 #: gateways/GoogleCheckout/GoogleCheckout.php:1211
-msgid "Copy this URL to your Google Checkout integration settings API callback URL."
+msgid ""
+"Copy this URL to your Google Checkout integration settings API callback URL."
 msgstr ""
 
 #: gateways/GoogleCheckout/GoogleCheckout.php:1218
@@ -7787,7 +8043,10 @@ msgid "Your 2Checkout vendor account number."
 msgstr "Berichten"
 
 #: gateways/2Checkout/2Checkout.php:218
-msgid "Copy as the <strong>Approved URL</strong> & <strong>Pending URL</strong> in your 2Checkout Vendor Area under the <strong>Account &rarr; Site Management</strong> settings page."
+msgid ""
+"Copy as the <strong>Approved URL</strong> & <strong>Pending URL</strong> in "
+"your 2Checkout Vendor Area under the <strong>Account &rarr; Site Management</"
+"strong> settings page."
 msgstr ""
 
 #: gateways/2Checkout/2Checkout.php:224
@@ -7798,8 +8057,7 @@ msgstr ""
 msgid "Single-page, credit card only checkout"
 msgstr ""
 
-#: gateways/2Checkout/2Checkout.php:236
-#: gateways/PayPal/PayPalStandard.php:958
+#: gateways/2Checkout/2Checkout.php:236 gateways/PayPal/PayPalStandard.php:958
 #, fuzzy
 msgid "Enable order verification"
 msgstr "Geen secties"
@@ -7808,10 +8066,11 @@ msgstr "Geen secties"
 msgid "Your 2Checkout secret word for order verification."
 msgstr ""
 
-#: gateways/PayPal/PayPalExpress.php:308
-#: gateways/PayPal/PayPalExpress.php:415
+#: gateways/PayPal/PayPalExpress.php:308 gateways/PayPal/PayPalExpress.php:415
 #: gateways/PayPal/PayPalExpress.php:456
-msgid "The transaction failed for an unknown reason. PayPal did not provide any indication of why it failed."
+msgid ""
+"The transaction failed for an unknown reason. PayPal did not provide any "
+"indication of why it failed."
 msgstr ""
 
 #: gateways/PayPal/PayPalExpress.php:312
@@ -7819,7 +8078,9 @@ msgid "The transaction failed because PayPal did not issue a payment token."
 msgstr ""
 
 #: gateways/PayPal/PayPalExpress.php:375
-msgid "The location you are purchasing from is outside of our market regions. This transaction cannot be processed."
+msgid ""
+"The location you are purchasing from is outside of our market regions. This "
+"transaction cannot be processed."
 msgstr ""
 
 #: gateways/PayPal/PayPalExpress.php:407
@@ -7835,7 +8096,10 @@ msgstr "Schepen in"
 #: gateways/PayPal/PayPalExpress.php:575
 #: gateways/PayPal/PayPalStandard.php:717
 #, php-format
-msgid "An unverifiable order update notification was received from PayPal for transaction: %s. Possible fraudulent notification!  The order will not be updated.  IPN message: %s"
+msgid ""
+"An unverifiable order update notification was received from PayPal for "
+"transaction: %s. Possible fraudulent notification!  The order will not be "
+"updated.  IPN message: %s"
 msgstr ""
 
 #: gateways/PayPal/PayPalExpress.php:725
@@ -7876,11 +8140,14 @@ msgid "The payment is pending while it is being reviewed by PayPal for risk."
 msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:84
-msgid "The payment is pending because it was made to an email address that is not yet registered or confirmed."
+msgid ""
+"The payment is pending because it was made to an email address that is not "
+"yet registered or confirmed."
 msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:85
-msgid "Contact PayPal Customer Service to see if your account needs to be upgraded."
+msgid ""
+"Contact PayPal Customer Service to see if your account needs to be upgraded."
 msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:86
@@ -7889,7 +8156,8 @@ msgid "Your account is not yet verified."
 msgstr "Haven details"
 
 #: gateways/PayPal/PayPalStandard.php:87
-msgid "Contact PayPal Customer Service to determine why payment was not completed."
+msgid ""
+"Contact PayPal Customer Service to determine why payment was not completed."
 msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:91
@@ -7908,8 +8176,7 @@ msgstr ""
 msgid "Reversal of an adjustment"
 msgstr ""
 
-#: gateways/PayPal/PayPalStandard.php:98
-#: gateways/PayPal/PayPalStandard.php:99
+#: gateways/PayPal/PayPalStandard.php:98 gateways/PayPal/PayPalStandard.php:99
 msgid "Reversal on customer complaint."
 msgstr ""
 
@@ -8002,7 +8269,9 @@ msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:755
 #, php-format
-msgid "No reference to the pending order was available in the PayPal IPN message. Purchase creation failed for transaction %s."
+msgid ""
+"No reference to the pending order was available in the PayPal IPN message. "
+"Purchase creation failed for transaction %s."
 msgstr ""
 
 #: gateways/PayPal/PayPalStandard.php:952
@@ -8014,10 +8283,11 @@ msgstr "Haven details"
 msgid "PDT identity token for validating orders."
 msgstr ""
 
-#: gateways/TestMode/TestMode.php:57
-#: gateways/TestMode/TestMode.php:88
+#: gateways/TestMode/TestMode.php:57 gateways/TestMode/TestMode.php:88
 #: gateways/TestMode/TestMode.php:92
-msgid "This is an example error message. Disable the 'always show an error' setting to stop displaying this error."
+msgid ""
+"This is an example error message. Disable the 'always show an error' setting "
+"to stop displaying this error."
 msgstr ""
 
 #: gateways/OfflinePayment/OfflinePayment.php:134
@@ -8026,7 +8296,9 @@ msgid "Offline Payment Instructions"
 msgstr "Bouwfouten"
 
 #: gateways/OfflinePayment/OfflinePayment.php:135
-msgid "Use this area to provide your customers with instructions on how to make payments offline."
+msgid ""
+"Use this area to provide your customers with instructions on how to make "
+"payments offline."
 msgstr ""
 
 #: shipping/core/ItemRates.php:19
@@ -8123,7 +8395,9 @@ msgstr ""
 
 #: api/theme.php:74
 #, php-format
-msgid "The shopp('%s') tag cannot be used in this context because the object responsible for handling it doesn't exist."
+msgid ""
+"The shopp('%s') tag cannot be used in this context because the object "
+"responsible for handling it doesn't exist."
 msgstr ""
 
 #: api/theme/collection.php:418
@@ -8131,19 +8405,17 @@ msgstr ""
 msgid "Pages:"
 msgstr "Pagina's: %s"
 
-#: api/theme/collection.php:419
-#: api/theme/storefront.php:971
+#: api/theme/collection.php:419 api/theme/storefront.php:985
 #, fuzzy
 msgid "next"
 msgstr "Teasers"
 
-#: api/theme/collection.php:420
-#: api/theme/storefront.php:970
+#: api/theme/collection.php:420 api/theme/storefront.php:984
 #, fuzzy
 msgid "previous"
 msgstr "Premium"
 
-#: api/theme/collection.php:614
+#: api/theme/collection.php:616
 #, fuzzy
 msgid "Select a sub-category&hellip;"
 msgstr "Project categorie"
@@ -8176,17 +8448,17 @@ msgstr "Einddatum:"
 msgid "Not Available"
 msgstr "Update magazine"
 
-#: api/theme/cart.php:343
+#: api/theme/cart.php:331
 #, fuzzy
 msgid "Estimate Shipping & Taxes"
 msgstr "Classificatie bewerken"
 
-#: api/theme/cart.php:389
+#: api/theme/cart.php:391
 #, fuzzy
 msgid "Update Subtotal"
 msgstr "Update fase"
 
-#: api/theme/cartitem.php:155
+#: api/theme/cartitem.php:154
 #, fuzzy
 msgid "Remove"
 msgstr "Lees verder"
@@ -8196,45 +8468,45 @@ msgstr "Lees verder"
 msgid "Update Shipping"
 msgstr "Update fase"
 
-#: api/theme/storefront.php:358
-#: api/theme/storefront.php:398
+#: api/theme/storefront.php:358 api/theme/storefront.php:398
 #, fuzzy
 msgid "Select category&hellip;"
 msgstr "Project categorie"
 
-#: api/theme/storefront.php:718
+#: api/theme/storefront.php:732
 #, fuzzy
 msgid "Search the blog"
 msgstr "Zoek resultaten voor:"
 
-#: api/theme/storefront.php:719
+#: api/theme/storefront.php:733
 #, fuzzy
 msgid "Search the shop"
 msgstr "Zoek evenementen"
 
-#: api/theme/storefront.php:968
+#: api/theme/storefront.php:982
 msgid "start slideshow"
 msgstr ""
 
-#: api/theme/storefront.php:969
+#: api/theme/storefront.php:983
 msgid "stop slideshow"
 msgstr ""
 
-#: api/theme/storefront.php:972
+#: api/theme/storefront.php:986
 msgid "close"
 msgstr ""
 
-#: api/theme/storefront.php:975
+#: api/theme/storefront.php:989
 #, fuzzy, php-format
 msgid "image %s of %s"
 msgstr "Realisatie"
 
 #: api/theme/product.php:192
-msgid "You must select addon options for this item before you can add it to your shopping cart."
+msgid ""
+"You must select addon options for this item before you can add it to your "
+"shopping cart."
 msgstr ""
 
-#: api/theme/product.php:209
-#: api/theme/product.php:1082
+#: api/theme/product.php:209 api/theme/product.php:1089
 #, fuzzy
 msgid "Options"
 msgstr "Acties"
@@ -8244,8 +8516,15 @@ msgstr "Acties"
 msgid "Add to Cart"
 msgstr "Nieuwe toevoegen"
 
-#: api/theme/product.php:1073
-msgid "You must select the options for this item before you can add it to your shopping cart."
+#: api/theme/product.php:673
+#, fuzzy
+msgid "product input field"
+msgstr "Berichten"
+
+#: api/theme/product.php:1080
+msgid ""
+"You must select the options for this item before you can add it to your "
+"shopping cart."
 msgstr ""
 
 #: api/theme/customer.php:358
@@ -8258,27 +8537,25 @@ msgstr "Adres"
 msgid "Login Name"
 msgstr "Inloggen pagina"
 
-#: api/theme/customer.php:405
+#: api/theme/customer.php:403
 msgid "No order could be found with that information."
 msgstr ""
 
-#: api/theme/customer.php:473
+#: api/theme/customer.php:471
 #, fuzzy
 msgid "Get New Password"
 msgstr "Wachtwoord"
 
-#: api/theme/customer.php:481
+#: api/theme/customer.php:479
 msgid "Register"
 msgstr "Registreren"
 
-#: api/theme/customer.php:505
-#: api/theme/checkout.php:923
+#: api/theme/customer.php:506 api/theme/checkout.php:923
 #, fuzzy
 msgid "Residential shipping address"
 msgstr "Schepen in"
 
-#: api/theme/customer.php:513
-#: api/theme/checkout.php:957
+#: api/theme/customer.php:514 api/theme/checkout.php:957
 #, fuzzy
 msgid "Same shipping address"
 msgstr "Schepen in"
@@ -8353,13 +8630,11 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "slug"
-
 #~ msgid "product-category"
 #~ msgstr "Project categorie"
 
 #, fuzzy
 #~ msgctxt "slug"
-
 #~ msgid "product-tag"
 #~ msgstr "Project"
 
@@ -8369,7 +8644,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Product Categories"
 #~ msgstr "Alle project categorieën"
 
@@ -8399,14 +8673,12 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "Product Tag"
-
 #~ msgid_plural "Product Tags"
 #~ msgstr[0] "Publicatie naam"
 #~ msgstr[1] "Publicatie naam"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Tags"
 #~ msgstr "Pagina's: %s"
 
@@ -8440,7 +8712,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Shipping Classes"
 #~ msgstr "Schepen in"
 
@@ -8494,7 +8765,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Products"
 #~ msgstr "Project"
 
@@ -8544,7 +8814,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Orders"
 #~ msgstr "Beoordeling"
 
@@ -8566,7 +8835,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "Admin menu name"
-
 #~ msgid "Coupons"
 #~ msgstr "Land"
 
@@ -8632,7 +8900,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "Attribute"
-
 #~ msgid_plural "Attributes"
 #~ msgstr[0] "Regio bewerken"
 #~ msgstr[1] "Regio bewerken"
@@ -8671,7 +8938,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "Order status changed."
-
 #~ msgid_plural "%s order statuses changed."
 #~ msgstr[0] "Nieuwe regio naam"
 #~ msgstr[1] "Nieuwe regio naam"
@@ -8738,25 +9004,21 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "page_slug"
-
 #~ msgid "shop"
 #~ msgstr "schip"
 
 #, fuzzy
 #~ msgctxt "page_slug"
-
 #~ msgid "cart"
 #~ msgstr "Status"
 
 #, fuzzy
 #~ msgctxt "page_slug"
-
 #~ msgid "order-tracking"
 #~ msgstr "Meer arbitrage"
 
 #, fuzzy
 #~ msgctxt "page_slug"
-
 #~ msgid "edit-address"
 #~ msgstr "Adres"
 
@@ -8766,7 +9028,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "page_slug"
-
 #~ msgid "change-password"
 #~ msgstr "Nieuw wachtwoord"
 
@@ -8971,7 +9232,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Unlimited usage"
 #~ msgstr "Titel"
 
@@ -9077,7 +9337,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Buy product"
 #~ msgstr "Project"
 
@@ -9087,13 +9346,11 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "From&hellip;"
 #~ msgstr "Meer %s&hellip;"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "To&hellip;"
 #~ msgstr "Meer %s&hellip;"
 
@@ -9202,10 +9459,6 @@ msgstr "Schepen in"
 #~ msgstr "wijzigen"
 
 #, fuzzy
-#~ msgid "Product fields"
-#~ msgstr "Berichten"
-
-#, fuzzy
 #~ msgid "Product Ratings"
 #~ msgstr "Berichten"
 
@@ -9303,7 +9556,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "(1 state)"
-
 #~ msgid_plural "(%s states)"
 #~ msgstr[0] "Gerelateerd"
 #~ msgstr[1] "Gerelateerd"
@@ -9318,7 +9570,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Username"
 #~ msgstr "Gebruikersnaam"
 
@@ -9328,7 +9579,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Password"
 #~ msgstr "Wachtwoord"
 
@@ -9498,13 +9748,11 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "First Name"
 #~ msgstr "Voornaam"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Last Name"
 #~ msgstr "Nieuwe fase naam"
 
@@ -9514,49 +9762,41 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Address"
 #~ msgstr "Adres"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Address 2 (optional)"
 #~ msgstr "Adres"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Town/City"
 #~ msgstr "Plaats"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Postcode/Zip"
 #~ msgstr "Plaats reactie"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Country"
 #~ msgstr "Land"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "State/County"
 #~ msgstr "Land"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Email Address"
 #~ msgstr "Adres"
 
 #, fuzzy
 #~ msgctxt "placeholder"
-
 #~ msgid "Phone"
 #~ msgstr "Nieuws"
 
@@ -9586,7 +9826,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "min_price"
-
 #~ msgid "From:"
 #~ msgstr "Formulier"
 
@@ -9748,7 +9987,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "%s review for %s"
-
 #~ msgid_plural "%s reviews for %s"
 #~ msgstr[0] "Registratieformulier"
 #~ msgstr[1] "Registratieformulier"
@@ -9839,7 +10077,6 @@ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgctxt "breadcrumb"
-
 #~ msgid "Home"
 #~ msgstr "Kop"
 
@@ -10368,7 +10605,6 @@ msgstr "Schepen in"
 #~ "reacties te bekijken."
 
 #~ msgid "One Response"
-
 #~ msgid_plural "%1$s Responses"
 #~ msgstr[0] "Eén reactie"
 #~ msgstr[1] "%1$s reacties"
@@ -10469,8 +10705,8 @@ msgstr "Schepen in"
 
 #~ msgid "Arbitrary advertisement script, text or HTML"
 #~ msgstr "Willekeurige advertentie script, tekst of HTML"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Event"
 #~ msgstr "Evenement"
 
@@ -10485,8 +10721,8 @@ msgstr "Schepen in"
 
 #~ msgid "Parent Event:"
 #~ msgstr "Bovenliggende evenement:"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Project Types"
 #~ msgstr "Project types"
 
@@ -10501,8 +10737,8 @@ msgstr "Schepen in"
 
 #~ msgid "Filter on subject:"
 #~ msgstr "Filter op onderwerp:"
-#~ msgctxt "class general name"
 
+#~ msgctxt "class general name"
 #~ msgid "Classes"
 #~ msgstr "Classificaties"
 
@@ -10526,12 +10762,12 @@ msgstr "Schepen in"
 
 #~ msgid "Popular Project Categories"
 #~ msgstr "Populaire project categorieën"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Projects"
 #~ msgstr "Projecten"
-#~ msgctxt "project"
 
+#~ msgctxt "project"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -10622,12 +10858,12 @@ msgstr "Schepen in"
 #, fuzzy
 #~ msgid "Class:"
 #~ msgstr "Classificatie"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Phases"
 #~ msgstr "Bouwfasen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Phase"
 #~ msgstr "Bouwfout"
 
@@ -10636,8 +10872,8 @@ msgstr "Schepen in"
 
 #~ msgid "Events"
 #~ msgstr "Evenementen"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Events"
 #~ msgstr "Evenementen"
 
@@ -10748,8 +10984,8 @@ msgstr "Schepen in"
 #~ msgstr "Nickname"
 
 #~ msgid ""
-#~ "There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%"
-#~ "2$s\">Cancel</a>"
+#~ "There is a pending change of your e-mail to <code>%1$s</code>. <a href="
+#~ "\"%2$s\">Cancel</a>"
 #~ msgstr ""
 #~ "Er is een afwachtende verandering van je e-mailadres naar <code>%1$s</"
 #~ "code>. <a href=\"%2$s\">Annuleren</a>"
@@ -10811,8 +11047,8 @@ msgstr "Schepen in"
 #~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
 #~ "\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 #~ msgstr ""
-#~ "Dit bericht is geplaatst in %1$s en getagd %2$s. Bookmark de <a href=\"%3"
-#~ "$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">permalink</a>."
+#~ "Dit bericht is geplaatst in %1$s en getagd %2$s. Bookmark de <a href="
+#~ "\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">permalink</a>."
 
 #~ msgid ""
 #~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
@@ -10880,19 +11116,19 @@ msgstr "Schepen in"
 
 #~ msgid "View all articles"
 #~ msgstr "Bekijk alle artikelen"
-#~ msgctxt "teaser"
 
+#~ msgctxt "teaser"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
 #~ msgid "All Sections"
 #~ msgstr "Alle rubrieken"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Levels"
 #~ msgstr "Leeftijden"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Level"
 #~ msgstr "Leeftijd"
 
@@ -10907,12 +11143,12 @@ msgstr "Schepen in"
 
 #~ msgid "Add New Level"
 #~ msgstr "Nieuwe leeftijd toevoegen"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Exhibition Games"
 #~ msgstr "Oefenwedstrijden"
-#~ msgctxt "exhibition_game"
 
+#~ msgctxt "exhibition_game"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -10945,16 +11181,16 @@ msgstr "Schepen in"
 
 #~ msgid "Extend Subscriber Numbers"
 #~ msgstr "Uitbreiding abonneenummers"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Exercises"
 #~ msgstr "Oefenstof"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Exercise"
 #~ msgstr "Oefenstof"
-#~ msgctxt "exercise"
 
+#~ msgctxt "exercise"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -10975,12 +11211,12 @@ msgstr "Schepen in"
 
 #~ msgid "Facebook Username"
 #~ msgstr "Facebook gebruikersnaam"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Magazines"
 #~ msgstr "Magazines"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Magazine"
 #~ msgstr "Magazine"
 
@@ -10995,16 +11231,16 @@ msgstr "Schepen in"
 
 #~ msgid "Add New Magazine"
 #~ msgstr "Nieuw magazine toevoegen"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Vacancies"
 #~ msgstr "Vacatures"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Vacancy"
 #~ msgstr "Vacature"
-#~ msgctxt "vacancy"
 
+#~ msgctxt "vacancy"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11031,16 +11267,16 @@ msgstr "Schepen in"
 
 #~ msgid "Large Rectangle Advertisement"
 #~ msgstr "Large rectangle advertentie"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Magazines"
 #~ msgstr "Magazines"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Magazine"
 #~ msgstr "Vakblad"
-#~ msgctxt "magazine"
 
+#~ msgctxt "magazine"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11049,12 +11285,12 @@ msgstr "Schepen in"
 
 #~ msgid "Magazines"
 #~ msgstr "Vakbladen"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Subjects"
 #~ msgstr "Onderwerpen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "Subject"
 #~ msgstr "Onderwerp"
 
@@ -11063,12 +11299,12 @@ msgstr "Schepen in"
 
 #~ msgid "Update Subject"
 #~ msgstr "Update onderwerp"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Interviews"
 #~ msgstr "Interviews"
-#~ msgctxt "interview"
 
+#~ msgctxt "interview"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11092,8 +11328,8 @@ msgstr "Schepen in"
 
 #~ msgid "The footer widget area"
 #~ msgstr "De voettekst widget gebied"
-#~ msgctxt "taxonomy general name"
 
+#~ msgctxt "taxonomy general name"
 #~ msgid "Regions"
 #~ msgstr "Regio's"
 
@@ -11127,16 +11363,16 @@ msgstr "Schepen in"
 
 #~ msgid "Next Opponents <span class=\"meta-nav\">&rarr;</span>"
 #~ msgstr "Volgende tegenstanders <span class=\"meta-nav\">&rarr;</span>"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Opponents"
 #~ msgstr "Tegenstanders"
-#~ msgctxt "post type singular name"
 
+#~ msgctxt "post type singular name"
 #~ msgid "Opponent"
 #~ msgstr "Tegenstander"
-#~ msgctxt "opponent"
 
+#~ msgctxt "opponent"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11165,8 +11401,8 @@ msgstr "Schepen in"
 #, fuzzy
 #~ msgid "The Voetbaltrainer"
 #~ msgstr "De Voetbaltrainer"
-#~ msgctxt "meeting"
 
+#~ msgctxt "meeting"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
 
@@ -11184,16 +11420,16 @@ msgstr "Schepen in"
 
 #~ msgid "Games"
 #~ msgstr "Wedstrijden"
-#~ msgctxt "post type general name"
 
+#~ msgctxt "post type general name"
 #~ msgid "Games"
 #~ msgstr "Wedstrijden"
-#~ msgctxt "game"
 
+#~ msgctxt "game"
 #~ msgid "Add New"
 #~ msgstr "Nieuwe toevoegen"
-#~ msgctxt "taxonomy singular name"
 
+#~ msgctxt "taxonomy singular name"
 #~ msgid "District"
 #~ msgstr "Regio"
 
@@ -11291,8 +11527,8 @@ msgstr "Schepen in"
 
 #~ msgid "More info"
 #~ msgstr "Meer informatie"
-#~ msgctxt "ship"
 
+#~ msgctxt "ship"
 #~ msgid "Add New"
 #~ msgstr "Schip toevoegen"
 
@@ -11337,8 +11573,8 @@ msgstr "Schepen in"
 
 #~ msgid "Ships specifications"
 #~ msgstr "Schepen specificaties"
-#~ msgctxt "ship specifications"
 
+#~ msgctxt "ship specifications"
 #~ msgid "Add New"
 #~ msgstr "Schip specificaties toevoegen"
 
@@ -11359,7 +11595,7 @@ msgstr "Schepen in"
 
 #~ msgid "No ships specifications found in Trash"
 #~ msgstr "Geen schepen specificaties gevonden in prullenbak"
-#~ msgctxt "ship details"
 
+#~ msgctxt "ship details"
 #~ msgid "Add New"
 #~ msgstr "Schip details toevoegen"
