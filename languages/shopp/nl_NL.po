@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 1.2.8 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-07-25 12:57:27+0000\n"
+"PO-Revision-Date: 2013-07-25 12:59:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -620,7 +620,7 @@ msgstr "Acties"
 
 #: core/flow/Admin.php:111 core/flow/Admin.php:154
 msgid "Setup"
-msgstr "Installatie"
+msgstr "Instellingen"
 
 #: core/flow/Admin.php:112 core/flow/Setup.php:1015
 msgid "Payments"
