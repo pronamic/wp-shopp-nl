@@ -3,14 +3,14 @@ Contributors: pronamic, remcotolsma
 Tags: shopp, translation, dutch, nl, nl_NL, webshop, ecommerce, e-commerce, commerce
 Donate link: http://pronamic.eu/donate/?for=wp-plugin-shopp-nl&source=wp-plugin-readme-txt
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 0.1.3
+Tested up to: 3.5.2
+Stable tag: 0.1.4
 
 This WordPress plugin extends the Shopp plugin with the Dutch translation.
 
 == Description ==
 
-<strong>Shopp</strong> 1.2.5
+<strong>Shopp</strong> 1.2.8
 
 > This plugin requires the <a href="http://shopplugin.net/">Shopp plugin</a>
 
@@ -21,7 +21,20 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 WordPress installation and then activate the Plugin from Plugins page.
 
 
+== Developers ==
+
+./update-pot shopp
+./update-pot shopp ~/Sites/example.com/wp-content/plugins/shopp
+
+./download-po shopp 1.2.8
+
+./update-mo shopp
+
+
 == Changelog ==
+
+= 0.1.4 =
+*	Added translation for Shopp v1.2.8, added 8 new translations and improved a few
 
 = 0.1.3 =
 *	Added translation for Shopp v1.2.5, improved a few translations
