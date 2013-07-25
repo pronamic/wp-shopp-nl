@@ -17,28 +17,30 @@ Domain Path: /languages/
 GitHub URI: https://github.com/pronamic/wp-shopp-nl
 */
 
-class ShoppNL {
+class ShoppNLPlugin {
 	/**
 	 * The current langauge
 	 *
 	 * @var string
 	 */
-	private static $language;
+	private $language;
 
 	/**
 	 * Flag for the dutch langauge, true if current langauge is dutch, false otherwise
 	 *
 	 * @var boolean
 	 */
-	private static $is_dutch;
+	private $is_dutch;
 
 	////////////////////////////////////////////////////////////
 
 	/**
 	 * Bootstrap
 	 */
-	public static function bootstrap( ) {
-		add_filter( 'load_textdomain_mofile' , array( __CLASS__, 'load_mo_file' ), 10, 2 );
+	public function __construct( $file ) {
+		$this->file = $file;
+
+		add_filter( 'load_textdomain_mofile' , array( $this, 'load_mo_file' ), 10, 2 );
 	}
 
 	////////////////////////////////////////////////////////////
@@ -49,55 +51,44 @@ class ShoppNL {
 	 * @param string $moFile
 	 * @param string $domain
 	 */
-	public static function load_mo_file( $mo_file, $domain ) {
-		if( self::$language == null ) {
-			self::$language = get_option( 'WPLANG', WPLANG );
-			self::$is_dutch = ( self::$language == 'nl' || self::$language == 'nl_NL' );
+	public function load_mo_file( $mo_file, $domain ) {
+		if ( $this->language == null ) {
+			$this->language = get_option( 'WPLANG', WPLANG );
+			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
+		}
 
-			if( defined( 'ICL_LANGUAGE_CODE' ) ) {
-				self::$is_dutch = ICL_LANGUAGE_CODE == 'nl';
+		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
+		// is not always defined in the first 'load_textdomain_mofile' filter call
+		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+			$this->is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+		}
+
+		if ( $this->is_dutch ) {
+			$domains = array(
+				'Shopp' => array(
+					'lang/Shopp-nl_NL.mo' => 'shopp/nl_NL.mo'
+				)
+			);
+
+			if ( isset( $domains[$domain] ) ) {
+				$paths = $domains[$domain];
+
+				foreach ( $paths as $path => $file ) {
+					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
+						$new_file = dirname( $this->file ) . '/languages/' . $file;
+
+						if ( is_readable( $new_file ) ) {
+							$mo_file = $new_file;
+						}
+					}
+				}
 			}
-		}
-
-		$new_mo_file = null;
-
-		// Shopp
-		$is_shopp_domain = ( $domain == 'Shopp' );
-
-		if( $is_shopp_domain ) {
-			$is_shopp = strpos( $mo_file, '/shopp/' ) !== false;
-
-			if( $is_shopp ) {
-				$version = defined( 'SHOPP_VERSION' ) ? SHOPP_VERSION : null;
-
-				$new_mo_file = self::get_mo_file( 'shopp', $version );
-			}
-		}
-
-		if( is_readable( $new_mo_file ) ) {
-			$mo_file = $new_mo_file;
-		}
-
-		return $mo_file;
-	}
-
-	////////////////////////////////////////////////////////////
-
-	/**
-	 * Get the MO file for the specified domain, version and language
-	 */
-	public static function get_mo_file( $domain, $version, $path = '' ) {
-		$dir = dirname( __FILE__ );
-
-		$mo_file = $dir . '/languages/' . $domain . '/' . $version . '/' . $path . self::$language . '.mo';
-
-		// if specific version MO file is not available point to the current public release (cpr) version
-		if( ! is_readable( $mo_file ) ) {
-			$mo_file = $dir . '/languages/' . $domain . '/cpr/' . $path . self::$language . '.mo';
 		}
 
 		return $mo_file;
 	}
 }
 
-ShoppNL::bootstrap();
+global $shopp_nl_plugin;
+
+$shopp_nl_plugin = new ShoppNLPlugin( __FILE__ );
