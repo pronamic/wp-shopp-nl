@@ -52,29 +52,29 @@ class ShoppNLPlugin {
 	 * @param string $domain
 	 */
 	public function load_mo_file( $mo_file, $domain ) {
-		if ( $this->language == null ) {
+		if ( null === $this->language ) {
 			$this->language = get_option( 'WPLANG', WPLANG );
-			$this->is_dutch = ( $this->language == 'nl' || $this->language == 'nl_NL' );
+			$this->is_dutch = ( 'nl' === $this->language || 'nl_NL' === $this->language );
 		}
 
 		// The ICL_LANGUAGE_CODE constant is defined from an plugin, so this constant
 		// is not always defined in the first 'load_textdomain_mofile' filter call
 		if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
-			$this->is_dutch = ( ICL_LANGUAGE_CODE == 'nl' );
+			$this->is_dutch = ( 'nl' === ICL_LANGUAGE_CODE );
 		}
 
 		if ( $this->is_dutch ) {
 			$domains = array(
 				'Shopp' => array(
-					'lang/Shopp-nl_NL.mo' => 'shopp/nl_NL.mo'
-				)
+					'lang/Shopp-nl_NL.mo' => 'shopp/nl_NL.mo',
+				),
 			);
 
-			if ( isset( $domains[$domain] ) ) {
-				$paths = $domains[$domain];
+			if ( isset( $domains[ $domain ] ) ) {
+				$paths = $domains[ $domain ];
 
 				foreach ( $paths as $path => $file ) {
-					if ( substr( $mo_file, -strlen( $path ) ) == $path ) {
+					if ( substr( $mo_file, -strlen( $path ) ) === $path ) {
 						$new_file = dirname( $this->file ) . '/languages/' . $file;
 
 						if ( is_readable( $new_file ) ) {
